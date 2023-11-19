@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+// import { Header } from "./components/Header";
 import About1 from "../src/assets/About1.png"
 import About2 from "../src/assets/About2.png"
 import frame from "../src/assets/Frame.svg";
@@ -9,7 +9,7 @@ export function About(){
     return(
         <>
         
-        <Header/>
+        {/* <Header/> */}
             <div className="text-center">
             <h1 className="text-xs  sm:text-2xl my-10 mx-20 ">Empowering Businesses Through Innovation
             </h1>

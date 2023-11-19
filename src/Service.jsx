@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+// import { Header } from "./components/Header";
 import frame from "../src/assets/Frame.svg";
 import contact from "../src/assets/contact.svg";
 import service1 from "../src/assets/service1.png";
@@ -27,7 +27,7 @@ import { Footer } from "./components/Footer";
 export function Service(){
     return(
         <>
-        <Header/>
+        {/* <Header/> */}
             <div className=" text-center py-8">
         <h2 className="text-sm md:text-xl md:mx-20">Brand Magnet Accelerate: Empowering Marketers,Magnetizing Brands,Propelling Growth</h2>
           </div>

@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+// import { Header } from "./components/Header";
 import carrer from "../src/assets/carrer.png";
 import frame from "../src/assets/Frame.svg";
 import carrer1 from "../src/assets/carrer1.png";
@@ -26,6 +26,9 @@ import carrer22 from "../src/assets/carrer22.png";
 import carrer23 from "../src/assets/carrer23.png";
 import carrerapplybutton from "../src/assets/carrerapply.png";
 import carrer24 from "../src/assets/carrer24.png";
+import insta from "../src/assets/instaimage.svg";
+import x from "../src/assets/ximage.svg";
+import youtube from "../src/assets/youtube.svg";
 import img4 from "../src/assets/image4.png";
 import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
@@ -33,7 +36,7 @@ import { Footer } from "./components/Footer";
 export function Carrer() {
   return (
     <>
-      <Header />
+    
       <div className=" text-center py-1 md:py-8">
         <h2 className="text-sm md:text-xl md:mx-20">
           Join Our Team and Drive Your Career Forward!
@@ -42,8 +45,18 @@ export function Carrer() {
       <img src={carrer} alt="" className="w-full h-auto max-h-screen" />
       <h5 className="text-center pt-10">TO KNOW MORE ABOUT</h5>
       <img src={frame} alt="below-icon-image" className="mx-auto pt-2 pb-6" />
-      {/* add linear gradient */}
-      <img src={carrer1} alt="" className="mb-5" />
+
+      {/* added linear gradient */}
+      <div className=" relative mb-10 flex md:mx-20">
+                <div className="">
+                      <img src={carrer1} alt="image1" className="h-[350px] md:h-fit" />
+                </div>
+               <div className="one text-center absolute left-1/3 bottom-1/4">
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">{`WE’RE`} A TEAM OF PASSIONATE INDIVIDUALS WORKING TOGETHER TO REVOLUTIONIZE THE TAS INNOVATION THROUGH INNVATION,DEDICATION AND SHARED COMMITMENT TO EXCELLENCE
+                    </p>
+                   
+              </div>
+        </div>
 
       <h1 className="mb-10 text-center md:text-2xl">WHY TAS INNOVATION ?</h1>
 
@@ -99,7 +112,7 @@ export function Carrer() {
 
       <div className=" text-center py-1 md:py-8">
         <h2 className="text-sm md:text-3xl md:mx-20">
-          {`We’re`} not more than a workplace. {`We’re`} a family.
+          {`We’re`} not more than a workplace. <br />{`We’re`} a family.
         </h2>
       </div>
       <p className="px-10 text-sm md:mx-20 text-normal md:text-base para-smallcase mb-10">
@@ -121,10 +134,10 @@ export function Carrer() {
         className="w-full h-auto max-h-screen mb-20"
       />
 
-      <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+      <div className="flex flex-col items-center md:flex-row md:justify-evenly">
 
         <div className="relative">
-            <img src={carrer12} alt="" className="mb-10" />
+            <img src={carrer12} alt="" className="mb-10 p-2" />
                 <p className="absolute carrer-align ml-2  text-white font-bold  p-2">
                   Graphic Designer & Motion Designer
                 </p>
@@ -135,7 +148,7 @@ export function Carrer() {
 
 
         <div className="relative">
-          <img src={carrer13} alt="" className="mb-10" />
+          <img src={carrer13} alt="" className="mb-10 p-2" />
               <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
               AWS Developer
               </p>
@@ -145,7 +158,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-         <img src={carrer14} alt="" className="mb-10" />
+         <img src={carrer14} alt="" className="mb-10 p-2" />
               <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
               Sales and Marketing Specialist
               </p>
@@ -160,7 +173,7 @@ export function Carrer() {
 
       <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
         <div className="relative">
-        <img src={carrer15} alt="" className="mb-10" />
+        <img src={carrer15} alt="" className="mb-10 p-2" />
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 E-commerce Manager
                 </p>
@@ -172,7 +185,7 @@ export function Carrer() {
 
 
         <div className="relative">
-        <img src={carrer16} alt="" className="mb-10" />
+        <img src={carrer16} alt="" className="mb-10 p-2" />
                   <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                   Fashion Designer
                   </p>
@@ -182,7 +195,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer17} alt="" className="mb-10" />
+        <img src={carrer17} alt="" className="mb-10 p-2" />
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 IoT Project Manager
                 </p>
@@ -198,7 +211,7 @@ export function Carrer() {
       <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
 
       <div className="relative">
-        <img src={carrer18} alt="" className="mb-10" />
+        <img src={carrer18} alt="" className="mb-10 p-2" />
                 <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
                 Product Developer (Electronics)
                 </p>
@@ -209,7 +222,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer19} alt="" className="mb-10" />
+        <img src={carrer19} alt="" className="mb-10 p-2" />
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 Motion Designer
                 </p>
@@ -219,7 +232,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer20} alt="" className="mb-10" />
+        <img src={carrer20} alt="" className="mb-10 p-2" />
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 IEEE Paper Specialist
                 </p>
@@ -230,10 +243,10 @@ export function Carrer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+      <div className="flex flex-col items-center md:flex-row md:justify-evenly ">
 
         <div className="relative">
-        <img src={carrer21} alt="" className="mb-10" />
+        <img src={carrer21} alt="" className="mb-10 p-2" />
                   <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
                   Instructor/Teaching Specialist
                   </p>
@@ -243,7 +256,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer22} alt="" className="mb-10" />
+        <img src={carrer22} alt="" className="mb-10 p-2" />
                   <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                   Food Product Developer
                   </p>
@@ -253,7 +266,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer23} alt="" className="mb-10" />
+        <img src={carrer23} alt="" className="mb-10 p-2" />
                   <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                   Content Creator
                   </p>
@@ -264,18 +277,33 @@ export function Carrer() {
 
       </div>
 
-      <div className="relative flex md:ml-10">
-      <img src={carrer24} alt="" className="h-[400px] mb-10 items-center" />
-      {/* <p className="absolute top-12 left-40 right-0 bottom-0 text-white text-xs md:text-base flex items-center justify-center bg-black h-[150px] w-[800px] wrap "> “GREATER FUTURES THROUGH INNOVATION WATCHING THE WORLD OF NEXT-TECH UNFOLD.IT’S TIME TO BE PART OF IT.EXPLORE CHALLENGING AND EXCITING OPPORTUNITIES ACROSS THE GLOBE”
-              </p> */}
-              {/* identify a method to make this work correct  */}
-      </div>
+      <div className=" relative mb-10 flex md:mx-20">
+                <div className="">
+                      <img src={carrer24} alt="image1" className="h-[350px] md:h-fit" />
+                </div>
+               <div className="one text-center absolute left-1/3 bottom-1/4">
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">“GREATER FUTURES THROUGH INNOVATION WATCHING THE WORLD OF NEXT-TECH UNFOLD.{`IT’S`} TIME TO BE PART OF IT.EXPLORE CHALLENGING AND EXCITING OPPORTUNITIES ACROSS THE GLOBE”
+                    </p>
+                   
+              </div>
+        </div>
 
-      <div className="relative flex">
-      <img src={img4} alt="lfe at TAS" className=" w-screen mb-10" />
-              <h1 className="absolute top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
+        <div className="relative flex">
+             <img src={img4} alt="lfe at TAS" className=" w-screen " />
+              <h1 className="absolute text-sm top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS
               </h1>
+              <div className="flex absolute left-1/2 top-1/3 h-[20px] md:h-fit">
+                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==">
+                      <img src={insta} alt="" className=" md:mx-10" />
+                  </a>
+                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09">
+                      <img src={x} alt="" className="ml-5 md:mx-10" />
+                    </a>
+                  <a href="https://youtube.com/@tasinnovation6973">
+                      <img src={youtube} alt="" className=" ml-5 md:ml-10" />
+                  </a>
+               </div>
       </div>
       <Bottom/>
       <Footer/>

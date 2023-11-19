@@ -1,3 +1,7 @@
+import { NavLink } from "react-router-dom";
+
+
+
 import img5 from "/src/assets/image5.png";
 // import { Privatepolicy } from "../support/Privatepolicy";
 import Twitter from "/src/assets/Twitter.png";
@@ -22,7 +26,7 @@ export function Bottom() {
           Welcome to TAS innovation. Our team will <br /> response within 24 hours
         </h4>
 
-        <div className="flex bottom">
+        <div className="flex bottom ">
           <form>
             <fieldset>
               <p>
@@ -70,7 +74,8 @@ export function Bottom() {
               </button>
             </fieldset>
           </form>
-          <img src={img5} alt="" className="w-[100px] h-[300px] md:w-[533px] md:h-[622px]" />
+          <img src={img5} alt="" className="w-[100px] h-[300px] md:w-[533px] md:h-[622px]  " /> 
+          {/* absolute right-0 md:-top-1/2 */}
         </div>
       </div>
      
@@ -79,11 +84,17 @@ export function Bottom() {
       <div className=" text-sm flex flex-col  md:flex-row md:text-xl justify-evenly bottom-aleo">
       <div className="leading-10 text-left">
     <a href="" className="font-bold">Company</a>
-    <p><a href="#">Home</a></p>
+    <p><NavLink to="/" >HOME</NavLink></p>
     <p><a href="#">Carrers</a></p>
     <p><a href="#">Services</a></p>
     <p><a href="">About us</a></p>
   </div>
+  
+              {/* <NavLink to="carrer " >CARRER</NavLink>
+              <NavLink to="courses" >COURSES</NavLink>
+              <NavLink to="service">SERVICES</NavLink>
+              <NavLink to="about">ABOUT</NavLink>
+              but it also need to take to the top not from the bottom */}
   <div className="leading-10 text-left">
     <a href="#" className="font-bold">Support</a>
     <p><a href="">Terms of use</a></p>
@@ -102,16 +113,28 @@ export function Bottom() {
     <p>+91 8072877622</p>
     <p>+91 6380654780</p>
     <p>Email</p>
-    <p>tasinnovationinc@gmail.com</p>
+    <p>Support@tasinnovation.com</p>
   </div>
 </div>
         <div className="flex justify-evenly mx-5 my-8">
-          <a href=""><img src={Twitter} alt="twitter logo" /></a>
-          <a href=""><img src={fb} alt="facebook logo" /></a>
-          <a href=""><img src={insta} alt="facebook logo" /></a>
-          <a href=""><img src={linkedin} alt="facebook logo" /></a>
-          <a href=""><img src={youtube} alt="facebook logo" /></a>
-          <a href=""><img src={whatsapp} alt="facebook logo" /></a>
+            <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09">
+           <      img src={Twitter} alt="twitter x logo" />
+           </a>
+          <a href="https://www.facebook.com/profile.php?id=100086967900946">
+                     <img src={fb} alt="facebook logo" />
+          </a>
+          <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==">
+                    <img src={insta} alt="instagram logo" />
+          </a>
+          <a href="https://www.linkedin.com/company/tas-innovation/">
+                    <img src={linkedin} alt="linkedin logo" />
+          </a>
+          <a href="https://youtube.com/@tasinnovation6973">
+                  <img src={youtube} alt="youtube logo" />
+          </a>
+          <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol">
+                  <img src={whatsapp} alt="whatsapp logo" />
+          </a>
 
         </div>
 

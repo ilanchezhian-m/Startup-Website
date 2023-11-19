@@ -1,10 +1,16 @@
-import { Header } from "./components/Header";
+
 import image from "../src/assets/imagehand.png";
 import frame from "../src/assets/Frame.svg";
 import img1 from "../src/assets/image1.png";
-// import img2 from "../src/assets/image2.png";
 import img3 from "../src/assets/image3.png";
 import img4 from "../src/assets/image4.png";
+import img6 from "../src/assets/image6.png";
+import img7 from "../src/assets/image7.png";
+import img8 from "../src/assets/image8.png";
+import img9 from "../src/assets/image9.png";
+import insta from "../src/assets/instaimage.svg";
+import x from "../src/assets/ximage.svg";
+import youtube from "../src/assets/youtube.svg";
 import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
 
@@ -16,26 +22,76 @@ import { Footer } from "./components/Footer";
 export function Home() {
   return (
     <>
-      <Header />
+      
       <div className=" text-center py-6 text-3xl">
-        <h2 className="text-sm md:text-base">{`"Sustainable`} AI Ventures: Crafting Eco-Friendly Innovations through{` Technology"`}</h2>
+        <h2 className="text-sm md:text-2xl">{`"Sustainable`} AI Ventures: Crafting <br />Eco-Friendly Innovations through{` Technology"`}</h2>
       </div>
       <img src={image} alt="first image" className="w-full h-auto max-h-screen" />
       <h5 className="text-center pt-10">TO KNOW MORE ABOUT</h5>
       <img src={frame} alt="below-icon-image" className="mx-auto pt-2 pb-6" />
 
-      <div className="wrapper">
-  <div className="one">
-    <img src={img1} alt="image1" className="" />
-    </div>
-  <div className="two text-center ">
-    <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,WE’RE CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
-  </p>
-  <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
-  </div>
-</div>
+{/* images section */}
 
-      <br />
+      
+        <div className=" relative mb-10 flex md:mx-20">
+                <div className="">
+                      <img src={img1} alt="image1" className="h-[350px] md:h-fit" />
+                </div>
+               <div className="one text-center absolute left-1/3 bottom-1/4">
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
+                    </p>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+              </div>
+        </div>
+
+        <div className="relative mb-10 md:mx-20 flex justify-end">
+            <div className="two text-center absolute right-1/4 bottom-1/3">
+                  <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
+                    SMART TECHNOLOGIES UNLEASHED;<br /> SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
+                  </p>
+                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+            </div>
+            <div className="">
+                  <img src={img6} alt="image1" className=" h-[350px] md:h-fit" />
+            </div>
+        </div>
+
+        <div className=" relative mb-10 flex md:mx-20">
+                <div className="">
+                      <img src={img7} alt="image1" className="h-[350px] md:h-fit" />
+                </div>
+               <div className="one text-center absolute left-1/4 bottom-1/3">
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BUSINESS EVOLUTION NEXUS: <br />
+                       LEADING GLOBAL GROWTH THROUGH TRANSFORMATIVE IDEAS
+                    </p>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+              </div>
+        </div>
+
+        <div className="relative mb-10 md:mx-20 flex justify-end">
+            <div className="two text-center absolute right-1/3 bottom-1/3">
+                  <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
+                    SMART TECHNOLOGIES UNLEASHED;<br /> SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
+                  </p>
+                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+            </div>
+            <div className="">
+                  <img src={img8} alt="image1" className=" h-[350px] md:h-fit" />
+            </div>
+        </div>
+
+        <div className=" relative mb-10 flex md:mx-20">
+                <div className="">
+                      <img src={img9} alt="image1" className="h-[350px] md:h-fit" />
+                </div>
+               <div className="one text-center absolute left-1/4 bottom-1/4">
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
+                    </p>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+              </div>
+        </div>
+
+
       <div className="text-center bg-black text-white py-10 mb-8">
         <h2 className="text-xl md:text-3xl py-5">OUR PURPOSE</h2>
         <p className="px-10 text-normal md:text-2xl para">
@@ -79,15 +135,26 @@ export function Home() {
         <h3 className="text-sm md:text-2xl">20+ <br /> Customers</h3>
         </div>
       </div>
-
-      <img src={img3} alt="telegramimage" className="flex w-screen " />
+      {/* telegram link need to be added */}
+     <a href=""> <img src={img3} alt="telegramimage" className="flex w-screen " /></a>
       <br />
       
       <div className="relative flex">
-      <img src={img4} alt="lfe at TAS" className=" w-screen " />
-              <h1 className="absolute top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
+             <img src={img4} alt="lfe at TAS" className=" w-screen " />
+              <h1 className="absolute text-sm top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS
               </h1>
+              <div className="flex absolute left-1/2 top-1/3 h-[20px] md:h-fit">
+                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==">
+                      <img src={insta} alt="" className=" md:mx-10" />
+                  </a>
+                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09">
+                      <img src={x} alt="" className="ml-5 md:mx-10" />
+                    </a>
+                  <a href="https://youtube.com/@tasinnovation6973">
+                      <img src={youtube} alt="" className=" ml-5 md:ml-10" />
+                  </a>
+               </div>
       </div>
       <br />
       <Bottom/>

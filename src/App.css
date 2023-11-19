@@ -30,27 +30,41 @@ body{
 .head-style{
   font-family: var(--head-font-family);
 }
+.nav-menu {
+  transition: background-color 1s ease, transform 10s ease;
+  /* Other styles for .nav-menu */
+}
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+/* Add these styles to your existing stylesheet */
 
+.nav-menu {
+  transition: transform 0.5s ease-in-out;
 }
-.one {
-  margin-left: 40px;
-  grid-column-start:1;
-  grid-column-end:4;
-  grid-row: 1/9;
+
+.nav-menu:hover {
+  transform: translateY(-10px); 
 }
-.two {
-  margin-right: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  grid-column-start:2;
-  grid-column-end:9;
-  grid-row: 1/9;
-  background: linear-gradient(90deg, #fdfcfc 0%, rgba(204, 204, 204, 0.1) 100%);
+
+.active-link {
+  background-color: blue;
+  padding: 15px 15px;
+  border-radius: 30px;
+  transform: translateY(-10px); 
+  transform: translate(50px, 100px);
 }
+
+
+
+.one{
+  background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(204, 204, 204, 0.1) 100%);
+}
+.two{
+  background: linear-gradient(270deg, rgba(255,255,255,0.9), rgba(204, 204, 204, 0.4) 100%);
+}
+
+
+
+
 .explore-btn{
 background: rgba(38, 86, 255, 1);
 font-family: var(--head-font-family);

@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+// import { Header } from "./components/Header";
 import Course1 from "../src/assets/Course1.png";
 import Course2 from "../src/assets/Course2.png";
 import Course3 from "../src/assets/Course3.png";
@@ -20,6 +20,7 @@ import Course9 from "../src/assets/Course9.svg";
 import Course10 from "../src/assets/Course10.svg";
 import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
+import Explore from "../src/assets/Explore.svg";
 // import Course11 from "../src/assets/Course11.png";delete this
 
 
@@ -27,7 +28,7 @@ export function Course(){
     return(
         <>
 
-            <Header/>
+           
 
             <div className=" text-center py-8">
                             <h2 className="text-sm md:text-xl md:mx-20">
@@ -54,39 +55,35 @@ export function Course(){
 
 
 
-
-          <div className="relative">
-                <img src={Course2} alt="" className="h-[300px] md:h-[500px] mb-10 w-full" />
-                        <div className="flex  absolute top-1/4 left-1/2 transform -translate-x-1/2">
-                                    <div className=" mx-4 md:mx-10">
-                                        <img src={Course7} alt="" className=" h-[40px] md:h-auto" />
-                                        <p className="para-smallcase text-xs md:text-xl">Learn Anything</p>
+{/* alignment issues on paragraph */}
+          <div className="relative flex">
+                <img src={Course2} alt="" className="h-[300px] md:h-[500px] mb-10 w-screen" />
+                        <div className="flex absolute top-1/4 left-1 md:mx-20 ">
+                                    <div className="mx-1 md:mx-10">
+                                        <img src={Course7} alt="" className=" h-[30px] md:h-[80px]" />
+                                        <p className="para-smallcase text-xs md:text-xl ">Learn Anything</p>
                                     </div>
-                                    <div className=" mx-4 md:mx-10">
-                                        <img src={Course8} alt="" className=" h-[40px] md:h-auto" />
-                                        <p className="para-smallcase text-xs md:text-xl">Save money & Get Courses</p>
+                                    <div className="mx-1 md:mx-10">
+                                        <img src={Course8} alt="" className=" h-[30px] md:h-[80px]" />
+                                        <p className="para-smallcase text-xs md:text-xl ">Save money & Get Courses</p>
                                     </div>
-                                    <div className=" mx-4 md:mx-10">
-                                        <img src={Course9} alt="" className=" h-[40px] md:h-auto" />
-                                        <p className="para-smallcase text-xs md:text-xl">Unlimited Certificates</p>
+                                    <div className="mx-1 md:mx-10">
+                                        <img src={Course9} alt="" className=" h-[30px] md:h-[80px]" />
+                                        <p className="para-smallcase text-xs md:text-xl ">Unlimited Certificates</p>
                                     </div>
-                                    <div className=" mx-4 md:mx-10">
-                                        <img src={Course10} alt="" className=" h-[40px] md:h-auto" />
-                                        <p className="para-smallcase text-xs md:text-xl">Flexible learning</p>
+                                    <div className="mx-1 md:mx-10">
+                                        <img src={Course10} alt="" className=" h-[30px] md:h-[80px]" />
+                                        <p className="para-smallcase text-xs md:text-xl ">Flexible learning</p>
+                                    </div> 
+                        </div>
+                                    <div className="flex ">
+                                            <h1 className="absolute bottom-1/4 left-1 md:bottom-1/4 justify-center text-xs md:text-base md:mx-20">
+                                                Trusted By Over 14,400 Companies And Millions Of Learners Around The World
+                                            </h1>
                                     </div>
-                                    
-                                </div>
-                        <div>
-                                <h1 className="absolute bottom-3 left-3 md:bottom-12 md:left-1/4 text-xs md:text-base">
-                                    Trusted By Over 14,400 Companies And Millions Of Learners Around The World
-                                </h1>
-                         </div>
          </div>
 
 
-
-
-            
              <h1 className="text-center text-base md:text-3xl mb-10">
              Top Categories
             </h1>
@@ -99,7 +96,7 @@ export function Course(){
                                 DEVELOPMENT
                                 </p>
                                 <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20" />
                                 </button>
                         </div>
 
@@ -110,7 +107,7 @@ export function Course(){
                             DESIGN
                             </p>
                             <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20" />
                             </button>
                         </div>
 
@@ -120,7 +117,7 @@ export function Course(){
                             IT/SOFTWARE
                             </p>
                             <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20" />
                             </button>
                         </div>
 
@@ -133,7 +130,7 @@ export function Course(){
                                 PERSONAL DEVELOPMENT
                                 </p>
                                 <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20" />
                                 </button>
                         </div>
 
@@ -144,7 +141,7 @@ export function Course(){
                             BUSINESS
                             </p>
                             <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20" />
                             </button>
                         </div>
               </div>
@@ -408,7 +405,7 @@ export function Course(){
             </p>
 
             <div className="flex mb-10">
-            <img src={Course5} alt="" className="h-[350px] md:h-[500px] w-[200px] md:w-screen" />
+            <img src={Course5} alt="" className="h-[350px] md:h-[550px] w-[200px] md:w-fit " />
 
             <div className="relative">
             <img src={Course6} alt="" className="h-[330px] md:h-[500px] w-[200px] md:w-screen"/>
