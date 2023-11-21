@@ -35,7 +35,7 @@ export function Home() {
       
         <div className=" relative mb-10 flex md:mx-20">
                 <div className="">
-                      <img src={img1} alt="image1" className="h-[350px] md:h-fit" />
+                      <img src={img1} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit" />
                 </div>
                <div className="one text-center absolute left-1/3 bottom-1/4">
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
@@ -52,7 +52,7 @@ export function Home() {
                   <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
             </div>
             <div className="">
-                  <img src={img6} alt="image1" className=" h-[350px] md:h-fit" />
+                  <img src={img6} alt="image1" className=" h-[350px] md:h-fit "  />
             </div>
         </div>
 
@@ -71,12 +71,12 @@ export function Home() {
         <div className="relative mb-10 md:mx-20 flex justify-end">
             <div className="two text-center absolute right-1/3 bottom-1/3">
                   <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
-                    SMART TECHNOLOGIES UNLEASHED;<br /> SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
+                    SMART TECHNOLOGIES UNLEASHED;<br />SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
                   <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
             </div>
             <div className="">
-                  <img src={img8} alt="image1" className=" h-[350px] md:h-fit" />
+                  <img src={img8} alt="image1" className=" h-[350px] md:h-fit w-[250px] md:w-fit" />
             </div>
         </div>
 
@@ -85,7 +85,7 @@ export function Home() {
                       <img src={img9} alt="image1" className="h-[350px] md:h-fit" />
                 </div>
                <div className="one text-center absolute left-1/4 bottom-1/4">
-                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BRAND MAGNET ACCELERATE: EMPOWERING MARKETERS,MAGNETIZING BRANDS PROPELLING GROWTH
                     </p>
                     <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
               </div>
@@ -159,10 +159,13 @@ export function Home() {
       <br />
       <Bottom/>
       <Footer/>
+
+
       {/* <Cookie/>
-      
 <Privatepolicy/>
 <Terms/>  */}
+
+
     </>
   );
 }

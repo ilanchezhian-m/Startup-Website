@@ -81,13 +81,15 @@ export function Bottom() {
      
       <br/>
 
-      <div className=" text-sm flex flex-col  md:flex-row md:text-xl justify-evenly bottom-aleo">
+      <div className=" text-sm flex flex-col mx-2 md:flex-row md:text-xl justify-evenly bottom-aleo">
       <div className="leading-10 text-left">
     <a href="" className="font-bold">Company</a>
-    <p><NavLink to="/" >HOME</NavLink></p>
+    <nav>
+    <p><NavLink to="/" >Home</NavLink></p>
     <p><a href="#">Carrers</a></p>
     <p><a href="#">Services</a></p>
     <p><a href="">About us</a></p>
+    </nav>
   </div>
   
               {/* <NavLink to="carrer " >CARRER</NavLink>

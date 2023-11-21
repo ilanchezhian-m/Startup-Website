@@ -405,18 +405,18 @@ export function Course(){
             </p>
 
             <div className="flex mb-10">
-            <img src={Course5} alt="" className="h-[350px] md:h-[550px] w-[200px] md:w-fit " />
+            <img src={Course5} alt="" className="h-[330px] md:h-[550px] w-[200px] md:w-fit " />
 
             <div className="relative">
-            <img src={Course6} alt="" className="h-[330px] md:h-[500px] w-[200px] md:w-screen"/>
-            <h1 className="absolute text-xs md:text-3xl left-1 top-2 md:left-10 md:top-10">
+            <img src={Course6} alt="" className="h-[330px] md:h-[500px] md:w-screen"/>
+            <h1 className="absolute text-xs lg:text-3xl left-1 top-1 lg:left-10">
             Become An Entrepreneur
             </h1>
-            <p className="text-left para-smallcase  text-xs mb-10 absolute left-1 top-10 sm:left-10 sm:text-xl sm:top-32 ">
+            <p className="text-left para-smallcase text-xs absolute left-1 top-12 md:text-base lg:left-10 ">
             {`"We`} Warmly Welcome Those With A Passion For Innovation And Entrepreneurship To Join Our Dynamic Team At Tas Innovation, Where Your Ideas Will Be Nurtured And Your Entrepreneurial Spirit Will {`Thrive."`}
             </p>
-            <p className="text-center para-smallcase  text-xs mb-10 absolute -bottom-1 sm:left-10 sm:text-xl sm:bottom-5">
-               <button className="text-white bg-black px-2 py-1 sm:px-14 :py-4 text-xs md:text-2xl">TALK WITH US</button>
+            <p className="text-center para-smallcase  text-xs mb-10 absolute bottom-0 left-2 lg:left-10 sm:text-xl sm:bottom-5">
+               <button className="text-white bg-black px-2  py-1 sm:px-14 :py-4 text-xs lg:text-2xl">TALK WITH US</button>
             </p>
             </div>
             </div>

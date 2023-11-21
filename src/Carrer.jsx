@@ -281,7 +281,7 @@ export function Carrer() {
                 <div className="">
                       <img src={carrer24} alt="image1" className="h-[350px] md:h-fit" />
                 </div>
-               <div className="one text-center absolute left-1/3 bottom-1/4">
+               <div className="one text-center absolute md:left-1/3 md:bottom-1/4">
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">“GREATER FUTURES THROUGH INNOVATION WATCHING THE WORLD OF NEXT-TECH UNFOLD.{`IT’S`} TIME TO BE PART OF IT.EXPLORE CHALLENGING AND EXCITING OPPORTUNITIES ACROSS THE GLOBE”
                     </p>
                    
