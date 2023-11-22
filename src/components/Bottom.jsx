@@ -137,19 +137,19 @@ export function Bottom() {
           <div className="leading-10 text-left">
           <p className="font-bold">Company</p>
          <nav>
-              <p><NavLink to="/" onClick={() => { navigate('/'); window.scrollTo(0, 0); }}>Home</NavLink></p>
-              <p><NavLink to="../carrer" onClick={() => {navigate('/carrer'); window.scrollTo(0, 0);}}>Carrers</NavLink></p>
-              <p><NavLink to="../service" onClick={() =>{navigate('/service'); window.scrollTo(0, 0);}}>Services</NavLink></p>
-              <p><NavLink to="../about" onClick={() => {navigate('/about'); window.scrollTo(0, 0);}}>About us</NavLink></p>
+              <p><NavLink to="/" onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
+              <p><NavLink to="../carrer" onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
+              <p><NavLink to="../service" onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
+              <p><NavLink to="../about" onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
           </nav> 
       </div>
   
              
       <div className="leading-10 text-left">
         <p className="font-bold">Support</p>
-                  <p><NavLink to="../terms" onClick={()=>{navigate('./terms');window.scrollTo(0,0);}}>Terms of use</NavLink></p>
-                  <p><NavLink to="../private" onClick={()=>{navigate('./private');window.scrollTo(0,0);}}>Privacy policy</NavLink></p>
-                  <p><NavLink to ="../cookie" onClick={()=>{navigate('./cookie');window.scrollTo(0,0);}}>Cookie policy</NavLink></p>
+                  <p><NavLink target='_blank'  to="../terms" onClick={()=>{window.scrollTo(0,0);}}>Terms of use</NavLink></p>
+                  <p><NavLink target='_blank' to="../private" onClick={()=>{window.scrollTo(0,0);}}>Privacy policy</NavLink></p>
+                  <p><NavLink target='_blank' to ="../cookie" onClick={()=>{window.scrollTo(0,0);}}>Cookie policy</NavLink></p>
       </div>
 
       {/* navigation to the exact locations*/}
@@ -157,7 +157,7 @@ export function Bottom() {
         <p className="font-bold">Students</p>
         <p><NavLink to="../carrer" onClick={handleClick}>Jobs</NavLink></p>
         <p><NavLink to="../courses" onClick={handleClick1}>Internships</NavLink></p>
-        <p><NavLink to="../courses"  onClick={()=>{navigate('./courses');window.scrollTo(0,0);}}>Course</NavLink></p>
+        <p><NavLink to="../courses"  onClick={()=>{window.scrollTo(0,0);}}>Course</NavLink></p>
         <p><NavLink>Training & certifications</NavLink></p>
   </div>
 
@@ -170,23 +170,24 @@ export function Bottom() {
   </div>
 
 </div>
-        <div className="flex justify-evenly mx-5 my-8">
-            <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09">
-           <      img src={Twitter} alt="twitter x logo" />
+        <div className="flex justify-evenly mx-5 my-8" >
+            < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
+      
+                  <img src={Twitter} alt="twitter x logo"  />
            </a>
-          <a href="https://www.facebook.com/profile.php?id=100086967900946">
+          <a href="https://www.facebook.com/profile.php?id=100086967900946" rel="noreferrer" target='_blank'>
                      <img src={fb} alt="facebook logo" />
           </a>
-          <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==">
+          <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
                     <img src={insta} alt="instagram logo" />
           </a>
-          <a href="https://www.linkedin.com/company/tas-innovation/">
+          <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" target='_blank'>
                     <img src={linkedin} alt="linkedin logo" />
           </a>
-          <a href="https://youtube.com/@tasinnovation6973">
+          <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
                   <img src={youtube} alt="youtube logo" />
           </a>
-          <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol">
+          <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer" target='_blank'>
                   <img src={whatsapp} alt="whatsapp logo" />
           </a>
 

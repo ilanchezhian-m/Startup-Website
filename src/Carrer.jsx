@@ -298,14 +298,14 @@ export function Carrer() {
               <h1 className="absolute text-sm top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS
               </h1>
-              <div className="flex absolute left-1/2 top-1/3 h-[20px] md:h-fit">
-                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==">
+              <div className="flex absolute right-10 top-1/2 h-[20px] md:h-fit">
+                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
                       <img src={insta} alt="" className=" md:mx-10" />
                   </a>
-                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09">
+                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
                       <img src={x} alt="" className="ml-5 md:mx-10" />
                     </a>
-                  <a href="https://youtube.com/@tasinnovation6973">
+                  <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
                       <img src={youtube} alt="" className=" ml-5 md:ml-10" />
                   </a>
                </div>

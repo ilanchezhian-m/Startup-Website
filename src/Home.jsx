@@ -22,6 +22,7 @@ import { Footer } from "./components/Footer";
 
 
 export function Home() {
+  
   return (
     <>
       <main>
@@ -44,7 +45,7 @@ export function Home() {
                         EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
                     </p>
                     <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">
-                      <NavLink to='explore1'>EXPLORE</NavLink></button>
+                      <NavLink target="_blank" to="explore1" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink></button>
               </div>
         </div>
 
@@ -54,7 +55,8 @@ export function Home() {
                     SMART TECHNOLOGIES UNLEASHED SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
                   <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> 
-                  <NavLink to='explore2'>EXPLORE</NavLink></button>
+                  <NavLink target="_blank" to="explore2" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink>
+                 </button>
             </div>
             <div className="">
                   <img src={img6} alt="image1" className=" h-[350px] md:h-fit "  />
@@ -69,7 +71,9 @@ export function Home() {
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BUSINESS EVOLUTION NEXUS: 
                        LEADING GLOBAL GROWTH THROUGH TRANSFORMATIVE IDEAS
                     </p>
-                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore3'>EXPLORE</NavLink></button>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">
+                    <NavLink target="_blank" to="explore3" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink>
+                    </button>
               </div>
         </div>
 
@@ -78,7 +82,9 @@ export function Home() {
                   <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
                     SMART TECHNOLOGIES UNLEASHED; SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
-                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore4'>EXPLORE</NavLink></button>
+                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> 
+                  <NavLink target="_blank" to="explore4" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink>
+                  </button>
             </div>
             <div className="">
                   <img src={img8} alt="image1" className=" h-[350px] md:h-fit w-[250px] md:w-fit" />
@@ -92,7 +98,9 @@ export function Home() {
                <div className="one text-center absolute left-1/4 bottom-1/4">
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BRAND MAGNET ACCELERATE: EMPOWERING MARKETERS,MAGNETIZING BRANDS PROPELLING GROWTH
                     </p>
-                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore5'>EXPLORE</NavLink></button>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> 
+                    <NavLink target="_blank" to="explore2" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink>
+                    </button>
               </div>
         </div>
 
@@ -149,14 +157,14 @@ export function Home() {
               <h1 className="absolute text-sm top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS
               </h1>
-              <div className="flex absolute left-1/2 top-1/3 h-[20px] md:h-fit">
-                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==">
+              <div className="flex absolute right-10 top-1/2 h-[20px] md:h-fit">
+                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
                       <img src={insta} alt="" className=" md:mx-10" />
                   </a>
-                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09">
+                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
                       <img src={x} alt="" className="ml-5 md:mx-10" />
                     </a>
-                  <a href="https://youtube.com/@tasinnovation6973">
+                  <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
                       <img src={youtube} alt="" className=" ml-5 md:ml-10" />
                   </a>
                </div>

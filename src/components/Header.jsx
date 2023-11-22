@@ -56,7 +56,7 @@ export function Header() {
                 <nav className=" space-x-4 text-base head-style">
                   <NavLink
                     to="/"
-                    className={`nav-menu hover:to-blue-600 ${
+                    className={`nav-menu ${
                       activeLink === "home" && "active-link"
                     }`}
                     onClick={() => handleNavLinkClick("home")}
