@@ -56,7 +56,7 @@ export function Header() {
                 <nav className=" space-x-4 text-base head-style">
                   <NavLink
                     to="/"
-                    className={`nav-menu ${
+                    className={`nav-menu hover:to-blue-600 ${
                       activeLink === "home" && "active-link"
                     }`}
                     onClick={() => handleNavLinkClick("home")}
@@ -135,7 +135,7 @@ export function Header() {
             >
               <p className="para-smallcase">Courses</p>
             </NavLink>
-              
+
             <NavLink
               to="about"
               onClick={closeMobileMenu}

@@ -1,5 +1,18 @@
+import { useNavigate  } from 'react-router-dom';
 
 export function Ui(){
+
+    const navigate = useNavigate();
+    
+    const handleClick = () => {
+      navigate('/carrer');
+      setTimeout(() => {
+      const graphicSectionRef = document.getElementById("graphicScroll");
+      if (graphicSectionRef) {
+        graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 500); 
+  };
     return(
         <>
         <h1 className="text-center md:text-2xl p-10 text-sm ">Ui/Ux Designer role.</h1>
@@ -79,7 +92,9 @@ export function Ui(){
         <p>If {`you're`} a passionate Ui/Ux Designer looking to join a dynamic and innovative team, apply now and be part of TAS {`Innovation's`} exciting journey.</p>
          </div>
          <p className="text-center">
-         <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3">Apply Now</button>
+              <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3" onClick={handleClick}>
+                Apply Now
+              </button>
          </p>
         </>
     )

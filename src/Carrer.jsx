@@ -141,22 +141,22 @@ export function Carrer() {
       <div  className="flex flex-col items-center md:flex-row md:justify-evenly">
       <div id="graphicSectionRef" className="relative">
           <img src={carrer12} alt="" className="mb-10 p-2" />
-          <p className="absolute carrer-align ml-2 text-white font-bold p-2">
-            Graphic Designer & Motion Designer
+          <p className="absolute carrer-align  ">
+            Graphic Designer <br /> & Motion Designer
           </p>
-          <NavLink to="../graphic" onClick={() => { navigate('../graphic'), window.scrollTo(0, 0); }}>
+          <NavLink  onClick={() => { navigate('/graphic'), window.scrollTo(0, 0); }}>
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
           </NavLink>
       </div>
 
         <div className="relative">
           <img src={carrer13} alt="" className="mb-10 p-2" />
-              <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+              <p className="absolute carrer-align ">
               AWS Developer
               </p>
               
                
-              <NavLink to="../aws" onClick={() => { navigate('../aws'); window.scrollTo(0, 0); }}>
+              <NavLink onClick={() => { navigate('/aws'); window.scrollTo(0, 0); }}>
                 <img src={carrerapplybutton} alt="image" className="absolute left-20 bottom-20" />
                 </NavLink>
             
@@ -164,10 +164,10 @@ export function Carrer() {
 
         <div className="relative">
          <img src={carrer14} alt="" className="mb-10 p-2" />
-              <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
+              <p className="absolute carrer-align ">
               Sales and Marketing Specialist
               </p>
-              <NavLink to="../sales" onClick={() => { navigate('../sales'); window.scrollTo(0, 0); }}>
+              <NavLink  onClick={() => { navigate('/sales'); window.scrollTo(0, 0); }}>
                 <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                 </NavLink>
         </div>
@@ -179,10 +179,10 @@ export function Carrer() {
       <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
         <div className="relative">
         <img src={carrer15} alt="" className="mb-10 p-2" />
-                <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                <p className="absolute carrer-align  ">
                 E-commerce Manager
                 </p>
-                <NavLink to="../ecommerce" onClick={() => { navigate('../ecommerce'); window.scrollTo(0, 0); }}>
+                <NavLink  onClick={() => { navigate('/ecommerce'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                   </NavLink>
         </div>
@@ -191,20 +191,20 @@ export function Carrer() {
 
         <div className="relative">
         <img src={carrer16} alt="" className="mb-10 p-2" />
-                  <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                  <p className="absolute carrer-align ">
                   Fashion Designer
                   </p>
-                  <NavLink to="../fashion" onClick={() => { navigate('../fashion'); window.scrollTo(0, 0); }}>
+                  <NavLink onClick={() => { navigate('/fashion'); window.scrollTo(0, 0); }}>
                     <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                     </NavLink>
         </div>
 
         <div className="relative">
         <img src={carrer17} alt="" className="mb-10 p-2" />
-                <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                <p className="absolute carrer-align ">
                 IoT Project Manager
                 </p>
-                <NavLink to="../iot" onClick={() => { navigate('../iot'); window.scrollTo(0, 0); }}>
+                <NavLink onClick={() => { navigate('/iot'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
         </div>
@@ -217,10 +217,10 @@ export function Carrer() {
 
       <div className="relative">
         <img src={carrer18} alt="" className="mb-10 p-2" />
-                <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
+                <p className="absolute carrer-align    ">
                 Product Developer (Electronics)
                 </p>
-                <NavLink to="../product" onClick={() => { navigate('../product'); window.scrollTo(0, 0); }}>
+                <NavLink  onClick={() => { navigate('/product'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
      
@@ -228,20 +228,20 @@ export function Carrer() {
 
         <div className="relative">
         <img src={carrer19} alt="" className="mb-10 p-2" />
-                <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                <p className="absolute carrer-align ">
                 Motion Designer
                 </p>
-                <NavLink to="../motiondesign" onClick={() => { navigate('../motiondesign'); window.scrollTo(0, 0); }}>
+                <NavLink  onClick={() => { navigate('/motiondesign'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
         </div>
 
         <div className="relative">
         <img src={carrer20} alt="" className="mb-10 p-2" />
-                <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                <p className="absolute carrer-align  ">
                 IEEE Paper Specialist
                 </p>
-                <NavLink to="../ieee" onClick={() => { navigate('../ieee'); window.scrollTo(0, 0); }}>
+                <NavLink  onClick={() => { navigate('/ieee'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
         
@@ -252,30 +252,30 @@ export function Carrer() {
 
         <div className="relative">
         <img src={carrer21} alt="" className="mb-10 p-2" />
-                  <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
+                  <p className="absolute carrer-align   ">
                   Instructor/Teaching Specialist
                   </p>
-                  <NavLink to="../instructor" onClick={() => { navigate('../instructor'); window.scrollTo(0, 0); }}>
+                  <NavLink onClick={() => { navigate('/instructor'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
         </div>
 
         <div className="relative">
         <img src={carrer22} alt="" className="mb-10 p-2" />
-                  <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                  <p className="absolute carrer-align ">
                   Food Product Developer
                   </p>
-                  <NavLink to="../food" onClick={() => { navigate('../food'); window.scrollTo(0, 0); }}>
+                  <NavLink  onClick={() => { navigate('/food'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
         </div>
 
         <div className="relative">
         <img src={carrer23} alt="" className="mb-10 p-2" />
-                  <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
+                  <p className="absolute carrer-align  ">
                   Content Creator
                   </p>
-                  <NavLink to="../content" onClick={() => { navigate('../content'); window.scrollTo(0, 0); }}>
+                  <NavLink  onClick={() => { navigate('/content'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
                  </NavLink>
         </div>

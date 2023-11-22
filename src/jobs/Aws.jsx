@@ -1,19 +1,19 @@
-import { NavLink ,useNavigate  } from 'react-router-dom';
+import { useNavigate  } from 'react-router-dom';
 
 
 export function Aws(){
-    const navigate = useNavigate();
-    const handleClick = () => {
-    // Always navigate to /carrer
-    navigate('/carrer');
 
-    // Scroll to the section without smooth scrolling after a short delay
-    setTimeout(() => {
+// function for navigat the apply button to the form filling page
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate('/carrer');
+      setTimeout(() => {
       const graphicSectionRef = document.getElementById("graphicScroll");
       if (graphicSectionRef) {
         graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
       }
-    }, 1000); // Adjust the delay as needed
+    }, 500); 
   };
 
 
@@ -81,11 +81,13 @@ export function Aws(){
         </div>
         <p>If {`you're`} a passionate AWS Developer looking to join a dynamic and innovative team, apply now and be part of TAS {`Innovation's`} exciting journey.</p>
          </div>
+
          <p className="text-center">
-            <NavLink className={handleClick}>
-         <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3">Apply Now</button>
-         </NavLink>
+              <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3" onClick={handleClick}>
+                Apply Now
+              </button>
          </p>
+
          </div>
         
         </>

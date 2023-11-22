@@ -126,8 +126,11 @@ footer{
 
 /* carrer page */
 .carrer-align{
-  top: 100px;
-  text-shadow: 1px .5px .5px black;
+  top:150px;
+  left:80px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+
 }
 /* Course page */
 .course--style{
