@@ -13,7 +13,7 @@ import whatsapp from "/src/assets/Whatsapp.png"
 export function Bottom() {
   const navigate = useNavigate();
   const location = useLocation();
-
+// jobs carrer page
   const handleClick = () => {
     // Check if the current route is /carrer
     if (location.pathname === '/carrer') {
@@ -25,9 +25,16 @@ export function Bottom() {
     } else {
       // If not, navigate to /carrer
       navigate('/carrer');
-    }
+      setTimeout(() => {
+        // Navigate to the section without smooth scrolling
+        const graphicSectionRef = document.getElementById("graphicSectionRef");
+        if (graphicSectionRef) {
+          graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
+        }
+  }, 500);
+}
   }
-
+// intenship page
   const handleClick1 = () => {
     // Check if the current route is /carrer
     if (location.pathname === '/courses') {
@@ -39,6 +46,13 @@ export function Bottom() {
     } else {
       // If not, navigate to /carrer
       navigate('/courses');
+      setTimeout(()=>{ 
+        const graphicSectionRef = document.getElementById("graphicSectionRef");
+      if (graphicSectionRef) {
+        graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      },500)
     }
   }
 
