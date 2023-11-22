@@ -64,6 +64,15 @@ export function Header() {
                     HOME
                   </NavLink>
                   <NavLink
+                    to="service"
+                    className={`nav-menu ${
+                      activeLink === "service" && "active-link"
+                    }`}
+                    onClick={() => handleNavLinkClick("service")}
+                  >
+                    SERVICES
+                  </NavLink>
+                  <NavLink
                     to="carrer"
                     className={`nav-menu ${
                       activeLink === "carrer" && "active-link"
@@ -81,15 +90,7 @@ export function Header() {
                   >
                     COURSES
                   </NavLink>
-                  <NavLink
-                    to="service"
-                    className={`nav-menu ${
-                      activeLink === "service" && "active-link"
-                    }`}
-                    onClick={() => handleNavLinkClick("service")}
-                  >
-                    SERVICES
-                  </NavLink>
+                 
                   <NavLink
                     to="about"
                     className={`nav-menu ${
@@ -115,6 +116,12 @@ export function Header() {
               
             </NavLink>
             <NavLink
+              to="service"
+              onClick={closeMobileMenu}
+            >
+              <p className="para-smallcase">Services</p>
+            </NavLink>
+            <NavLink
               to="carrer"
               onClick={closeMobileMenu}
             >
@@ -128,14 +135,7 @@ export function Header() {
             >
               <p className="para-smallcase">Courses</p>
             </NavLink>
-
-            <NavLink
-              to="service"
-              onClick={closeMobileMenu}
-            >
-              <p className="para-smallcase">Services</p>
-            </NavLink>
-
+              
             <NavLink
               to="about"
               onClick={closeMobileMenu}

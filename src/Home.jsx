@@ -40,7 +40,8 @@ export function Home() {
                       <img src={img1} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit" />
                 </div>
                <div className="one text-center absolute left-1/3 bottom-1/4">
-                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">
+                        EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
                     </p>
                     <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">
                       <NavLink to='explore1'>EXPLORE</NavLink></button>
@@ -48,11 +49,12 @@ export function Home() {
         </div>
 
         <div className="relative mb-10 md:mx-20 flex justify-end">
-            <div className="two text-center absolute right-1/4 bottom-1/3">
+            <div className="two text-center absolute right-1/4 bottom-1/3 ">
                   <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
-                    SMART TECHNOLOGIES UNLEASHED;<br /> SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
+                    SMART TECHNOLOGIES UNLEASHED SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
-                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore2'>EXPLORE</NavLink></button>
+                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> 
+                  <NavLink to='explore2'>EXPLORE</NavLink></button>
             </div>
             <div className="">
                   <img src={img6} alt="image1" className=" h-[350px] md:h-fit "  />
@@ -64,7 +66,7 @@ export function Home() {
                       <img src={img7} alt="image1" className="h-[350px] md:h-fit" />
                 </div>
                <div className="one text-center absolute left-1/4 bottom-1/3">
-                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BUSINESS EVOLUTION NEXUS: <br />
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BUSINESS EVOLUTION NEXUS: 
                        LEADING GLOBAL GROWTH THROUGH TRANSFORMATIVE IDEAS
                     </p>
                     <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore3'>EXPLORE</NavLink></button>
@@ -74,7 +76,7 @@ export function Home() {
         <div className="relative mb-10 md:mx-20 flex justify-end">
             <div className="two text-center absolute right-1/3 bottom-1/3">
                   <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
-                    SMART TECHNOLOGIES UNLEASHED;<br />SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
+                    SMART TECHNOLOGIES UNLEASHED; SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
                   <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore4'>EXPLORE</NavLink></button>
             </div>
