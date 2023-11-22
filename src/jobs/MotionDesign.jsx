@@ -1,22 +1,22 @@
 export function MotionDesign(){
     return(
         <>
-        <h1 className="text-center text-2xl p-10 ">Motion Design role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">MOTION DESIGNER</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(CSE/IT)</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
+        <h1 className="text-center text-sm md:text-2xl p-10 ">Motion Design role</h1>
+        <div className="job-styl text-left text-sm md:ml-20 md:text-xl ">
+            <p className="mb-5">COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
+            <p className="mb-5">JOB TITLE: <span className="font-bold">MOTION DESIGNER</span> </p>
+            <p className="mb-5">EDUCATION:<span className="font-bold">B.E/B.TECH(CSE/IT)</span> </p>
+            <p className="mb-5">EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
+            <p className="mb-5">LOCATION: <span className="font-bold">REMOTE</span> </p>
+            <p className="mb-5">JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
+            <p className="mb-5">SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
+        <div className="job-jd text-sm  text-left md:mx-20 md:text-xl ">
+         <p className="font-bold mb-5">Job Description:</p>
          <p>As a Motion Designer at TAS INNOVATION, you will play a crucial role in creating captivating and visually appealing motion graphics using the latest technologies.We are looking for candidates with a minimum of 5 projects under their belt who can work remotely and stay up-to-date with the latest technologies in the Motion Designing field.</p>
-        <p className="font-bold">Roles & Qualification:</p>
-        <p className="font-bold">Responsibilities:</p>
-        <div className="ml-5">
+        <p className="font-bold mb-5">Roles & Qualification:</p>
+        <p className="font-bold mb-5">Responsibilities:</p>
+        <div className="md:ml-5">
             <li>
             Develop visually stunning motion graphics and animations that align with project requirements and objectives. 
             </li>
@@ -40,8 +40,8 @@ export function MotionDesign(){
             </li>
         </div>
         
-        <p className="font-bold">Qualifications:</p>
-        <div className="ml-5">
+        <p className="font-bold my-5">Qualifications:</p>
+        <div className="md:ml-5">
             <li>
             {`Bachelor's`} Degree in Computer Graphics, Graphic Design, Communication Design, Illustration, Fine Arts, Art and Design, or a related fields.
             </li>

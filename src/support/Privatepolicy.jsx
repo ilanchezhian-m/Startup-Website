@@ -12,7 +12,7 @@ export function Privatepolicy(){
                     AT TAS INNOVATION, WE ARE COMMITTED TO SAFEGUARDING YOUR PRIVACY AND ENSURING THE SECURITY OF YOUR PERSONAL INFORMATION. THIS PRIVACY POLICY OUTLINES OUR PRACTICES FOR COLLECTING, USING, AND PROTECTING YOUR DATA. BY ACCESSING OUR WEBSITE OR USING OUR SERVICES, YOU CONSENT TO THE TERMS DESCRIBED HEREIN.
                     </p>
 
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
              INFORMATION WE COLLECT:
         </h3>
                     <p className='pb-5'>
@@ -41,7 +41,7 @@ export function Privatepolicy(){
                             </li>
                     </div>
 
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
             HOW WE USE YOUR INFORMATION:
         </h3>
                     <p className='pb-5'>
@@ -61,7 +61,7 @@ export function Privatepolicy(){
                         TO IMPROVE OUR SERVICES: WE ANALYZE DATA TO ENHANCE OUR WEBSITE, SERVICES, AND USER EXPERIENCE.
                         </li>
                         </p>
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
             DATA SECURITY:
         </h3>
 
@@ -69,7 +69,7 @@ export function Privatepolicy(){
                     WE TAKE DATA SECURITY SERIOUSLY AND HAVE IMPLEMENTED ROBUST MEASURES TO PROTECT YOUR INFORMATION FROM UNAUTHORIZED ACCESS, DISCLOSURE, OR ALTERATION. OUR PRACTICES INCLUDE DATA ENCRYPTION, ACCESS CONTROLS, AND REGULAR SECURITY AUDITS.
                     </p>
         
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
             SHARING OF INFORMATION:
         </h3>
 
@@ -78,7 +78,7 @@ export function Privatepolicy(){
 
                     </p>
 
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
          YOUR RIGHTS:
         </h3>
 
@@ -87,7 +87,7 @@ export function Privatepolicy(){
                      </p>
 
 
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
             CHANGES TO THIS PRIVACY POLICY:
         </h3>
 
@@ -95,7 +95,7 @@ export function Privatepolicy(){
                       WE MAY UPDATE THIS PRIVACY POLICY PERIODICALLY TO REFLECT CHANGES IN OUR PRACTICES AND LEGAL REQUIREMENTS. THE UPDATED POLICY WILL BE POSTED ON OUR WEBSITE, AND THE {`"LAST UPDATED"`} DATE WILL BE REVISED ACCORDINGLY.
                      </p>
 
-        <h3 className='font-bold pb-5'>
+        <h3 className='pb-5'>
            CONTACT US:
         </h3>
 

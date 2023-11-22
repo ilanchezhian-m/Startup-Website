@@ -3,22 +3,22 @@
 export function Fashion(){
     return(
         <>
-         <h1 className="text-center text-2xl p-10 ">Fashion Designer role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">FASHION DESIGNER</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(FASHION DESIGNER OR A RELATED FIELD.)</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">3-5 LPA</span> </p>   
+         <h1 className="text-center text-sm md:text-2xl p-10 ">Fashion Designer role</h1>
+        <div className="job-styl text-sm text-left md:ml-20 md:text-xl ">
+            <p className="mb-5">COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
+            <p className="mb-5">JOB TITLE: <span className="font-bold">FASHION DESIGNER</span> </p>
+            <p className="mb-5">EDUCATION:<span className="font-bold">B.E/B.TECH(FASHION DESIGNER OR A RELATED FIELD.)</span> </p>
+            <p className="mb-5">EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
+            <p className="mb-5">LOCATION: <span className="font-bold">REMOTE</span> </p>
+            <p className="mb-5">JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
+            <p className="mb-5">SALARY: <span className="font-bold">3-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
+        <div className="job-jd text-left md:mx-20 md:text-xl mb-5">
+         <p className="font-bold mb-5">Job Description:</p>
          <p>As a Fashion Designer at TAS INNOVATION, you will play a crucial role in designing & developing styles which is current market treand.We are looking for candidates with a minimum of 5 projects under their belt who can work remotely and stay up-to-date with the latest technologies in the Fashion Designing field. </p>
-        <p className="font-bold">Roles & Qualification:</p>
-        <p className="font-bold">Responsibilities:</p>
-        <div className="ml-5">
+        <p className="font-bold mb-5">Roles & Qualification:</p>
+        <p className="font-bold mb-5">Responsibilities:</p>
+        <div className="md:ml-5 mb-5">
             <li> Trend Analysis and Research</li>
             <li> Sketching and Design Development </li>
             <li> Fabric and Material Selection</li>
@@ -34,7 +34,7 @@ export function Fashion(){
             <li> Marketing and Promotion of Collections</li>
             <li> Keeping Up with Fashion Trends</li>
         </div>
-        <p className="font-bold">Qualifications:</p>
+        <p className="font-bold mb-5">Qualifications:</p>
         <div className="ml-5">
             <li>
             {`Bachelor's or Associate's`} degree in fashion design, fashion technology, textiles and fabric design or related fields.

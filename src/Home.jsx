@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 
 import image from "../src/assets/imagehand.png";
 import frame from "../src/assets/Frame.svg";
@@ -22,7 +24,7 @@ import { Footer } from "./components/Footer";
 export function Home() {
   return (
     <>
-      
+      <main>
       <div className=" text-center py-6 text-3xl">
         <h2 className="text-sm md:text-2xl">{`"Sustainable`} AI Ventures: Crafting <br />Eco-Friendly Innovations through{` Technology"`}</h2>
       </div>
@@ -40,7 +42,8 @@ export function Home() {
                <div className="one text-center absolute left-1/3 bottom-1/4">
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
                     </p>
-                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">
+                      <NavLink to='explore1'>EXPLORE</NavLink></button>
               </div>
         </div>
 
@@ -49,7 +52,7 @@ export function Home() {
                   <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
                     SMART TECHNOLOGIES UNLEASHED;<br /> SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
-                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore2'>EXPLORE</NavLink></button>
             </div>
             <div className="">
                   <img src={img6} alt="image1" className=" h-[350px] md:h-fit "  />
@@ -64,7 +67,7 @@ export function Home() {
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BUSINESS EVOLUTION NEXUS: <br />
                        LEADING GLOBAL GROWTH THROUGH TRANSFORMATIVE IDEAS
                     </p>
-                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore3'>EXPLORE</NavLink></button>
               </div>
         </div>
 
@@ -73,7 +76,7 @@ export function Home() {
                   <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 ">
                     SMART TECHNOLOGIES UNLEASHED;<br />SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
-                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+                  <button className="text-xs mb-5 md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore4'>EXPLORE</NavLink></button>
             </div>
             <div className="">
                   <img src={img8} alt="image1" className=" h-[350px] md:h-fit w-[250px] md:w-fit" />
@@ -87,7 +90,7 @@ export function Home() {
                <div className="one text-center absolute left-1/4 bottom-1/4">
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">BRAND MAGNET ACCELERATE: EMPOWERING MARKETERS,MAGNETIZING BRANDS PROPELLING GROWTH
                     </p>
-                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 ">EXPLORE</button>
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-10 text-white font-light py-4 rounded-sm mt-5 "> <NavLink to='explore5'>EXPLORE</NavLink></button>
               </div>
         </div>
 
@@ -157,8 +160,10 @@ export function Home() {
                </div>
       </div>
       <br />
+      </main>
       <Bottom/>
       <Footer/>
+   
 
 
       {/* <Cookie/>

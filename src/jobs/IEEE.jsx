@@ -3,22 +3,22 @@
 export function IEEE(){
     return(
         <>
-        <h1 className="text-center text-2xl p-10 ">IEEE Paper Specialist role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">IEEE PAPER SPECIALIST</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH/{`MASTER'S`} OR ( PH.D. IN A RELEVANT FIELD , OFTEN WITH RESEARCH EXPERIENCE)</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
+        <h1 className="text-center text-sm md:text-2xl p-10 ">IEEE Paper Specialist role</h1>
+        <div className="job-styl text-sm text-left md:ml-20 md:text-xl leading-10">
+            <p className="mb-5">COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
+            <p className="mb-5">JOB TITLE: <span className="font-bold">IEEE PAPER SPECIALIST</span> </p>
+            <p className="mb-5">EDUCATION:<span className="font-bold">B.E/B.TECH/{`MASTER'S`} OR ( PH.D. IN A RELEVANT FIELD , OFTEN WITH RESEARCH EXPERIENCE)</span> </p>
+            <p className="mb-5">EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
+            <p className="mb-5">LOCATION: <span className="font-bold">REMOTE</span> </p>
+            <p className="mb-5">JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
+            <p className="mb-5">SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
+        <div className="job-jd text-sm text-left md:mx-20 md:text-xl ">
+         <p className="font-bold mb-5">Job Description:</p>
          <p>As an IEEE Paper Specialist at TAS INNOVATION, you will play a vital role in crafting responsive, attractive, and technically sound IEEE research papers. We are looking for candidates with a minimum of 5 projects under their belt who can work remotely and stay up-to-date with the latest technologies in all fields.</p>
-        <p className="font-bold">Roles & Qualification:</p>
-        <p className="font-bold">Responsibilities:</p>
-        <div className="ml-5">
+        <p className="font-bold mb-5">Roles & Qualification:</p>
+        <p className="font-bold mb-5">Responsibilities:</p>
+        <div className="md:ml-5">
             <li>
             Author high-quality IEEE research papers on cutting-edge topics, ensuring accuracy, clarity, and adherence to IEEE standards.
             </li>
@@ -36,8 +36,8 @@ export function IEEE(){
             </li>
         </div>
         
-        <p className="font-bold">Qualifications:</p>
-        <div className="ml-5">
+        <p className="font-bold my-5">Qualifications:</p>
+        <div className="md:ml-5">
             <li>
             {`Bachelor's`} degree from Engineering, Computer Sciences and Information Technology, Physical Sciences, Biological and Medical Sciences, Mathematics, Technical Communications, Education, Management, and Law and Policy. 
             </li>

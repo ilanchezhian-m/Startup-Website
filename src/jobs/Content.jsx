@@ -2,22 +2,24 @@
 export function Content(){
     return(
         <>
-         <h1 className="text-center text-2xl p-10 ">Content Creator role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">CONTENT CREATOR</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(JOURNALLISM,COMMUNICATIONS,ENGLISH, OR A RELATED FIELD)</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
-        </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
+         <h1 className="text-center text-sm md:text-2xl py-10">Content Creator role</h1>
+         <div className="job-styl text-left text-sm md:ml-20 md:text-xl leading-loose">
+  <p className="mb-4">COMPANY: <span className="font-bold">TAS INNOVATION</span></p>
+  <p className="mb-4">JOB TITLE: <span className="font-bold">CONTENT CREATOR</span></p>
+  <p className="mb-4">EDUCATION:<span className="font-bold">B.E/B.TECH
+    <br />(JOURNALISM, COMMUNICATIONS, ENGLISH, OR A RELATED FIELD)</span></p>
+  <p className="mb-4">EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span></p>
+  <p className="mb-4">LOCATION: <span className="font-bold">REMOTE</span></p>
+  <p className="mb-4">JOB TYPE: <span className="font-bold">FULL TIME </span></p>
+  <p className="mb-4">SALARY: <span className="font-bold">2.5-5 LPA</span></p>
+</div>
+
+        <div className="job-jd text-left text-sm md:mx-20 md:text-xl leading-10">
+         <p className="font-bold my-3">Job Description:</p>
          <p>  As a Content creator at TAS INNOVATION, you will play a crucial role in producing responsive, attractive, and engaging content using the latest technologies and trends.We are looking for candidates with a minimum of 5 projects under their belt who can work remotely and stay up-to-date with the latest technologies in the Content creating field. </p>
-        <p className="font-bold">Roles & Qualification:</p>
+        <p className="font-bold my-5">Roles & Qualification:</p>
         <p className="font-bold">Responsibilities:</p>
-        <div className="ml-5">
+        <div className="md:ml-5 my-5">
 
                <li>
                Create high-quality written, visual, or multimedia content for various platforms.
@@ -49,7 +51,7 @@ export function Content(){
 
         </div>
         
-        <p className="font-bold">Qualifications:</p>
+        <p className="font-bold mb-5">Qualifications:</p>
         <div className="ml-5">
             <li>
             {`Bachelor's`} degree in Food Department and other relevant Department. 

@@ -1,22 +1,22 @@
 export function Instructor(){
     return(
         <>
-        <h1 className="text-center text-2xl p-10 ">Instructor/Teaching Specialist role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">INSTRUCTOR/TEACHING SPECAILIST</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(CSE/IT/SUBJECT AREA BEING TAUGHT; ADDITIONAL TEAACHING CERTIFICATION MAY BE REQUIRED).</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
+        <h1 className="text-center md:text-2xl text-sm p-10 ">Instructor/Teaching Specialist role</h1>
+        <div className="job-styl text-left text-sm  md:ml-20 md:text-xl ">
+            <p className="mb-5">COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
+            <p className="mb-5">JOB TITLE: <span className="font-bold">INSTRUCTOR/TEACHING SPECAILIST</span> </p>
+            <p className="mb-5">EDUCATION:<span className="font-bold">B.E/B.TECH(CSE/IT/SUBJECT AREA BEING TAUGHT; ADDITIONAL TEAACHING CERTIFICATION MAY BE REQUIRED).</span> </p>
+            <p className="mb-5">EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
+            <p className="mb-5">LOCATION: <span className="font-bold">REMOTE</span> </p>
+            <p className="mb-5">JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
+            <p className="mb-5">SALARY: <span className="font-bold">2.5-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
+        <div className="job-jd text-left text-sm  md:mx-20 md:text-xl ">
+         <p className="font-bold mb-5">Job Description:</p>
          <p>As a Instructor/Teaching specialist at TAS INNOVATION,you will be responsible for delivering high-quality, responsive, and engaging educational content to learners We are looking for candidates with a minimum of 5 projects under their belt who can work remotely and stay up-to-date with the latest technologies in the Instructor/Teaching field. </p>
-        <p className="font-bold">Roles & Qualification:</p>
-        <p className="font-bold">Responsibilities:</p>
-        <div className="ml-5">
+        <p className="font-bold mb-5">Roles & Qualification:</p>
+        <p className="font-bold mb-5">Responsibilities:</p>
+        <div className="md:ml-5">
             <li>
             Create and update course materials, lesson plans, and learning objectives aligned with industry trends. 
             </li>
@@ -50,7 +50,7 @@ export function Instructor(){
 
         </div>
         
-        <p className="font-bold">Qualifications:</p>
+        <p className="font-bold my-5">Qualifications:</p>
         <div className="ml-5">
             <li>
             {`Bachelor's`} Degree in Computer Graphics, Graphic Design, Communication Design, Illustration, Fine Arts, Art and Design, or a related fields.

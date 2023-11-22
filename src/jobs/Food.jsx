@@ -2,21 +2,21 @@
 export function Food(){
     return(
         <>
-        <h1 className="text-center text-2xl p-10 ">Food Product Developer role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">FOOD PRODUCT DEVELOPER</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(FOODSCIENCE,CULINARY ARTS,OR A RELATED FIELD).</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 2-3 YEARS OF EXPERIENCE </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">3-5 LPA</span> </p>   
+        <h1 className="text-center text-sm md:text-2xl p-10 ">Food Product Developer role</h1>
+        <div className="job-styl text-sm text-left md:ml-20 md:text-xl ">
+            <p className="mb-5">COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
+            <p className="mb-5">JOB TITLE: <span className="font-bold">FOOD PRODUCT DEVELOPER</span> </p>
+            <p className="mb-5">EDUCATION:<span className="font-bold">B.E/B.TECH(FOODSCIENCE,CULINARY ARTS,OR A RELATED FIELD).</span> </p>
+            <p className="mb-5">EXPERIENCE: <span className="font-bold">MIN 2-3 YEARS OF EXPERIENCE </span> </p>
+            <p className="mb-5">LOCATION: <span className="font-bold">REMOTE</span> </p>
+            <p className="mb-5">JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
+            <p className="mb-5">SALARY: <span className="font-bold">3-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
+        <div className="job-jd text-left text-sm md:mx-20 md:text-xl ">
+         <p className="font-bold mb-5">Job Description:</p>
          <p> As a Food Product Developer at TAS INNOVATION, you will play a crucial role in design and development of consumer products. Duties of this position include improving existing product designs and analyzing working concepts launched by competitors of similar products to match quality and performance. Depending on the industry and company, product designers may progress to a senior, executive or managerial role. technologies in the Instructor/Teaching field. </p>
-        <p className="font-bold">Roles & Qualification:</p>
-        <p className="font-bold">Responsibilities:</p>
+        <p className="font-bold mb-5">Roles & Qualification:</p>
+        <p className="font-bold mb-5">Responsibilities:</p>
         <div className="ml-5">
 
                 <li>

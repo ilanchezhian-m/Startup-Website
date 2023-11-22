@@ -1,4 +1,7 @@
 // import { Header } from "./components/Header";
+
+import { NavLink ,useLocation  } from 'react-router-dom';
+
 import Course1 from "../src/assets/Course1.png";
 import Course2 from "../src/assets/Course2.png";
 import Course3 from "../src/assets/Course3.png";
@@ -25,11 +28,20 @@ import Explore from "../src/assets/Explore.svg";
 
 
 export function Course(){
+    const location = useLocation();
+  
+    const handleClick = () => {
+      // Check if the current route is /carrer
+      if (location.pathname === '/courses') {
+        // Navigate to the section without smooth scrolling
+        const graphicSectionRef = document.getElementById("graphicScroll");
+        if (graphicSectionRef) {
+          graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
+        }
+      }}
+
     return(
         <>
-
-           
-
             <div className=" text-center py-8">
                             <h2 className="text-sm md:text-xl md:mx-20">
                                 {`"Innovation`} X Learning: <br /> Shaping Future Leaders through Education, Driving {`Innovations"`}
@@ -179,19 +191,19 @@ export function Course(){
              Explore TAS Opportunities
             </h1>
 
-            <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10">
+            <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10" id="internship-port">
             We Are Providing Internships For Students & Those Who Are Searching For Job Opportunities To Make Them Physically Fit With Industry Experience And Also To Know About Their Interested Domain.
             </p>
-
-            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div className="relative">
+                    {/* intenships opportunities */}
+            <div id="graphicSectionRef" className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+                        <div  className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
                                 <p className="absolute carrer-align left-20 text-black font-bold  p-2">
                                 Data Science
                                 </p>
-                                <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                                </button>
+                                    <NavLink onClick={handleClick}> 
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+                                    </NavLink>
                         </div>
 
 
@@ -200,20 +212,14 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Machine Learning
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
                             <p className="absolute carrer-align mx-2 left-12 text-black font-bold  p-2">
                             Artificial Intelligence 
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
             </div>
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
@@ -222,10 +228,7 @@ export function Course(){
                                 <p className="absolute carrer-align left-16 text-black font-bold  p-2">
                                 Ui/Ux Designing
                                 </p>
-                                <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                                </button>
-                        </div>
+                                                        </div>
 
 
                         <div className="relative">
@@ -233,20 +236,14 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Graphic Designing
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Web Development
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
             </div>
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
@@ -255,10 +252,7 @@ export function Course(){
                                 <p className="absolute carrer-align left-16 text-black font-bold  p-2">
                                 Python Development
                                 </p>
-                                <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                                </button>
-                        </div>
+                                                        </div>
 
 
                         <div className="relative">
@@ -266,20 +260,14 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Java Development
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             C Development
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
             </div>
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
@@ -288,10 +276,7 @@ export function Course(){
                                 <p className="absolute carrer-align left-16 text-black font-bold  p-2">
                                 C++ Development
                                 </p>
-                                <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                                </button>
-                        </div>
+                                                        </div>
 
 
                         <div className="relative">
@@ -299,20 +284,14 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             IoT Development
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
                             <p className="absolute carrer-align  text-black font-bold  p-2">
                             Sales and Marketing Development
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
             </div>
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
@@ -321,10 +300,7 @@ export function Course(){
                                 <p className="absolute carrer-align left-12 text-black font-bold  p-2">
                                 E-commerce Developer
                                 </p>
-                                <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                                </button>
-                        </div>
+                                                        </div>
 
 
                         <div className="relative">
@@ -332,20 +308,14 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             AWS Developer
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Fashion Designer
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
             </div>
 
@@ -355,10 +325,7 @@ export function Course(){
                                 <p className="absolute carrer-align left-16 text-black font-bold  p-2">
                                 Product Developer (Electronics)
                                 </p>
-                                <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                                </button>
-                        </div>
+                                                        </div>
 
 
                         <div className="relative">
@@ -366,20 +333,14 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Motion Designer
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
                             <p className="absolute carrer-align mx-2 left-12 text-black font-bold  p-2">
                             IEEE Paper Specialist
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
 
             </div>
 
@@ -390,10 +351,7 @@ export function Course(){
                             <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
                             Content Creator
                             </p>
-                            <button>
-                                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                            </button>
-                        </div>
+                                                </div>
             </div>
             
             <h1 className="text-center mx-2 text-base md:text-3xl mb-10">
@@ -420,7 +378,10 @@ export function Course(){
             </p>
             </div>
             </div>
+
+            <div id='graphicScroll'>
             <Bottom/>
+            </div>
             <Footer/>
 
 

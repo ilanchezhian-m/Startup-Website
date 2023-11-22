@@ -1,4 +1,7 @@
 // import { Header } from "./components/Header";
+
+import { NavLink,useNavigate} from "react-router-dom";
+
 import carrer from "../src/assets/carrer.png";
 import frame from "../src/assets/Frame.svg";
 import carrer1 from "../src/assets/carrer1.png";
@@ -34,6 +37,7 @@ import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
 
 export function Carrer() {
+  const navigate = useNavigate();
   return (
     <>
     
@@ -78,9 +82,9 @@ export function Carrer() {
         </h2>
       </div>
 
-      <div className=" items-center mx-1 md:mx-20">
+      <div className=" items-center mx-1 flex-1 ">
 
-      <div className="relative flex">
+      <div className="relative flex justify-center">
         <img src={carrer7} alt="" className="mb-10" />
               <h1 className="absolute top-0 left-0 right-0 bottom-0  md:text-3xl text-white flex items-center justify-center ">
                 P A S  S I O N
@@ -88,21 +92,21 @@ export function Carrer() {
       </div>
 
 
-      <div className="relative flex">
+      <div className="relative flex justify-center">
         <img src={carrer8} alt="" className="mb-10" />
         <h1 className="absolute top-0 left-0 right-0 bottom-0  md:text-3xl text-white flex items-center justify-center ">
                E X C E L L E N C E
               </h1>
         </div>
 
-        <div className="relative flex">
+        <div className="relative flex justify-center">
         <img src={carrer9} alt="" className="mb-10" />
         <h1 className="absolute top-0 left-0 right-0 bottom-0  md:text-3xl text-white flex items-center justify-center ">
         I N C L U S I V I T Y
               </h1>
       </div>
 
-        <div className="relative flex">
+        <div className="relative flex justify-center">
         <img src={carrer10} alt="" className="mb-10" />
         <h1 className="absolute top-0 left-0 right-0 bottom-0  md:text-3xl text-white flex items-center justify-center ">
         I N T E G R I T Y
@@ -128,33 +132,34 @@ export function Carrer() {
         </p>
       </div>
 
-      <img
+      <img 
         src={carrer11}
         alt="below-icon-image"
         className="w-full h-auto max-h-screen mb-20"
       />
-
-      <div className="flex flex-col items-center md:flex-row md:justify-evenly">
-
-        <div className="relative">
-            <img src={carrer12} alt="" className="mb-10 p-2" />
-                <p className="absolute carrer-align ml-2  text-white font-bold  p-2">
-                  Graphic Designer & Motion Designer
-                </p>
-                <button>
-                  <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
-        </div>
-
+    {/* navigate the job opportunities */}
+      <div  className="flex flex-col items-center md:flex-row md:justify-evenly">
+      <div id="graphicSectionRef" className="relative">
+          <img src={carrer12} alt="" className="mb-10 p-2" />
+          <p className="absolute carrer-align ml-2 text-white font-bold p-2">
+            Graphic Designer & Motion Designer
+          </p>
+          <NavLink to="../graphic" onClick={() => { navigate('../graphic'), window.scrollTo(0, 0); }}>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
+          </NavLink>
+      </div>
 
         <div className="relative">
           <img src={carrer13} alt="" className="mb-10 p-2" />
               <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
               AWS Developer
               </p>
-              <button>
-                <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-              </button>
+              
+               
+              <NavLink to="../aws" onClick={() => { navigate('../aws'); window.scrollTo(0, 0); }}>
+                <img src={carrerapplybutton} alt="image" className="absolute left-20 bottom-20" />
+                </NavLink>
+            
         </div>
 
         <div className="relative">
@@ -162,9 +167,9 @@ export function Carrer() {
               <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
               Sales and Marketing Specialist
               </p>
-              <button>
+              <NavLink to="../sales" onClick={() => { navigate('../sales'); window.scrollTo(0, 0); }}>
                 <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-              </button>
+                </NavLink>
         </div>
 
       </div>
@@ -177,9 +182,9 @@ export function Carrer() {
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 E-commerce Manager
                 </p>
-                <button>
+                <NavLink to="../ecommerce" onClick={() => { navigate('../ecommerce'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                  </NavLink>
         </div>
 
 
@@ -189,9 +194,9 @@ export function Carrer() {
                   <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                   Fashion Designer
                   </p>
-                  <button>
+                  <NavLink to="../fashion" onClick={() => { navigate('../fashion'); window.scrollTo(0, 0); }}>
                     <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                  </button>
+                    </NavLink>
         </div>
 
         <div className="relative">
@@ -199,9 +204,9 @@ export function Carrer() {
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 IoT Project Manager
                 </p>
-                <button>
+                <NavLink to="../iot" onClick={() => { navigate('../iot'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
         </div>
 
 
@@ -215,9 +220,9 @@ export function Carrer() {
                 <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
                 Product Developer (Electronics)
                 </p>
-                <button>
+                <NavLink to="../product" onClick={() => { navigate('../product'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
      
         </div>
 
@@ -226,9 +231,9 @@ export function Carrer() {
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 Motion Designer
                 </p>
-                <button>
+                <NavLink to="../motiondesign" onClick={() => { navigate('../motiondesign'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
         </div>
 
         <div className="relative">
@@ -236,9 +241,9 @@ export function Carrer() {
                 <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                 IEEE Paper Specialist
                 </p>
-                <button>
+                <NavLink to="../ieee" onClick={() => { navigate('../ieee'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
         
         </div>
       </div>
@@ -250,9 +255,9 @@ export function Carrer() {
                   <p className="absolute carrer-align mx-2  text-white font-bold  p-2">
                   Instructor/Teaching Specialist
                   </p>
-                  <button>
+                  <NavLink to="../instructor" onClick={() => { navigate('../instructor'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
         </div>
 
         <div className="relative">
@@ -260,9 +265,9 @@ export function Carrer() {
                   <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                   Food Product Developer
                   </p>
-                  <button>
+                  <NavLink to="../food" onClick={() => { navigate('../food'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
         </div>
 
         <div className="relative">
@@ -270,9 +275,9 @@ export function Carrer() {
                   <p className="absolute carrer-align mx-2 left-12 text-white font-bold  p-2">
                   Content Creator
                   </p>
-                  <button>
+                  <NavLink to="../content" onClick={() => { navigate('../content'); window.scrollTo(0, 0); }}>
                   <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20" />
-                </button>
+                 </NavLink>
         </div>
 
       </div>
@@ -305,11 +310,12 @@ export function Carrer() {
                   </a>
                </div>
       </div>
+      
+      <div id="graphicScroll">
       <Bottom/>
-      <Footer/>
-
-
-
+      </div>
+      <Footer/> 
     </>
+    
   );
 }

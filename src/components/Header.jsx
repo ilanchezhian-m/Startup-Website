@@ -121,34 +121,35 @@ export function Header() {
             
              <p className="para-smallcase">Carrer</p>
             </NavLink>
+
             <NavLink
               to="courses"
               onClick={closeMobileMenu}
             >
-              
               <p className="para-smallcase">Courses</p>
             </NavLink>
+
             <NavLink
               to="service"
               onClick={closeMobileMenu}
             >
-              
               <p className="para-smallcase">Services</p>
             </NavLink>
+
             <NavLink
               to="about"
               onClick={closeMobileMenu}
             >
-             
              <p className="para-smallcase">About</p>
             </NavLink>
+            
           </div>
         )}
       </header>
 
-      <main>
+     
         <Outlet />
-      </main>
+    
     </div>
   );
 }

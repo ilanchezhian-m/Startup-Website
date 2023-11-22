@@ -2,22 +2,22 @@
 export function Graphic(){
     return(
         <>
-        <h1 className="text-center text-2xl p-10 ">Graphic Designer Role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
-            <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
-            <p>JOB TITLE: <span className="font-bold">GRAPHIC DESIGNER</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(GRAPHIC DESIGN, FINE APPS OR A RELATED FIELD.)</span> </p>
-            <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
-            <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
-            <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
-            <p>SALARY: <span className="font-bold">3-5 LPA</span> </p>   
+        <h1 className="text-center text-sm md:text-2xl p-10 ">Graphic Designer Role</h1>
+        <div className="job-styl text-sm text-left md:ml-20 md:text-xl leading-10">
+            <p className="mb-5">COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
+            <p className="mb-5">JOB TITLE: <span className="font-bold">GRAPHIC DESIGNER</span> </p>
+            <p className="mb-5">EDUCATION:<span className="font-bold">B.E/B.TECH(GRAPHIC DESIGN, FINE APPS OR A RELATED FIELD.)</span> </p>
+            <p className="mb-5">EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
+            <p className="mb-5">LOCATION: <span className="font-bold">REMOTE</span> </p>
+            <p className="mb-5">JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
+            <p className="mb-5">SALARY: <span className="font-bold">3-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
-         <p className="font-bold">Job Description:</p>
-         <p>As a Graphic Designer at TAS INNOVATION, you will play a crucial role in designing, developing, and maintaining the top not that are notch & highly functional but also visually appealing and responsive. </p>
-        <p className="font-bold">Roles & Qualification:</p>
-        <p className="font-bold">Responsibilities:</p>
-        <div className="ml-5">
+        <div className="job-jd text-left text-sm md:mx-20 md:text-xl ">
+         <p className="font-bold mb-5">Job Description:</p>
+         <p className="mb-5">As a Graphic Designer at TAS INNOVATION, you will play a crucial role in designing, developing, and maintaining the top not that are notch & highly functional but also visually appealing and responsive. </p>
+        <p className="font-bold mb-5">Roles & Qualification:</p>
+        <p className="font-bold mb-5">Responsibilities:</p>
+        <div className="md:ml-5">
             <li>Create visually appealing and user-friendly interfaces for websites, web applications, and mobile apps..</li>
             <li>
             Apply principles of user-centered design to enhance the overall user experience.
@@ -37,7 +37,7 @@ export function Graphic(){
             <li>
             Information Architecture:  
             </li>
-            <div className="ml-3">
+            <div className="Md:ml-3">
                 <li >
                 Organize and structure content to improve navigation and findability. 
                 </li>
@@ -49,7 +49,7 @@ export function Graphic(){
                 </li>
             </div>
         </div>
-        <p className="font-bold">Qualifications:</p>
+        <p className="font-bold my-5">Qualifications:</p>
         <div className="ml-5">
             <li>
             A {`Bachelor's`} degree in graphic design or a related field, such as art, graphic arts, design, communications, or multimedia design. 

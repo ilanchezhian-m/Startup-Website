@@ -1,18 +1,36 @@
+import { NavLink ,useNavigate  } from 'react-router-dom';
+
 
 export function Aws(){
+    const navigate = useNavigate();
+    const handleClick = () => {
+    // Always navigate to /carrer
+    navigate('/carrer');
+
+    // Scroll to the section without smooth scrolling after a short delay
+    setTimeout(() => {
+      const graphicSectionRef = document.getElementById("graphicScroll");
+      if (graphicSectionRef) {
+        graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 1000); // Adjust the delay as needed
+  };
+
+
     return(
         <>
-        <h1 className="text-center text-2xl p-10 ">AWS Developer role</h1>
-        <div className="job-styl text-left ml-20 text-xl leading-10">
+        <div className="aws">
+        <h1 className="text-center  md:text-2xl p-10 ">AWS Developer role</h1>
+        <div className="job-styl  text-sm text-left md:ml-20 md:text-xl leading-10">
             <p>COMPANY: <span className="font-bold">TAS INNOVATION</span> </p>
             <p>JOB TITLE: <span className="font-bold">AWS DEVELOPER</span> </p>
-            <p className="">EDUCATION:<span className="font-bold">B.E/B.TECH(CSE/IT/AWS/CERTIFICATION/RELATED FIELDS)</span> </p>
+            <p className="flex-wrap">EDUCATION:<span className="font-bold ">B.E/B.TECH <br />(CSE/IT/AWS/CERTIFICATION/RELATED FIELDS)</span> </p>
             <p>EXPERIENCE: <span className="font-bold">MIN 5+ PROJECTS(FRESHER) </span> </p>
             <p>LOCATION: <span className="font-bold">REMOTE</span> </p>
             <p>JOB TYPE: <span className="font-bold">FULL TIME </span> </p>
             <p>SALARY: <span className="font-bold">3-5 LPA</span> </p>   
         </div>
-        <div className="job-jd text-left mx-20 text-xl leading-10">
+        <div className="job-jd text-left text-sm md:mx-20 md:text-xl leading-10">
          <p className="font-bold">Job Description:</p>
          <p>As a AWS Developer at TAS INNOVATION, you will play a crucial role in understanding the current application infrastructure and suggest changes to it & setting up a monitoring stack implementing service capacity planning strategies & ensure continual knowledge management. </p>
         <p className="font-bold">Roles & Qualification:</p>
@@ -64,9 +82,11 @@ export function Aws(){
         <p>If {`you're`} a passionate AWS Developer looking to join a dynamic and innovative team, apply now and be part of TAS {`Innovation's`} exciting journey.</p>
          </div>
          <p className="text-center">
+            <NavLink className={handleClick}>
          <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3">Apply Now</button>
+         </NavLink>
          </p>
-        
+         </div>
         
         </>
     )

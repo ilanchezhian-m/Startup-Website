@@ -24,6 +24,13 @@ body{
   font-weight: 100;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-y:scroll;
+}
+body::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(19, 54, 211, 0.8); /* Change the color as needed */
 }
 
 /* Header position */
