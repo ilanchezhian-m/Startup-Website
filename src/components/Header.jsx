@@ -53,7 +53,7 @@ export function Header() {
             
             <div className="hidden md:block">
               <h1>
-                <nav className=" space-x-4 text-base head-style">
+                <nav className=" space-x-8 text-base head-style">
                   <NavLink
                     to="/"
                     className={`nav-menu ${

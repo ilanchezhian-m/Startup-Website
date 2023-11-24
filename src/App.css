@@ -30,51 +30,47 @@ body::-webkit-scrollbar {
   width: 10px; /* Adjust the width as needed */
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(19, 54, 211, 0.8); /* Change the color as needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Change the color as needed */
 }
 
 /* Header position */
 .head-style{
   font-family: var(--head-font-family);
-}
-.nav-menu {
-  transition: background-color 1s ease, transform 10s ease;
-  /* Other styles for .nav-menu */
-}
+} 
 
-/* Add these styles to your existing stylesheet */
 
-.nav-menu {
-  transition: transform 0.5s ease-in-out;
-}
-
-.nav-menu:hover {
-  transform: translateY(-10px); 
-}
+/* hover for header */
 
 .active-link {
-  background-color: blue;
+  background-color:blue;   
   padding: 15px 15px;
   border-radius: 30px;
-  transform: translateY(-10px); 
-  transform: translate(50px, 100px);
+  position: relative;
+  top: -15px;
+}
+
+
+/* hover for service page  */
+
+.hover-link:hover {
+  filter: contrast(200%);
+  margin-left: 30px;
+  border-radius: 10px;
+
+}
+/*  */
+.carrer-hover:hover{
+  
+    filter: invert(100%);
+    transition: filter 0.3s ease;
+  
 }
 
 
 
-.one{
-  background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(204, 204, 204, 0.1) 100%);
-}
-.two{
-  background: linear-gradient(270deg, rgba(255,255,255,0.9), rgba(204, 204, 204, 0.4) 100%);
-}
 
 
 
-.explore-btn{
-background: rgba(38, 86, 255, 1);
-font-family: var(--head-font-family);
-}
 
 
 
@@ -92,6 +88,20 @@ footer{
 .alef-style{
   font-family: var(--footer-font-family);
 }
+
+  /* home page  */
+
+  .one{
+    background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(204, 204, 204, 0.1) 100%);
+  }
+  .two{
+    background: linear-gradient(270deg, rgba(255,255,255,0.9), rgba(204, 204, 204, 0.4) 100%);
+  }
+
+  .explore-btn{
+  background: rgba(38, 86, 255, 1);
+  font-family: var(--head-font-family);
+  }
 
 
 
@@ -130,8 +140,14 @@ footer{
   left:80px;
   color: rgb(255, 255, 255);
   font-weight: 900;
-
+  
+ 
 }
+.carrer-align:hover{
+  box-shadow: 0px 0px 40px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
 /* Course page */
 .course--style{
 top:2rem;

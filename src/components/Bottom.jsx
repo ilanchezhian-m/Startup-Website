@@ -137,10 +137,10 @@ export function Bottom() {
           <div className="leading-10 text-left">
           <p className="font-bold">Company</p>
          <nav>
-              <p><NavLink to="/" onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
-              <p><NavLink to="../carrer" onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
-              <p><NavLink to="../service" onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
-              <p><NavLink to="../about" onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
+              <p><NavLink target='_blank' to="/" onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
+              <p><NavLink target='_blank' to="../carrer" onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
+              <p><NavLink target='_blank' to="../service" onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
+              <p><NavLink target='_blank' to="../about" onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
           </nav> 
       </div>
   
@@ -182,13 +182,13 @@ export function Bottom() {
                     <img src={insta} alt="instagram logo" />
           </a>
           <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" target='_blank'>
-                    <img src={linkedin} alt="linkedin logo" />
+                    <img src={linkedin} alt="linkedin logo" className='h-[40px] w-[35px]'  />
           </a>
           <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
-                  <img src={youtube} alt="youtube logo" />
+                  <img src={youtube} alt="youtube logo" className='h-[40px] w-[35px]' />
           </a>
           <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer" target='_blank'>
-                  <img src={whatsapp} alt="whatsapp logo" />
+                  <img src={whatsapp} alt="whatsapp logo" className='h-[40px] w-[35px]'/>
           </a>
 
         </div>

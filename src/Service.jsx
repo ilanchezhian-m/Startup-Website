@@ -64,49 +64,49 @@ export function Service(){
         <div className="relative flex justify-center mb-10">
             <img src={service2} alt="" className="relative" />
             <NavLink onClick={handleClick}> 
-            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact" />
+            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact  hover-link" />
             </NavLink>
             
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service3} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/4  h-[30px] md:h-[70px] " />
+            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/4  h-[30px] md:h-[70px] hover-link  " />
             </NavLink>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service4} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] " />
+            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] hover-link" />
             </NavLink>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service5} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] " />
+            <img src={contact} alt="" className="absolute top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px]  hover-link" />
             </NavLink>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service6} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact" />
+            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact hover-link"  />
             </NavLink>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service7} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] " />
+            <img src={contact} alt="" className="absolute top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] hover-link " />
             </NavLink>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service8} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact--service8" />  </NavLink>
+            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact--service8 hover-link" />  </NavLink>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service9} alt="" className="relative" />
             <NavLink onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] " />
+            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] hover-link " />
             </NavLink>
         </div>
 
