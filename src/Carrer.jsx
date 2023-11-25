@@ -1,4 +1,4 @@
-// import { Header } from "./components/Header";
+
 
 import { NavLink} from "react-router-dom";
 
@@ -51,12 +51,14 @@ export function Carrer() {
       <img src={frame} alt="below-icon-image" className="mx-auto pt-2 pb-6" />
 
       {/* added linear gradient */}
-      <div className=" relative mb-10 flex md:mx-20">
+  
+        <div className=" relative mb-10 flex md:mx-20">
                 <div className="">
-                      <img src={carrer1} alt="image1" className="h-[350px] md:h-fit" />
+                      <img src={carrer1} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit" />
                 </div>
                <div className="one text-center absolute left-1/3 bottom-1/4">
-                      <p className="md:px-20 md:py-20 para text-xs md:text-base shrink-1">{`WE’RE`} A TEAM OF PASSIONATE INDIVIDUALS WORKING TOGETHER TO REVOLUTIONIZE THE TAS INNOVATION THROUGH INNVATION,DEDICATION AND SHARED COMMITMENT TO EXCELLENCE
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 py-5">
+                      {`WE’RE`} A TEAM OF PASSIONATE INDIVIDUALS WORKING TOGETHER TO REVOLUTIONIZE THE TAS INNOVATION THROUGH INNVATION,DEDICATION AND SHARED COMMITMENT TO EXCELLENCE
                     </p>
                    
               </div>

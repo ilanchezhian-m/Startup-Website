@@ -162,12 +162,34 @@ export function Course(){
                         </div>
               </div>
 
-              <img src={Course4} alt="" className="w-full h-auto mb-10" />
+              <div className='flex flex-row mb-10 justify-end '>
+                            <div className='course-teaching w-[400px] relative h-[250px]  md:h-[400px] md:w-screen'>
+                               
+                                <h6 className='absolute text-sm md:left-10 md:text-2xl md:mt-10'>Become An Instructor</h6>
+                              
+                                  <p className='absolute text-sm top-6 md:left-10 md:top-10 md:text-2xl md:mt-10 para-smallcase font-bold'>
+                                Instructors From Around The World Teach Millions Of Students On Udemy. We Provide The Tools And Skills To Teach What You Love.
+                                </p>
+
+                                <div className='absolute text-sm bottom-2 md:left-10 md:bottom-10 
+                                 md:text-2xl md:mt-10 para-smallcase bg-black text-white px-2 py-1 md:px-4 md:py-4 course-hover-talk'>
+                                    <button onClick={handleClick}>                                  
+                                          <p>Start Teaching Today</p>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                                <img src={Course4} alt="" className="h-[250px] w-[150px] md:h-[400px] md:w-[500px]" />
+                           
+            </div>
 
               
               <h1 className="text-center text-base md:text-3xl mb-10">
               Internships Of Top Companies
-            </h1>
+             </h1>
+
             <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10">
             Get All Internships Provided By Top Mnc Companies & Other Companies <br />Over 10000+ Opportunities Are Over There & Get Your Suitable One.
             </p>

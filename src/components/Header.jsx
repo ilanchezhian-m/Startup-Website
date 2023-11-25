@@ -19,7 +19,7 @@ export function Header() {
   };
 
   return (
-    <div>
+    <div className="container">
       <header>
         <div className="bg-black text-white px-8 py-7">
           <div className="flex items-center justify-between pr-5">

@@ -21,6 +21,7 @@ export function Home() {
   
   return (
     <>
+    <div>
       <main>
       <div className=" text-center py-6 text-3xl">
         <h2 className="text-sm md:text-2xl">{`"Sustainable`} AI Ventures: Crafting <br />Eco-Friendly Innovations through{` Technology"`}</h2>
@@ -171,11 +172,9 @@ export function Home() {
       <Bottom/>
       <Footer/>
    
+      </div>
 
-
-      {/* <Cookie/>
-<Privatepolicy/>
-<Terms/>  */}
+  
 
 
     </>

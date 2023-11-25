@@ -91,7 +91,7 @@ export function Instructor(){
         <p>If {`you're`} a passionate Instructor/Teaching looking to join a dynamic and innovative team, apply now and be part of TAS{`Innovation's`} exciting journey.</p>
          </div>
          <p className="text-center">
-              <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3" onClick={handleClick}>
+              <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3 job-button" onClick={handleClick}>
                 Apply Now
               </button>
          </p>

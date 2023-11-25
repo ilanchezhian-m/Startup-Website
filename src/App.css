@@ -26,6 +26,14 @@ body{
   overflow-x: hidden;
   overflow-y:scroll;
 }
+@media screen and (min-width: 1080px) {
+  .container {
+    min-width: 100vh;
+    align-items: center; 
+  }
+}
+
+
 body::-webkit-scrollbar {
   width: 10px; /* Adjust the width as needed */
 }
@@ -171,7 +179,24 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--job-font-family);
 }
 .job-button:hover{
-  padding: 20px 80px;
+  animation: shake .7s ease-in-out;
+  
+}
+@keyframes shake {
+  0% {
+      transform: translateY(0px);
+  }
+  50%{
+    transform:translateX(-50px);
+  }
+  100% {
+      transform: translateX(50px);
+  }
+}
+@media (pointer: coarse) {
+  .job-button:hover {
+      animation: none; /* Disable the shake animation on touch devices */
+  }
 }
 
 
@@ -205,6 +230,9 @@ margin-top: 200px;
   border-radius: 10px;
   font-weight: bold;
 }
+.course-teaching{
+  background-color:rgba(196, 196, 196, 1);
+}
 
 
 
@@ -215,7 +243,6 @@ footer{
  .bottom{
    font-family: var(--footer-font-family);
  }
- 
  .alef-style{
    font-family: var(--footer-font-family);
  }
