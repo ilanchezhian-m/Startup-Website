@@ -124,19 +124,16 @@ body::-webkit-scrollbar-thumb {
 /* hover for service page  */
 
 .hover-link:hover {
-  animation: shake 0.2s ease-in-out;
+  animation: shake .7s ease-in-out;
   filter: contrast(200%);
 
 }
 @keyframes shake {
-  0%, 100% {
-      transform: translateY(0);
+  0% {
+      transform: translateY(0px);
   }
-  25%, 75% {
-      transform: translateX(-4px);
-  }
-  50% {
-      transform: translateY(-5px);
+  100% {
+      transform: translateX(-100px);
   }
 }
 @media (pointer: coarse) {
