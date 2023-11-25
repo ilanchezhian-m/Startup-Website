@@ -83,7 +83,7 @@ export function Aws(){
          </div>
 
          <p className="text-center">
-              <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3" onClick={handleClick}>
+              <button className=" bg-black font-semibold text-white rounded-sm my-4 px-10 py-3 job-button" onClick={handleClick}>
                 Apply Now
               </button>
          </p>

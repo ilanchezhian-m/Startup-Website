@@ -105,7 +105,7 @@ export function Course(){
             <div className="flex flex-col items-center md:flex-row md:justify-evenly  md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2 " />
-                                <p className="absolute carrer-align left-1/4 text-black font-bold ">
+                                <p className="absolute course-align left-1/4 text-black font-bold ">
                                 DEVELOPMENT
                                 </p>
                                 <button>
@@ -116,21 +116,21 @@ export function Course(){
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-20 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-20 text-black font-bold  p-2">
                             DESIGN
                             </p>
                             <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20 course-hover" />
                             </button>
                         </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             IT/SOFTWARE
                             </p>
                             <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20 course-hover" />
                             </button>
                         </div>
 
@@ -139,22 +139,22 @@ export function Course(){
              <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align ml-2 left-6  text-black font-bold  p-2">
+                                <p className="absolute course-align ml-2 left-6  text-black font-bold  p-2">
                                 PERSONAL DEVELOPMENT
                                 </p>
                                 <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20 course-hover" />
                                 </button>
                         </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-20 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-20 text-black font-bold  p-2">
                             BUSINESS
                             </p>
                             <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                <img src={Explore} alt="" className="absolute left-20 bottom-20 course-hover" />
                             </button>
                         </div>
               </div>
@@ -199,32 +199,32 @@ export function Course(){
             <div id="graphicSectionRef" className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div  className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align left-20 text-black font-bold  p-2">
+                                <p className="absolute course-align left-20 text-black font-bold  p-2">
                                 Data Science
                                 </p>
                                     <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                         </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Machine Learning
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-12 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-12 text-black font-bold  p-2">
                             Artificial Intelligence 
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
@@ -232,32 +232,32 @@ export function Course(){
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align left-16 text-black font-bold  p-2">
+                                <p className="absolute course-align left-16 text-black font-bold  p-2">
                                 Ui/Ux Designing
                                 </p>
                                  <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                    </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Graphic Designing
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Web Development
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
@@ -265,32 +265,32 @@ export function Course(){
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align left-16 text-black font-bold  p-2">
+                                <p className="absolute course-align left-16 text-black font-bold  p-2">
                                 Python Development
                                 </p>
                                  <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                    </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Java Development
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             C Development
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
@@ -298,32 +298,32 @@ export function Course(){
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align left-16 text-black font-bold  p-2">
+                                <p className="absolute course-align left-16 text-black font-bold  p-2">
                                 C++ Development
                                 </p>
                                  <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                    </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             IoT Development
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align  text-black font-bold  p-2">
+                            <p className="absolute course-align  text-black font-bold  p-2">
                             Sales and Marketing Development
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
@@ -331,32 +331,32 @@ export function Course(){
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align left-12 text-black font-bold  p-2">
+                                <p className="absolute course-align left-12 text-black font-bold  p-2">
                                 E-commerce Developer
                                 </p>
                                  <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                    </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             AWS Developer
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Fashion Designer
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
@@ -365,32 +365,32 @@ export function Course(){
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
                             <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute carrer-align left-16 text-black font-bold  p-2">
+                                <p className="absolute course-align left-16 text-black font-bold  p-2">
                                 Product Developer (Electronics)
                                 </p>
                                  <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                    </div>
 
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Motion Designer
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
                         <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-12 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-12 text-black font-bold  p-2">
                             IEEE Paper Specialist
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
 
@@ -400,11 +400,11 @@ export function Course(){
 
           <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute carrer-align mx-2 left-16 text-black font-bold  p-2">
+                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
                             Content Creator
                             </p>
                              <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 carrer-hover" />
+                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
                                     </NavLink>
                                </div>
             </div>
@@ -434,7 +434,7 @@ export function Course(){
                 </p>
 
                 <p className="text-center para-smallcase  text-xs mb-10 absolute bottom-1 left-2 lg:left-10 sm:text-xl md:bottom-[20px]  lg:bottom-[180px]">
-                <button onClick={handleClick} className="text-white bg-black px-2  py-1 sm:px-14 :py-4 text-xs lg:text-2xl">
+                <button onClick={handleClick} className="text-white bg-black px-2  py-1 sm:px-14 :py-4 text-xs lg:text-2xl course-hover-talk ">
                     TALK WITH US
                 </button>
                 </p>

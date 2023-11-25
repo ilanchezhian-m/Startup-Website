@@ -119,7 +119,7 @@ export function Bottom() {
                 />
               </p>
 
-              <button className="text-xs md:text-base mt-5 py-3 px-4 bg-blue-700 rounded font-bold alef-style text-left">
+              <button className="text-xs md:text-base mt-5 py-3 px-4 bg-blue-700 rounded font-bold alef-style text-left send-message">
                 SEND MESSAGE
               </button>
             </fieldset>
@@ -137,58 +137,58 @@ export function Bottom() {
           <div className="leading-10 text-left">
           <p className="font-bold">Company</p>
          <nav>
-              <p><NavLink target='_blank' to="/" onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
-              <p><NavLink target='_blank' to="../carrer" onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
-              <p><NavLink target='_blank' to="../service" onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
-              <p><NavLink target='_blank' to="../about" onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
+              <p><NavLink target='_blank' to="/" className='bottom-style' onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
+              <p><NavLink target='_blank' to="../carrer" className='bottom-style' onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
+              <p><NavLink target='_blank' to="../service" className='bottom-style' onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
+              <p><NavLink target='_blank' to="../about" className='bottom-style' onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
           </nav> 
       </div>
   
              
       <div className="leading-10 text-left">
         <p className="font-bold">Support</p>
-                  <p><NavLink target='_blank'  to="../terms" onClick={()=>{window.scrollTo(0,0);}}>Terms of use</NavLink></p>
-                  <p><NavLink target='_blank' to="../private" onClick={()=>{window.scrollTo(0,0);}}>Privacy policy</NavLink></p>
-                  <p><NavLink target='_blank' to ="../cookie" onClick={()=>{window.scrollTo(0,0);}}>Cookie policy</NavLink></p>
+                  <p><NavLink target='_blank'  to="../terms" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Terms of use</NavLink></p>
+                  <p><NavLink target='_blank' to="../private" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Privacy policy</NavLink></p>
+                  <p><NavLink target='_blank' to ="../cookie" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Cookie policy</NavLink></p>
       </div>
 
       {/* navigation to the exact locations*/}
   <div className="leading-10 text-left">
         <p className="font-bold">Students</p>
-        <p><NavLink to="../carrer" onClick={handleClick}>Jobs</NavLink></p>
-        <p><NavLink to="../courses" onClick={handleClick1}>Internships</NavLink></p>
-        <p><NavLink to="../courses"  onClick={()=>{window.scrollTo(0,0);}}>Course</NavLink></p>
-        <p><NavLink>Training & certifications</NavLink></p>
+        <p><NavLink to="../carrer" className='bottom-style' onClick={handleClick}>Jobs</NavLink></p>
+        <p><NavLink to="../courses" className='bottom-style' onClick={handleClick1}>Internships</NavLink></p>
+        <p><NavLink to="../courses"  className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Course</NavLink></p>
+        <p><NavLink className='bottom-style'>Training & certifications</NavLink></p>
   </div>
 
   <div className="leading-10 text-left">
     <p className="font-bold">Contact Us</p>
-    <p>+91 8072877622</p>
-    <p>+91 6380654780</p>
-    <p>Email</p>
-    <p>Support@tasinnovation.com</p>
+    <p className='bottom-style'>+91 8072877622</p>
+    <p className='bottom-style'>+91 6380654780</p>
+    <p className='bottom-style'>Email</p>
+    <p className='bottom-style'>Support@tasinnovation.com</p>
   </div>
 
 </div>
         <div className="flex justify-evenly mx-5 my-8" >
-            < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
+            < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank' >
       
-                  <img src={Twitter} alt="twitter x logo"  />
+                  <img src={Twitter} alt="twitter x logo" className='  bottom-fontstyle' />
            </a>
           <a href="https://www.facebook.com/profile.php?id=100086967900946" rel="noreferrer" target='_blank'>
-                     <img src={fb} alt="facebook logo" />
+                     <img src={fb} alt="facebook logo" className=' bottom-fontstyle' />
           </a>
           <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
-                    <img src={insta} alt="instagram logo" />
+                    <img src={insta} alt="instagram logo" className=' bottom-fontstyle' />
           </a>
           <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" target='_blank'>
-                    <img src={linkedin} alt="linkedin logo" className='h-[40px] w-[35px]'  />
+                    <img src={linkedin} alt="linkedin logo" className='h-[40px] w-[35px] bottom-fontstyle'  />
           </a>
           <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
-                  <img src={youtube} alt="youtube logo" className='h-[40px] w-[35px]' />
+                  <img src={youtube} alt="youtube logo" className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
           <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer" target='_blank'>
-                  <img src={whatsapp} alt="whatsapp logo" className='h-[40px] w-[35px]'/>
+                  <img src={whatsapp} alt="whatsapp logo" className='h-[40px] w-[35px] bottom-fontstyle'/>
           </a>
 
         </div>

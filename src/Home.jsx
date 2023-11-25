@@ -41,7 +41,7 @@ export function Home() {
                         EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
                     </p>
                     <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white    py-2 md:py-4 rounded-sm mt-5 ">
-                      <NavLink target="_blank" to="explore1" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink></button>
+                      <NavLink target="_blank" to="explore1"  onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink></button>
               </div>
         </div>
 
@@ -119,7 +119,7 @@ export function Home() {
       </div>
 
       
-      <div className="text-center bg-black text-white py-10 mb-5">
+      <div className="text-center bg-black text-white py-10 mb-8">
         <h2 className="text-xl md:text-3xl py-5">SERVICES </h2>
         <p className="text-normal px-10 md:text-2xl para">
           “SMART ECOLOGY SOLUTIONS,SUSTAINABLE AI VENTURES,POWER,IOT,TECH &
@@ -127,7 +127,7 @@ export function Home() {
         </p>
       </div>
       
-      <div className="text-center bg-black text-white py-10 mb-5">
+      <div className="text-center bg-black text-white py-10 mb-8">
         <h2 className="text-normal md:text-3xl py-5">ABOUT US</h2>
         <p className="text-normal px-10 md:text-2xl para">
           “WE HARNESS AI’S POTENTIAL TO CREATE ECO-FRIENDLY SOLUTIONS,FOSTER
@@ -136,7 +136,7 @@ export function Home() {
         </p>
       </div>
       
-      <div className="text-center bg-black text-white py-10 mt-5">
+      <div className="text-center bg-black text-white py-10 mb-5">
         <h2 className=" text-sm md:text-3xl py-5">OUR TESTIMONIALS</h2>
         <div className="flex justify-evenly">
         <h3 className="text-sm md:text-2xl">10+ <br /> core Projects</h3>
@@ -144,11 +144,12 @@ export function Home() {
         <h3 className="text-sm md:text-2xl">20+ <br /> Customers</h3>
         </div>
       </div>
+
       {/* telegram link need to be added */}
-     <a href=""> <img src={img3} alt="telegramimage" className="flex w-screen " /></a>
-      <br />
+     <a href=""> <img src={img3} alt="telegramimage" className="flex w-screen mb-10 " /></a>
+     
       
-      <div className="relative flex">
+      <div className="relative flex mb-10">
              <img src={img4} alt="lfe at TAS" className=" w-screen " />
               <h1 className="absolute text-sm  top-1/2 left-2 md:left-10  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS
@@ -165,7 +166,7 @@ export function Home() {
                   </a>
                </div>
       </div>
-      <br />
+      
       </main>
       <Bottom/>
       <Footer/>

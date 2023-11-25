@@ -56,7 +56,7 @@ export function Carrer() {
                       <img src={carrer1} alt="image1" className="h-[350px] md:h-fit" />
                 </div>
                <div className="one text-center absolute left-1/3 bottom-1/4">
-                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">{`WE’RE`} A TEAM OF PASSIONATE INDIVIDUALS WORKING TOGETHER TO REVOLUTIONIZE THE TAS INNOVATION THROUGH INNVATION,DEDICATION AND SHARED COMMITMENT TO EXCELLENCE
+                      <p className="md:px-20 md:py-20 para text-xs md:text-base shrink-1">{`WE’RE`} A TEAM OF PASSIONATE INDIVIDUALS WORKING TOGETHER TO REVOLUTIONIZE THE TAS INNOVATION THROUGH INNVATION,DEDICATION AND SHARED COMMITMENT TO EXCELLENCE
                     </p>
                    
               </div>
@@ -141,7 +141,7 @@ export function Carrer() {
       <div  className="flex flex-col items-center md:flex-row md:justify-evenly">
       <div id="graphicSectionRef" className="relative">
           <img src={carrer12} alt="" className="mb-10 p-2" />
-          <p className="absolute carrer-align font-black ">
+          <p className="absolute carrer-align  ">
             Graphic Designer & Motion Designer
           </p>
           <NavLink target='_blank' to='/graphic' onClick={() => {  window.scrollTo(0, 0); } } >
@@ -282,12 +282,13 @@ export function Carrer() {
 
       </div>
 
-      <div className=" relative mb-10 flex md:mx-20">
+        <div className=" relative mb-10 flex md:mx-20">
                 <div className="">
-                      <img src={carrer24} alt="image1" className="h-[350px] md:h-fit" />
+                      <img src={carrer24} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit" />
                 </div>
-               <div className="one text-center absolute md:left-1/3 md:bottom-1/4">
-                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1">“GREATER FUTURES THROUGH INNOVATION WATCHING THE WORLD OF NEXT-TECH UNFOLD.{`IT’S`} TIME TO BE PART OF IT.EXPLORE CHALLENGING AND EXCITING OPPORTUNITIES ACROSS THE GLOBE”
+               <div className="one text-center absolute left-1/3 bottom-1/4">
+                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 py-5">
+                      “GREATER FUTURES THROUGH INNOVATION WATCHING THE WORLD OF NEXT-TECH UNFOLD.{`IT’S`} TIME TO BE PART OF IT.EXPLORE CHALLENGING AND EXCITING OPPORTUNITIES ACROSS THE GLOBE”
                     </p>
                    
               </div>
@@ -295,18 +296,18 @@ export function Carrer() {
 
         <div className="relative flex">
              <img src={img4} alt="lfe at TAS" className=" w-screen " />
-              <h1 className="absolute text-sm top-0 left-5 right-0 bottom-0  md:text-3xl text-white flex items-center justify-start ">
+              <h1 className="absolute text-sm  top-1/2 left-2 md:left-10  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS
               </h1>
-              <div className="flex absolute right-10 top-1/2 h-[20px] md:h-fit">
+              <div className="flex absolute right-10 top-1/2 ">
                   <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
-                      <img src={insta} alt="" className=" md:mx-10" />
+                      <img src={insta} alt="" className=" md:mx-10 h-[20px] md:h-fit" />
                   </a>
                   <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
-                      <img src={x} alt="" className="ml-5 md:mx-10" />
+                      <img src={x} alt="" className="ml-5 md:mx-10 h-[20px] md:h-fit" />
                     </a>
                   <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
-                      <img src={youtube} alt="" className=" ml-5 md:ml-10" />
+                      <img src={youtube} alt="" className=" ml-5 md:ml-10 h-[20px] md:h-fit" />
                   </a>
                </div>
       </div>

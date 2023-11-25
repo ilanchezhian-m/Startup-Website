@@ -50,47 +50,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* hover for service page  */
-
-.hover-link:hover {
-  filter: contrast(200%);
-  margin-left: 30px;
-  border-radius: 10px;
-
-}
-/*  */
-.carrer-hover:hover{
-  
-    filter: invert(100%);
-    transition: filter 0.3s ease;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* Bottom and footer */
-footer{
- font-family: var(--footer-font-family);
-}
-.bottom{
-  font-family: var(--footer-font-family);
-}
-
-.alef-style{
-  font-family: var(--footer-font-family);
-}
-
   /* home page  */
 
+/* linear gradient for images flex */
   .one{
     background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(204, 204, 204, 0.1) 100%);
   }
@@ -102,10 +64,15 @@ footer{
   background: rgba(38, 86, 255, 1);
   font-family: var(--head-font-family);
   }
+  .explore-btn:hover{
+    filter: contrast(200%);
+    margin-left: 20px;
+    border-radius: 10px;
+    color:white ;
+  }
+  
 
-
-
-/* explore page 1,2,3,4,5 */
+/* home-page  explore  1,2,3,4,5 */
 .para{
   font-family: var(--paraa-font-family);
 }
@@ -118,13 +85,7 @@ footer{
 
 
 
-/* JOBS application */
-.job-styl{
-  font-family: var(--paraa-font-family)
-}
-.job-jd{
-  font-family: var(--job-font-family);
-}
+
 
 /* Service page */
 .image--contact{
@@ -133,6 +94,18 @@ footer{
 .image--contact--service8{
   top:70%;
 }
+/* hover for service page  */
+
+.hover-link:hover {
+  filter: contrast(200%);
+  margin-left: 20px;
+  border-radius: 10px;
+
+}
+
+
+
+
 
 /* carrer page */
 .carrer-align{
@@ -140,13 +113,33 @@ footer{
   left:80px;
   color: rgb(255, 255, 255);
   font-weight: 900;
-  
  
 }
+/* carrer page -JOBS application  */ 
 .carrer-align:hover{
   box-shadow: 0px 0px 40px 10px rgb(255, 255, 255);
   border-radius: 10px;
 }
+/*  apply menu  carrer page*/
+.carrer-hover:hover{
+  filter: invert(100%);
+  transition: filter 0.3s ease;
+}
+
+.job-styl{
+  font-family: var(--paraa-font-family)
+}
+.job-jd{
+  font-family: var(--job-font-family);
+}
+.job-button:hover{
+  padding: 20px 80px;
+}
+
+
+
+
+
 
 /* Course page */
 .course--style{
@@ -154,6 +147,55 @@ top:2rem;
 margin-top: 200px;
 }
 
+.course-align{
+  top:150px;
+  left:80px;
+  font-weight: 900;
+}
+.course-align:hover{
+  box-shadow: 0px 0px 40px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+/* button apply menu */
+.course-hover:hover{
+  filter: invert(100%);
+  transition: filter 0.3s ease;
+}
+.course-hover-talk:hover{
+  filter: invert(100%);
+  transition: filter 0.3s ease;
+  border-radius: 10px;
+  font-weight: bold;
+}
 
+
+
+/* Bottom and footer page*/
+footer{
+  font-family: var(--footer-font-family);
+ }
+ .bottom{
+   font-family: var(--footer-font-family);
+ }
+ 
+ .alef-style{
+   font-family: var(--footer-font-family);
+ }
+ /* send message button -bottom page*/
+ .send-message:hover{
+    background-color:blue;   
+   padding: 25px 35px;
+   border-radius: 5px;
+  
+ }
+ /* hover of bottom and logo */
+ .bottom-style:hover{
+   color: blue;
+ }
+ .bottom-fontstyle:hover{
+   background-color: rgb(216, 213, 213);
+   padding: 5px;
+   border-radius: 100px;
+ }
 
 
