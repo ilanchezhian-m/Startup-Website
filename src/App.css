@@ -63,14 +63,25 @@ body::-webkit-scrollbar-thumb {
   .explore-btn{
   background: rgba(38, 86, 255, 1);
   font-family: var(--head-font-family);
-  }
-  .explore-btn:hover{
-    filter: contrast(200%);
-    margin-left: 20px;
-    border-radius: 10px;
-    color:white ;
-  }
   
+  }
+  .explore-btn:hover {
+    animation: rotate .4s ease;
+  }
+
+@keyframes rotate{
+  0%{
+    transform: rotate(60deg);
+  }
+  50%{
+    transform:rotate(270deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+
 
 /* home-page  explore  1,2,3,4,5 */
 .para{
@@ -97,10 +108,20 @@ body::-webkit-scrollbar-thumb {
 /* hover for service page  */
 
 .hover-link:hover {
+  animation: shake 0.2s ease-in-out;
   filter: contrast(200%);
-  margin-left: 20px;
-  border-radius: 10px;
 
+}
+@keyframes shake {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  25%, 75% {
+      transform: translateX(-4px);
+  }
+  50% {
+      transform: translateY(-5px);
+  }
 }
 
 
@@ -184,10 +205,18 @@ footer{
  /* send message button -bottom page*/
  .send-message:hover{
     background-color:blue;   
-   padding: 25px 35px;
-   border-radius: 5px;
-  
+    border-radius: 5px;
+    transform: scale(1.1);
+    animation: pulse 1s infinite;
  }
+ @keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+}
  /* hover of bottom and logo */
  .bottom-style:hover{
    color: blue;

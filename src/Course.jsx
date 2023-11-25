@@ -68,33 +68,36 @@ export function Course(){
 
 
 
-{/* alignment issues on paragraph */}
-          <div className="relative flex">
-                <img src={Course2} alt="" className="h-[300px] md:h-[500px] mb-10 w-full" />
-                        <div className="flex absolute top-1/4 md:left-[100px]">
-                                    <div className="mx-1 md:mx-10">
-                                        <img src={Course7} alt="" className=" h-[30px] md:h-[80px]" />
-                                        <p className="para-smallcase text-xs md:text-xl ">Learn Anything</p>
-                                    </div>
-                                    <div className="mx-1 md:mx-10">
-                                        <img src={Course8} alt="" className=" h-[30px] md:h-[80px]" />
-                                        <p className="para-smallcase text-xs md:text-xl ">Save money & Get Courses</p>
-                                    </div>
-                                    <div className="mx-1 md:mx-10">
-                                        <img src={Course9} alt="" className=" h-[30px] md:h-[80px]" />
-                                        <p className="para-smallcase text-xs md:text-xl ">Unlimited Certificates</p>
-                                    </div>
-                                    <div className="mx-1 md:mx-10">
-                                        <img src={Course10} alt="" className=" h-[30px] md:h-[80px]" />
-                                        <p className="para-smallcase text-xs md:text-xl ">Flexible learning</p>
-                                    </div> 
-                        </div>
-                                    <div className="flex absolute bottom-1/4 left-2 md:left-[150px]">
-                                            <h1 className=" text-xs md:text-base ">
-                                                Trusted By Over 14,400 Companies And Millions Of Learners Around The World
-                                            </h1>
-                                    </div>
-         </div>
+             <div className="relative flex flex-col items-center justify-center h-full mb-10">
+  <img src={Course2} alt="" className="h-[300px] md:h-[500px] w-full" />
+
+  <div className="flex absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:flex-row  ">
+    <div className='mx- 2 md:mx-10'>
+      <img src={Course7} alt="" className="h-[30px] md:h-[80px] " />
+      <p className="para-smallcase text-xs md:text-xl">Learn Anything</p>
+    </div>
+    <div className='mx- 2 md:mx-10'>
+      <img src={Course8} alt="" className="h-[30px] md:h-[80px] " />
+      <p className="para-smallcase text-xs md:text-xl">Save money & Get Courses</p>
+    </div>
+    <div className='mx- 2 md:mx-10'>
+      <img src={Course9} alt="" className="h-[30px] md:h-[80px] " />
+      <p className="para-smallcase text-xs md:text-xl">Unlimited Certificates</p>
+    </div>
+    <div className='mx- 2 md:mx-10'>
+      <img src={Course10} alt="" className="h-[30px] md:h-[80px] " />
+      <p className="para-smallcase text-xs md:text-xl">Flexible learning</p>
+    </div>
+  </div>
+
+  <div className="flex absolute bottom- md:bottom-10 left-1 md:left-1/4 md:flex-row">
+    <p className="text-xs md:text-xl para-smallcase font-bold">
+      Trusted By Over 14,400 Companies And Millions Of Learners Around The World
+    </p>
+  </div>
+</div>
+
+
 
 
              <h1 className="text-center text-base md:text-3xl mb-10">
