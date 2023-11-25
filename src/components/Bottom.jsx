@@ -63,7 +63,7 @@ export function Bottom() {
       <div className="align-items flex-1">
       <div className="bg-black text-white py-10 flex-row px-1 pl-2 md:pl-10 justify-center">
               <div className="flex justify-center">
-              <h4 className="bg-blue-700 inline-block py-2 px-2 md:py-5 md:px-20 alfa text-xs md:text-xl now justify-center">
+              <h4 className="message-color inline-block py-2 px-2 md:py-5 md:px-20 alfa text-xs md:text-xl now justify-center">
                 FEEL FREE TO CONNECT WITH US
               </h4>
               </div>
@@ -72,28 +72,29 @@ export function Bottom() {
                 Welcome to TAS innovation. Our team will response within 24 hours
               </h4>
 
-        <div className="flex bottom justify-center">
+        <div className="flex bottom justify-center ">
           <form>
             <fieldset>
               <p>
                 <input
                   type="text"
                   id="name"
+                  required="on"
                   autoComplete="on"
-                  placeholder="your Name"
-                  className="rounded mt-5 text-black pr-0 pl-1 md:pr-10 md:px-4 py-1"
+                  placeholder="Your Name"
+                  className="rounded mt-4 px-2 text-black md:pr-20 py-2 "
                 />
-                <br />
+                
               </p>
 
               <p>
                 <input
                   type="email"
                   id="email"
-                  required
+                  required="on"
                   autoComplete="on"
                   placeholder="Mail"
-                  className="rounded mt-5 pr-0 pl-1 md:pr-10 md:px-4 py-1"
+                  className="rounded mt-4 px-2 text-black md:pr-20 py-2 "
                 />
               </p>
 
@@ -101,10 +102,10 @@ export function Bottom() {
                 <input
                   type="tel"
                   id="number"
-                  required
+                  required="on"
                   autoComplete="on"
                   placeholder="Mobile"
-                  className="rounded mt-5 text-black pr-0 pl-1 md:pr-10 md:px-4 py-1 "
+                  className="rounded mt-4 px-2 text-black md:pr-20 py-2"
                 />
               </p>
 
@@ -112,14 +113,14 @@ export function Bottom() {
                 <input
                   type="text"
                   id="message"
-                  required
+                  required="on"
                   autoComplete="on"
                   placeholder="write your message"
-                  className="rounded mt-4 py-3 pr-0 pl-1 text-black md:px-4 md:pr-10 md:py:7"
+                  className="rounded mt-4 px-2 text-black md:pr-20 py-8 "
                 />
               </p>
 
-              <button className="text-xs md:text-base mt-5 py-3 px-4 bg-blue-700 rounded font-bold alef-style text-left send-message">
+              <button className="text-xs md:text-base mt-5 py-3 px-4 message-color alef-style rounded font-bold alef-style text-left send-message">
                 SEND MESSAGE
               </button>
             </fieldset>

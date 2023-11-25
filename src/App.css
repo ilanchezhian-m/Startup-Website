@@ -66,20 +66,31 @@ body::-webkit-scrollbar-thumb {
   
   }
   .explore-btn:hover {
-    animation: rotate .4s ease-in-out;
+    animation: rotate .4s  ;
   }
 
 @keyframes rotate{
   0%{
     transform: rotate(60deg);
   }
-  50%{
-    transform:rotate(270deg);
-  }
+ 
   100%{
     transform: rotate(180deg);
   }
 }
+/* alternative animation 
+.explore-btn:hover {
+  animation: pulse .3s ease-out;
+}
+
+@keyframes pulse {
+0%, 100% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.1);
+}
+} */
 @media (pointer: coarse) {
   .explore-btn:hover {
       animation: none; /* Disable the shake animation on touch devices */
@@ -211,6 +222,12 @@ footer{
  .alef-style{
    font-family: var(--footer-font-family);
  }
+
+.message-color{
+  background-color: rgba(38, 86, 255, 1);
+}
+
+ 
  /* send message button -bottom page*/
  .send-message:hover{
     background-color:blue;   

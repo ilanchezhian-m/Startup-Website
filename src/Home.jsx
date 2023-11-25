@@ -40,7 +40,7 @@ export function Home() {
                       <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 py-5">
                         EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
                     </p>
-                    <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white    py-2 md:py-4 rounded-sm mt-5 ">
+                    <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white  py-2 md:py-4 rounded-sm mt-5 ">
                       <NavLink target="_blank" to="explore1"  onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink></button>
               </div>
         </div>

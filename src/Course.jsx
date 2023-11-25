@@ -72,25 +72,25 @@ export function Course(){
   <img src={Course2} alt="" className="h-[300px] md:h-[500px] w-full" />
 
   <div className="flex absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:flex-row  ">
-    <div className='mx- 2 md:mx-10'>
-      <img src={Course7} alt="" className="h-[30px] md:h-[80px] " />
+    <div className='mx-2 md:mx-10'>
+      <img src={Course7} alt="" className="h-[30px] md:h-[80px] md:mb-5" />
       <p className="para-smallcase text-xs md:text-xl">Learn Anything</p>
     </div>
-    <div className='mx- 2 md:mx-10'>
-      <img src={Course8} alt="" className="h-[30px] md:h-[80px] " />
+    <div className='mx-2 md:mx-10'>
+      <img src={Course8} alt="" className="h-[30px] md:h-[80px] md:mb-5 " />
       <p className="para-smallcase text-xs md:text-xl">Save money & Get Courses</p>
     </div>
-    <div className='mx- 2 md:mx-10'>
-      <img src={Course9} alt="" className="h-[30px] md:h-[80px] " />
+    <div className='mx-2 md:mx-10'>
+      <img src={Course9} alt="" className="h-[30px] md:h-[80px] md:mb-5 " />
       <p className="para-smallcase text-xs md:text-xl">Unlimited Certificates</p>
     </div>
-    <div className='mx- 2 md:mx-10'>
-      <img src={Course10} alt="" className="h-[30px] md:h-[80px] " />
+    <div className='mx-2 md:mx-10'>
+      <img src={Course10} alt="" className="h-[30px] md:h-[80px] md:mb-5" />
       <p className="para-smallcase text-xs md:text-xl">Flexible learning</p>
     </div>
   </div>
 
-  <div className="flex absolute bottom- md:bottom-10 left-1 md:left-1/4 md:flex-row">
+  <div className="flex absolute bottom-3 md:bottom-10 left-3 md:left-1/4 md:flex-row">
     <p className="text-xs md:text-xl para-smallcase font-bold">
       Trusted By Over 14,400 Companies And Millions Of Learners Around The World
     </p>
