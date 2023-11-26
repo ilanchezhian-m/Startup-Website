@@ -11,7 +11,7 @@ export function About(){
         
         {/* <Header/> */}
             <div className="text-center">
-            <h1 className="text-xs  sm:text-2xl my-10 mx-3 md:text-left md:mx-20 ">Empowering Businesses Through Innovation
+            <h1 className="text-xs  sm:text-2xl my-10 mx-3  md:mx-20 ">Empowering Businesses Through Innovation
             </h1>
 
             <img src={About1} alt="" className="w-full h-auto "/>
