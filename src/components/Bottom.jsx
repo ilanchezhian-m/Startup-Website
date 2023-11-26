@@ -1,4 +1,5 @@
-import { NavLink, Outlet, useNavigate ,useLocation  } from 'react-router-dom';
+import { NavLink, Outlet, useNavigate ,useLocation } from 'react-router-dom';
+// import { useState } from 'react';php part
 
 
 import img5 from "/src/assets/image5.png";
@@ -17,7 +18,7 @@ export function Bottom() {
   const handleClick = () => {
     // Check if the current route is /carrer
     if (location.pathname === '/carrer') {
-      // Navigate to the section without smooth scrolling
+      // Navigate to the section with smooth scrolling
       const graphicSectionRef = document.getElementById("graphicSectionRef");
       if (graphicSectionRef) {
         graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
@@ -38,7 +39,7 @@ export function Bottom() {
   const handleClick1 = () => {
     // Check if the current route is /carrer
     if (location.pathname === '/courses') {
-      // Navigate to the section without smooth scrolling
+      // Navigate to the section with smooth scrolling
       const graphicSectionRef = document.getElementById("graphicSectionRef");
       if (graphicSectionRef) {
         graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
@@ -55,6 +56,28 @@ export function Bottom() {
       },500)
     }
   }
+//  php part
+  //   const [formStatus, setFormStatus] = useState({ status: null, message: null });
+  
+  //   const handleSubmit = async (e) => {
+  //     e.preventDefault();
+  
+  //     const formData = new FormData(e.target);
+  
+  //     try {
+  //       const response = await fetch('/src/Mail.php', {
+  //         method: 'POST',
+  //         body: formData,
+  //       });
+  
+  //       const result = await response.json();
+  //       setFormStatus(result);
+  //     } catch (error) {
+  //       console.error('Error submitting form:', error);
+  //     }
+  //   };
+  //  console.log(formStatus);
+
 
   
   return (  
@@ -73,7 +96,7 @@ export function Bottom() {
               </h4>
 
         <div className="flex bottom justify-center ">
-          <form>
+          <form  >
             <fieldset>
               <p>
                 <input
@@ -101,7 +124,7 @@ export function Bottom() {
               <p>
                 <input
                   type="tel"
-                  id="number"
+                  id="mobile"
                   required="on"
                   autoComplete="on"
                   placeholder="Mobile"
@@ -125,6 +148,12 @@ export function Bottom() {
               </button>
             </fieldset>
           </form>
+          {/* additonal info for alert message on clicking */}
+          {/* {formStatus.status !== null && (
+        <div className={formStatus.status === 'success' ? 'alert-success' : 'alert-danger'}>
+          <span>{formStatus.message}</span>
+        </div>
+      )} */}
 
           <img src={img5} alt="" className="w-[100px] h-[300px] md:w-[533px] md:h-[622px]  " /> 
 
