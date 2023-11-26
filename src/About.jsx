@@ -81,7 +81,7 @@ export function About(){
             <img src={About2} alt="image" className="w-full min-h-fit mb-8"/>
 
             <h1 className="text-xl sm:text-3xl mb-8">GET IN TOUCH</h1>
-                s
+                
              </div>
              <Bottom/>
              <Footer/>
