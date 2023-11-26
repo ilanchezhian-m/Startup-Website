@@ -82,7 +82,7 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Your Name"
-                  className="rounded mt-4 px-2 text-black md:pr-20 py-2 "
+                  className="rounded mt-4 px-2 text-black md:pr-20 md:py-2 "
                 />
                 
               </p>
@@ -94,7 +94,7 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Mail"
-                  className="rounded mt-4 px-2 text-black md:pr-20 py-2 "
+                  className="rounded mt-4 px-2 text-black md:pr-20 md:py-2 "
                 />
               </p>
 
@@ -105,7 +105,7 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Mobile"
-                  className="rounded mt-4 px-2 text-black md:pr-20 py-2"
+                  className="rounded mt-4 px-2 text-black md:pr-20 md:py-2"
                 />
               </p>
 
@@ -116,7 +116,7 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="write your message"
-                  className="rounded mt-4 px-2 text-black md:pr-20 py-8 "
+                  className="rounded mt-4 px-2 text-black md:pr-20 py-4 md:py-8 "
                 />
               </p>
 
@@ -134,7 +134,7 @@ export function Bottom() {
      
       <br/>
 
-      <div className=" text-sm flex flex-col mx-2 md:flex-row md:text-xl justify-evenly bottom-aleo">
+      <div className=" text-sm flex flex-col mx-3 md:flex-row md:text-xl justify-evenly bottom-aleo">
           <div className="leading-10 text-left">
           <p className="font-bold">Company</p>
          <nav>

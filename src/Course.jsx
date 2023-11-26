@@ -1,5 +1,3 @@
-// import { Header } from "./components/Header";
-
 import { NavLink ,useLocation  } from 'react-router-dom';
 
 import Course1 from "../src/assets/Course1.png";
@@ -24,7 +22,7 @@ import Course10 from "../src/assets/Course10.svg";
 import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
 import Explore from "../src/assets/Explore.svg";
-// import Course11 from "../src/assets/Course11.png";delete this
+
 
 
 export function Course(){
@@ -71,34 +69,31 @@ export function Course(){
              <div className="relative flex flex-col items-center justify-center h-full mb-10">
   <img src={Course2} alt="" className="h-[300px] md:h-[500px] w-full" />
 
-  <div className="flex absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:flex-row  ">
-    <div className='mx-2 md:mx-10'>
-      <img src={Course7} alt="" className="h-[30px] md:h-[80px] md:mb-5" />
-      <p className="para-smallcase text-xs md:text-xl">Learn Anything</p>
+    <div className="flex absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:flex-row  ">
+            <div className='mx-2 md:mx-10'>
+                <img src={Course7} alt="" className="h-[30px] md:h-[80px] md:mb-5" />
+                <p className="para-smallcase xl:whitespace-nowrap text-xs md:text-xl">Learn Anything</p>
+            </div>
+            <div className='mx-2 md:mx-10'>
+                <img src={Course8} alt="" className="h-[30px] md:h-[80px] md:mb-5 " />
+                <p className="para-smallcase xl:whitespace-nowrap text-xs md:text-xl">Save money & Get Courses</p>
+            </div>
+            <div className='mx-2 md:mx-10'>
+                <img src={Course9} alt="" className="h-[30px] md:h-[80px] md:mb-5 " />
+                <p className="para-smallcase xl:whitespace-nowrap text-xs md:text-xl">Unlimited Certificates</p>
+            </div>
+            <div className='mx-2 md:mx-10'>
+                <img src={Course10} alt="" className="h-[30px] md:h-[80px] md:mb-5" />
+                <p className="para-smallcase xl:whitespace-nowrap text-xs md:text-xl">Flexible learning</p>
+            </div>
     </div>
-    <div className='mx-2 md:mx-10'>
-      <img src={Course8} alt="" className="h-[30px] md:h-[80px] md:mb-5 " />
-      <p className="para-smallcase text-xs md:text-xl">Save money & Get Courses</p>
-    </div>
-    <div className='mx-2 md:mx-10'>
-      <img src={Course9} alt="" className="h-[30px] md:h-[80px] md:mb-5 " />
-      <p className="para-smallcase text-xs md:text-xl">Unlimited Certificates</p>
-    </div>
-    <div className='mx-2 md:mx-10'>
-      <img src={Course10} alt="" className="h-[30px] md:h-[80px] md:mb-5" />
-      <p className="para-smallcase text-xs md:text-xl">Flexible learning</p>
-    </div>
+
+    <div className="flex absolute bottom-3 md:bottom-10 left-5 xl:left-1/4 md:flex-row">
+        <p className="text-xs md:text-xl para-smallcase font-bold">
+        Trusted By Over 14,400 Companies And Millions Of Learners Around The World
+        </p>
   </div>
-
-  <div className="flex absolute bottom-3 md:bottom-10 left-3 md:left-1/4 md:flex-row">
-    <p className="text-xs md:text-xl para-smallcase font-bold">
-      Trusted By Over 14,400 Companies And Millions Of Learners Around The World
-    </p>
-  </div>
-</div>
-
-
-
+            </div>
 
              <h1 className="text-center text-base md:text-3xl mb-10">
              Top Categories
@@ -176,13 +171,9 @@ export function Course(){
                                     <button onClick={handleClick}>                                  
                                           <p>Start Teaching Today</p>
                                     </button>
-
                                 </div>
-
                             </div>
-
                                 <img src={Course4} alt="" className="h-[250px] w-[150px] md:h-[400px] md:w-[500px]" />
-                           
             </div>
 
               
@@ -206,20 +197,19 @@ export function Course(){
         </div>
 
 
-
         <div className=" flex justify-center">
                     <p className="bg-black text-white para-smallcase text-base px-4 py-2 md:text-2xl mb-20 md:py-5 md:px-14 inline-flex ">
                     Explore Opportunities
                     </p>
-             </div>
+        </div>
 
-             <h1 className="text-center text-base md:text-3xl mb-10">
-             Explore TAS Opportunities
-            </h1>
+                <h1 className="text-center text-base md:text-3xl mb-10">
+                      Explore TAS Opportunities
+                </h1>
 
-            <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10" id="internship-port">
-            We Are Providing Internships For Students & Those Who Are Searching For Job Opportunities To Make Them Physically Fit With Industry Experience And Also To Know About Their Interested Domain.
-            </p>
+                <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10" id="internship-port">
+                We Are Providing Internships For Students & Those Who Are Searching For Job Opportunities To Make Them Physically Fit With Industry Experience And Also To Know About Their Interested Domain.
+                </p>
                     {/* intenships opportunities */}
             <div id="graphicSectionRef" className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div  className="relative">
@@ -469,7 +459,6 @@ export function Course(){
             <div id='sendmessage'>
             <Bottom/>
             </div>
-            
             <Footer/>
 
 
