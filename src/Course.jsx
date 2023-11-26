@@ -1,9 +1,8 @@
-import { NavLink ,useLocation  } from 'react-router-dom';
 
 import Course1 from "../src/assets/Course1.png";
 import Course2 from "../src/assets/Course2.png";
 import Course3 from "../src/assets/Course3.png";
-import carrerapplybutton from "../src/assets/carrerapply.png";
+// import carrerapplybutton from "../src/assets/carrerapply.svg"; apply now image
 import Course4 from "../src/assets/Course4.png";
 import microsoft from "../src/assets/microsoft.svg";
 import google from "../src/assets/google.svg";
@@ -19,6 +18,7 @@ import Course7 from "../src/assets/Course7.svg";
 import Course8 from "../src/assets/Course8.svg";
 import Course9 from "../src/assets/Course9.svg";
 import Course10 from "../src/assets/Course10.svg";
+import applysymbol from '../src/assets/applysymbol.svg'
 import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
 import Explore from "../src/assets/Explore.svg";
@@ -26,17 +26,13 @@ import Explore from "../src/assets/Explore.svg";
 
 
 export function Course(){
-    const location = useLocation();
-  
     const handleClick = () => {
-      // Check if the current route is /carrer
-      if (location.pathname === '/courses') {
         // Navigate to the section without smooth scrolling
         const graphicSectionRef = document.getElementById("sendmessage");
         if (graphicSectionRef) {
           graphicSectionRef.scrollIntoView({ behavior: 'smooth' });
         }
-      }}
+      }
 
 
     return(
@@ -53,7 +49,7 @@ export function Course(){
                         Broad Selection Of Free Courses
                     </h1>
 
-            <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10">
+            <p className="text-center para-smallcase mx-5 md:mx-20 text-base md:text-xl mb-10">
             {`"Get`} Unlimited Access To Over 90% Of Courses, Projects, Specializations, And Professional Certificates
             On Courses, Taught By Top Instructors From Leading Universities And Companies.
             </p>
@@ -181,7 +177,7 @@ export function Course(){
               Internships Of Top Companies
              </h1>
 
-            <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10">
+            <p className="text-center para-smallcase mx-5 md:mx-20 text-base md:text-xl mb-10">
             Get All Internships Provided By Top Mnc Companies & Other Companies <br />Over 10000+ Opportunities Are Over There & Get Your Suitable One.
             </p>
         
@@ -207,228 +203,298 @@ export function Course(){
                       Explore TAS Opportunities
                 </h1>
 
-                <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10" id="internship-port">
+                <p className="text-center para-smallcase mx-5 md:mx-20 text-base md:text-xl mb-10" id="internship-port">
                 We Are Providing Internships For Students & Those Who Are Searching For Job Opportunities To Make Them Physically Fit With Industry Experience And Also To Know About Their Interested Domain.
                 </p>
                     {/* intenships opportunities */}
-            <div id="graphicSectionRef" className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div  className="relative">
-                            <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute course-align left-20 text-black font-bold  p-2">
-                                Data Science
-                                </p>
-                                    <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
+    <div id="graphicSectionRef" className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align left-20 text-black font-bold  p-2">
+                             Data Science
+                    </p>
+                <div className="carrer-hover">
+                     <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                     Apply Now 
+                     </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+
+
+        <div className="relative">
+                     <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                    Machine Learning
+                    </p>              
+            <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+            </div>
+        </div>
+
+        <div className="relative">
+                    <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-12 text-black font-bold  p-2">
+                    Artificial Intelligence 
+                    </p>
+                    <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                        Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                    </div>
+        </div>
+
+    </div>
+            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+                    <div className="relative">
+                    <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align left-16 text-black font-bold  p-2">
+                    Ui/Ux Designing
+                    </p>
+                        
+                 <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+            </div>
+
+
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                Graphic Designing
+                </p>
+                    
+                    <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                        Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
                         </div>
+        </div>
 
-
-                        <div className="relative">
+        <div className="relative">
                         <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Machine Learning
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-12 text-black font-bold  p-2">
-                            Artificial Intelligence 
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-            </div>
-            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div className="relative">
-                            <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute course-align left-16 text-black font-bold  p-2">
-                                Ui/Ux Designing
-                                </p>
-                                 <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                                   </div>
-
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Graphic Designing
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Web Development
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-            </div>
-            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div className="relative">
-                            <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute course-align left-16 text-black font-bold  p-2">
-                                Python Development
-                                </p>
-                                 <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                                   </div>
-
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Java Development
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            C Development
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-            </div>
-            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div className="relative">
-                            <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute course-align left-16 text-black font-bold  p-2">
-                                C++ Development
-                                </p>
-                                 <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                                   </div>
-
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            IoT Development
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align  text-black font-bold  p-2">
-                            Sales and Marketing Development
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-            </div>
-            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div className="relative">
-                            <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute course-align left-12 text-black font-bold  p-2">
-                                E-commerce Developer
-                                </p>
-                                 <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                                   </div>
-
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            AWS Developer
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Fashion Designer
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
+                        <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                                Web Development
+                        </p>
+                        
+                    <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                        Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                    </div>
             </div>
 
-            <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-                        <div className="relative">
-                            <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                                <p className="absolute course-align left-16 text-black font-bold  p-2">
-                                Product Developer (Electronics)
-                                </p>
-                                 <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                                   </div>
+    </div>
+        <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+            <div className="relative">
+                    <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                        <p className="absolute course-align left-16 text-black font-bold  p-2">
+                        Python Development
+                        </p>
+                            
+                    <div className="carrer-hover">
+                            <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                            Apply Now 
+                            </button>
+                            <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                    </div>
+        </div>
 
 
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Motion Designer
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                    Java Development
+                    </p>
+                        
+                    <div className="carrer-hover">
+                            <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                            Apply Now 
+                            </button>
+                            <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                        </div>
+        </div>
 
-                        <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-12 text-black font-bold  p-2">
-                            IEEE Paper Specialist
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
-
+        <div className="relative">
+            <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                C Development
+                </p>
+                    <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                         Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                    </div>
             </div>
 
-          <  div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
-
-          <div className="relative">
-                        <img src={Course3} alt="" className="mb-10 md:pr-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
-                            Content Creator
-                            </p>
-                             <NavLink onClick={handleClick}> 
-                                    <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20 course-hover" />
-                                    </NavLink>
-                               </div>
+     </div>
+    <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+             <div className="relative">
+                    <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align left-16 text-black font-bold  p-2">
+                    C++ Development
+                    </p>            
+                    <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                        Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                    </div>
             </div>
+
+
+        <div className="relative">
+            <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                IoT Development
+                </p>
+                    
+                <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+
+        <div className="relative">
+                    <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                        <p className="absolute course-align  text-black font-bold  p-2">
+                        Sales and Marketing Development
+                        </p>
+                            
+                <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                        Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+    </div>
+
+    <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+        <div className="relative">
+            <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                <p className="absolute course-align left-12 text-black font-bold  p-2">
+                E-commerce Developer
+                </p>
+                    
+                <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+    </div>
+
+
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                    AWS Developer
+                    </p>
+                              
+                 <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                    Fashion Designer
+                    </p>
+                              
+                <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+
+    </div>
+
+    <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+        <div className="relative">
+            <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                <p className="absolute course-align left-16 text-black font-bold  p-2">
+                Product Developer (Electronics)
+                </p>
+                                  
+            <div className="carrer-hover">
+                <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                Apply Now 
+                </button>
+                <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+            </div>
+        </div>
+
+
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                Motion Designer
+                </p>
+                    
+                <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+
+        <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-12 text-black font-bold  p-2">
+                    IEEE Paper Specialist
+                    </p>
+                        
+                <div className="carrer-hover">
+                    <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                    Apply Now 
+                    </button>
+                    <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                </div>
+        </div>
+
+    </div>
+
+    <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
+            <div className="relative">
+                <img src={Course3} alt="" className="mb-10 md:pr-2" />
+                    <p className="absolute course-align mx-2 left-16 text-black font-bold  p-2">
+                    Content Creator
+                    </p>
+                              
+                    <div className="carrer-hover">
+                        <button onClick={handleClick} className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
+                        Apply Now 
+                        </button>
+                        <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+                    </div>
+            </div>
+    </div>
             
             <h1 className="text-center mx-2 text-base md:text-3xl mb-10">
             Innovation X Business With Tas
             </h1>
 
-            <p className="text-center para-smallcase mx-5 md:mx-20 text-base mb-10">
+            <p className="text-center para-smallcase mx-5 md:mx-20 text-base md:text-xl mb-10">
             {`"Are `}You Passionate About Innovation? We Warmly Invite You To Join The Tas Innovation Family <br /> And Be Part Of Our Exciting {`Journey."`} 
             </p>
 
