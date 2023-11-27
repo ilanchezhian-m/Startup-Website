@@ -2,7 +2,7 @@
 import Course1 from "../src/assets/Course1.png";
 import Course2 from "../src/assets/Course2.png";
 import Course3 from "../src/assets/Course3.png";
-import carrerapplybutton from "../src/assets/carrerapply.svg"; 
+import courseapplybutton from "../src/assets/carrerapply.svg"; 
 import Course4 from "../src/assets/Course4.png";
 import microsoft from "../src/assets/microsoft.svg";
 import google from "../src/assets/google.svg";
@@ -98,58 +98,58 @@ export function Course(){
 
             <div className="flex flex-col items-center md:flex-row md:justify-evenly  md:mb-10">
                         <div className="relative">
-                            <img src={Course3} alt="" className="md:pr-2 p-2 " />
-                                <p className="absolute course-align left-1/4 text-black font-bold ">
+                            <img src={Course3} alt="" className="md:pr-2 p-2 course-images " />
+                                <p className="absolute course-align ml-3 text-black font-bold ">
                                 DEVELOPMENT
                                 </p>
-                                <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-16 course-hover" />
-                                </button>
+                                <div className="course-hover">
+                                <img src={Explore} alt="" className="absolute   " />
+                                </div>
                         </div>
 
 
                         <div className="relative">
-                        <img src={Course3} alt="" className="md:pr-2 p-2" />
-                            <p className="absolute course-align mx-2 left-20 text-black font-bold">
+                        <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                            <p className="absolute course-align  text-black ml-6 font-bold">
                             DESIGN
                             </p>
-                            <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-16 course-hover" />
-                            </button>
+                            <div className="course-hover">
+                                <img src={Explore} alt="" className="absolute   " />
+                            </div>
                         </div>
 
                         <div className="relative">
-                        <img src={Course3} alt="" className="md:pr-2 p-2" />
-                            <p className="absolute course-align mx-2 left-16 text-black font-bold">
+                        <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                            <p className="absolute course-align  text-black font-bold ml-5">
                             IT/SOFTWARE
                             </p>
-                            <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-16 course-hover" />
-                            </button>
+                            <div className="course-hover">
+                                <img src={Explore} alt="" className="absolute   " />
+                            </div>
                         </div>
 
             </div>
 
              <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                         <div className="relative">
-                            <img src={Course3} alt="" className="md:pr-2 p-2" />
-                                <p className="absolute course-align ml-2 left-6  text-black font-bold ">
+                            <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                                <p className="absolute course-align -ml-10 text-black font-bold ">
                                 PERSONAL DEVELOPMENT
                                 </p>
-                                <button>
-                                <img src={Explore} alt="" className="absolute left-20 bottom-16 course-hover" />
-                                </button>
+                                <div className="course-hover">
+                                <img src={Explore} alt="" className="absolute   " />
+                                </div>
                         </div>
 
 
                         <div className="relative">
-                        <img src={Course3} alt="" className="md:pr-2 p-2" />
-                            <p className="absolute course-align mx-2 left-20 text-black font-bold">
+                        <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                            <p className="absolute course-align  ml-5 text-black font-bold">
                             BUSINESS
                             </p>
-                            <button>    
-                                <img src={Explore} alt="" className="absolute left-20 bottom-16 course-hover" />
-                            </button>
+                            <div className="course-hover ">    
+                                <img src={Explore} alt="" className="absolute  " />
+                            </div>
                         </div>
               </div>
 
@@ -209,175 +209,175 @@ export function Course(){
                     {/* intenships opportunities */}
     <div id="graphicSectionRef" className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-5 course-align para-smallcase">
                              Data Science
                     </p>
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
 
         <div className="relative">
-                     <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase ">
+                     <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-2 course-align para-smallcase ">
                     Machine Learning
                     </p>              
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
         <div className="relative">
-                    <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase ">
+                    <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute  course-align para-smallcase ">
                     Artificial Intelligence 
                     </p>
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
     </div>
             <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
                     <div className="relative">
-                    <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase ">
+                    <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-3 course-align para-smallcase ">
                     Ui/Ux Designing
                     </p>
                         
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
             </div>
 
 
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                <p className="absolute course-align para-smallcase  ">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                <p className="absolute ml-2 course-align para-smallcase  ">
                 Graphic Designing
                 </p>
                     
                 <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
         <div className="relative">
-                        <img src={Course3} alt="" className="md:pr-2 p-2" />
-                        <p className="absolute course-align para-smallcase  ">
+                        <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                        <p className="absolute ml-2 course-align para-smallcase  ">
                                 Web Development
                         </p>
                         
                         <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
             </div>
 
     </div>
         <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
             <div className="relative">
-                    <img src={Course3} alt="" className="md:pr-2 p-2" />
+                    <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
                         <p className="absolute course-align para-smallcase">
                         Python Development
                         </p>
                             
                         <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
 
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
                     <p className="absolute course-align para-smallcase ">
                     Java Development
                     </p>
                         
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
         <div className="relative">
-            <img src={Course3} alt="" className="md:pr-2 p-2" />
-                <p className="absolute course-align para-smallcase  ">
+            <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                <p className="absolute ml-4 course-align para-smallcase  ">
                 C Development
                 </p>
                 <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
             </div>
 
      </div>
     <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
              <div className="relative">
-                    <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase">
+                    <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-2 course-align para-smallcase">
                     C++ Development
                     </p>            
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
             </div>
 
 
         <div className="relative">
-            <img src={Course3} alt="" className="md:pr-2 p-2" />
-                <p className="absolute course-align para-smallcase ">
+            <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                <p className="absolute ml-3 course-align para-smallcase ">
                 IoT Development
                 </p>
                     
                 <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
         <div className="relative">
-                    <img src={Course3} alt="" className="md:pr-2 p-2" />
-                        <p className="absolute course-align para-smallcase ">
+                    <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                        <p className="absolute -ml-14 course-align para-smallcase ">
                         Sales and Marketing Development
                         </p>
                             
                         <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
     </div>
 
     <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
         <div className="relative">
-            <img src={Course3} alt="" className="md:pr-2 p-2" />
-                <p className="absolute course-align para-smallcase ">
+            <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                <p className="absolute -ml-2 course-align para-smallcase ">
                 E-commerce Developer
                 </p>
                     
                 <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
     </div>
 
 
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase  ">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-3 course-align para-smallcase  ">
                     AWS Developer
                     </p>
                               
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase ">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-3 course-align para-smallcase ">
                     Fashion Designer
                     </p>
                               
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
@@ -385,35 +385,35 @@ export function Course(){
 
     <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
         <div className="relative">
-            <img src={Course3} alt="" className="md:pr-2 p-2" />
-                <p className="absolute course-align para-smallcase">
+            <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                <p className="absolute -ml-10 course-align para-smallcase">
                 Product Developer (Electronics)
                 </p>
                                   
                 <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
 
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                <p className="absolute course-align para-smallcase  ">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                <p className="absolute ml-2 course-align para-smallcase  ">
                 Motion Designer
                 </p>
                 <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
         <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase ">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute -ml-1 course-align para-smallcase ">
                     IEEE Paper Specialist
                     </p>
                         
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
         </div>
 
@@ -421,13 +421,13 @@ export function Course(){
 
     <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
             <div className="relative">
-                <img src={Course3} alt="" className="md:pr-2 p-2" />
-                    <p className="absolute course-align para-smallcase  ">
+                <img src={Course3} alt="" className="md:pr-2 p-2 course-images" />
+                    <p className="absolute ml-3 course-align para-smallcase  ">
                     Content Creator
                     </p>
                               
                     <div className="course-hover">
-            <img src={carrerapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute "/>
             </div>
             </div>
     </div>

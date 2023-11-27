@@ -138,12 +138,12 @@ export function Carrer() {
       <img 
         src={carrer11}
         alt="below-icon-image"
-        className="w-full h-auto max-h-screen mb-20"
+        className="w-full h-auto max-h-screen mb-10"
       />
     {/* navigate the job opportunities */}
       <div  className="flex flex-col items-center md:flex-row md:justify-evenly">
       <div id="graphicSectionRef" className="relative">
-          <img src={carrer12} alt="" className="mb-10 p-2" />
+          <img src={carrer12} alt="" className="mb-10 p-2 carrer-images " />
           <p className="absolute carrer-align ">
             Graphic Designer & Motion Designer
           </p>
@@ -155,7 +155,7 @@ export function Carrer() {
       </div>
 
         <div className="relative">
-          <img src={carrer13} alt="" className="mb-10 p-2" />
+          <img src={carrer13} alt="" className="mb-10 p-2 carrer-images" />
               <p className="absolute carrer-align ">
               AWS Developer
               </p>
@@ -170,7 +170,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-         <img src={carrer14} alt="" className="mb-10 p-2" />
+         <img src={carrer14} alt="" className="mb-10 p-2 carrer-images" />
               <p className="absolute carrer-align ">
               Sales and Marketing Specialist
               </p>
@@ -187,7 +187,7 @@ export function Carrer() {
 
       <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
         <div className="relative">
-        <img src={carrer15} alt="" className="mb-10 p-2" />
+        <img src={carrer15} alt="" className="mb-10 p-2 carrer-images" />
                 <p className="absolute carrer-align  ">
                 E-commerce Manager
                 </p>
@@ -201,7 +201,7 @@ export function Carrer() {
 
 
         <div className="relative">
-        <img src={carrer16} alt="" className="mb-10 p-2" />
+        <img src={carrer16} alt="" className="mb-10 p-2 carrer-images" />
                   <p className="absolute carrer-align ">
                   Fashion Designer
                   </p>
@@ -213,7 +213,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer17} alt="" className="mb-10 p-2" />
+        <img src={carrer17} alt="" className="mb-10 p-2 carrer-images" />
                 <p className="absolute carrer-align ">
                 IoT Project Manager
                 </p>
@@ -231,7 +231,7 @@ export function Carrer() {
       <div className="flex flex-col items-center md:flex-row md:justify-evenly md:mb-10">
 
       <div className="relative">
-        <img src={carrer18} alt="" className="mb-10 p-2" />
+        <img src={carrer18} alt="" className="mb-10 p-2 carrer-images" />
                 <p className="absolute carrer-align    ">
                 Product Developer (Electronics)
                 </p>
@@ -244,7 +244,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer19} alt="" className="mb-10 p-2" />
+        <img src={carrer19} alt="" className="mb-10 p-2 carrer-images" />
                 <p className="absolute carrer-align ">
                 Motion Designer
                 </p>
@@ -256,7 +256,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer20} alt="" className="mb-10 p-2" />
+        <img src={carrer20} alt="" className="mb-10 p-2 carrer-images" />
                 <p className="absolute carrer-align  ">
                 IEEE Paper Specialist
                 </p>
@@ -272,7 +272,7 @@ export function Carrer() {
       <div className="flex flex-col items-center md:flex-row md:justify-evenly ">
 
         <div className="relative">
-        <img src={carrer21} alt="" className="mb-10 p-2" />
+        <img src={carrer21} alt="" className="mb-10 p-2 carrer-images" />
                   <p className="absolute carrer-align   ">
                   Instructor/ <br />Teaching Specialist
                   </p>
@@ -284,7 +284,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer22} alt="" className="mb-10 p-2" />
+        <img src={carrer22} alt="" className="mb-10 p-2 carrer-images" />
                   <p className="absolute carrer-align ">
                   Food Product Developer
                   </p>
@@ -296,7 +296,7 @@ export function Carrer() {
         </div>
 
         <div className="relative">
-        <img src={carrer23} alt="" className="mb-10 p-2" />
+        <img src={carrer23} alt="" className="mb-10 p-2 carrer-images" />
                   <p className="absolute carrer-align  ">
                   Content Creator
                   </p>
@@ -321,7 +321,7 @@ export function Carrer() {
               </div>
         </div>
 
-        <div className="relative flex">
+        <div className="relative mb-10  flex">
              <img src={img4} alt="lfe at TAS" className=" w-screen " />
               <h1 className="absolute text-sm  top-1/2 left-2 md:left-10  md:text-3xl text-white flex items-center justify-start ">
               #LifeAtTAS

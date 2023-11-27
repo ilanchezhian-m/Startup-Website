@@ -106,7 +106,21 @@ body::-webkit-scrollbar-thumb {
   margin: 0px 10px;
 }
 .card:hover{
-  padding-bottom: 10px;
+  
+  animation: scaleAnimate 0.3s ease-in-out;
+  position: relative;
+  top:-15px;
+}
+@keyframes scaleAnimate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .cards{
   border-radius: 10px;
@@ -173,6 +187,9 @@ body::-webkit-scrollbar-thumb {
 
 
 /* carrer page */
+.carrer-images{
+  border-radius: 25px;
+}
 .carrer-align{
   top:150px;
   left:70px;
@@ -220,9 +237,11 @@ body::-webkit-scrollbar-thumb {
 .job-jd{
   font-family: var(--job-font-family);
 }
+.job-button{
+  animation: pulse 1s infinite;
+}
 .job-button:hover{
-  background-color:grey;
-  color: white;
+  background-color:blue;
 }
 
 
@@ -231,6 +250,10 @@ body::-webkit-scrollbar-thumb {
 
 
 /* Course page */
+.course-images{
+  border-radius: 25px;
+}
+
 .course--style{
 top:2rem;
 margin-top: 200px;
@@ -292,11 +315,14 @@ footer{
 
  
  /* send message button -bottom page*/
+ .send-message{
+  animation: pulse 1s infinite;
+ }
  .send-message:hover{
     background-color:blue;   
     border-radius: 5px;
     transform: scale(1.1);
-    animation: pulse 1s infinite;
+    
  }
  @keyframes pulse {
   0%, 100% {
