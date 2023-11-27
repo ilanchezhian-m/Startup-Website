@@ -73,49 +73,44 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--head-font-family);
   
   }
-  .explore-btn:hover {
-    animation: rotate .4s  ;
-  }
-
-@keyframes rotate{
-  0%{
-    transform: rotate(60deg);
-  }
- 
-  100%{
-    transform: rotate(180deg);
-  }
-}
-/* alternative animation 
-.explore-btn:hover {
-  animation: pulse .3s ease-out;
-}
-
-@keyframes pulse {
-0%, 100% {
+  .explore-btn:hover{
+    background-color:blue;   
+    border-radius: 5px;
+    animation: scaleAnimation 0.3s ease-in-out;
+ }
+ @keyframes scaleAnimation {
+  0% {
     transform: scale(1);
-}
-50% {
-    transform: scale(1.1);
-}
-} */
-@media (pointer: coarse) {
-  .explore-btn:hover {
-      animation: none; /* Disable the shake animation on touch devices */
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
-
-
 
 /* home-page  explore  1,2,3,4,5 */
 .para{
   font-family: var(--paraa-font-family);
 }
 .para-smallcase {
-  font-family:'Alegreya', serif;
+  font-family:'Times New Roman', serif;
 }
 .bottom-aleo{
   font-family: var(--bottom-font-family);
+}
+/*card in home page above testimonials  */
+.card{
+  border-radius: 50px;
+  margin: 0px 10px;
+}
+.card:hover{
+  padding-bottom: 10px;
+}
+.cards{
+  border-radius: 10px;
+  margin: 10px;
 }
 
 
@@ -125,30 +120,54 @@ body::-webkit-scrollbar-thumb {
 /* Service page */
 .image--contact{
   top: 60%;
+  left: 28%;
 }
-.image--contact--service8{
-  top:70%;
+.image--contact1{
+  top:65%;
+  left: 28%;
+}
+.image--contact2{
+  top:62%;
+  left:28%;
 }
 /* hover for service page  */
 
-.hover-link:hover {
-  animation: shake .7s ease-in-out;
-  filter: contrast(200%);
+.image--contact:hover {
+  filter: contrast(220%);
+  border-radius: 10px;
+  position: absolute;
+  top:58%;
+  animation: scaleAnimation 0.3s ease-in-out;
+}
+.image--contact1:hover{
+  top: 63%;
+  filter: contrast(220%);
+  border-radius: 10px;
+  position: absolute;
+  animation: scaleAnimation 0.3s ease-in-out;
+ 
+}
+.image--contact2:hover{
+  top:60%;
+  filter: contrast(220%);
+  border-radius: 10px;
+  position: absolute;
+  animation: scaleAnimation 0.3s ease-in-out;
+}
+.our-services:hover{
+  animation: scaleAnimation 0.3s ease-in-out;
+  border-radius: 20px;    
+  position: relative;
+  top: -10px;
+}
 
-}
-@keyframes shake {
-  0% {
-      transform: translateY(0px);
-  }
-  100% {
-      transform: translateX(-100px);
-  }
-}
-@media (pointer: coarse) {
-  .hover-link:hover {
-      animation: none; /* Disable the shake animation on touch devices */
-  }
-}
+
+
+
+
+
+
+
 
 
 
@@ -156,15 +175,18 @@ body::-webkit-scrollbar-thumb {
 /* carrer page */
 .carrer-align{
   top:150px;
-  left:80px;
+  left:70px;
   color: rgb(255, 255, 255);
   font-weight: 900;
+  padding-right: 30px;
+  font-size: larger;
  
 }
 /* carrer page -JOBS application  */ 
 .carrer-align:hover{
   box-shadow: 0px 0px 40px 10px rgb(255, 255, 255);
   border-radius: 10px;
+  animation: scaleAnimation 0.3s ease-in-out;
 }
 /*  apply menu  carrer page*/
 .button-applynow{
@@ -182,8 +204,16 @@ body::-webkit-scrollbar-thumb {
 .carrer-hover:hover{
   filter: invert(100%);
   transition: filter 0.3s ease;
+  
 }
+.explore-opportunities:hover{
+  border-radius: 20px;
+  position: relative;
+  top:-10px;
+  animation: scaleAnimation 0.3s ease-in-out;
 
+}
+/* inside carrer page inside the job applications pages */
 .job-styl{
   font-family: var(--paraa-font-family)
 }
@@ -191,24 +221,8 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--job-font-family);
 }
 .job-button:hover{
-  animation: shake .7s ease-in-out;
-  
-}
-@keyframes shake {
-  0% {
-      transform: translateY(0px);
-  }
-  50%{
-    transform:translateX(-50px);
-  }
-  100% {
-      transform: translateX(50px);
-  }
-}
-@media (pointer: coarse) {
-  .job-button:hover {
-      animation: none; /* Disable the shake animation on touch devices */
-  }
+  background-color:grey;
+  color: white;
 }
 
 
@@ -223,15 +237,27 @@ margin-top: 200px;
 }
 
 .course-align{
-  top:150px;
-  left:80px;
+  top:120px;
   font-weight: 900;
+  position: relative;
+  left: 60px;
+  padding:0px 40px;
+  color: black;
+  
 }
 .course-align:hover{
   box-shadow: 0px 0px 40px 10px rgb(255, 255, 255);
   border-radius: 10px;
 }
+
 /* button apply menu */
+.course-hover{
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;  
+  
+}
 .course-hover:hover{
   filter: invert(100%);
   transition: filter 0.3s ease;
@@ -241,6 +267,7 @@ margin-top: 200px;
   transition: filter 0.3s ease;
   border-radius: 10px;
   font-weight: bold;
+  animation: scaleAnimation 0.3s ease-in-out;
 }
 .course-teaching{
   background-color:rgba(196, 196, 196, 1);

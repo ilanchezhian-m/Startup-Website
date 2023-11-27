@@ -53,56 +53,56 @@ export function Service(){
         </p>
 
         <div className=" flex justify-center">
-            <p className="bg-black text-white para-smallcase text-base px-4 py-2 md:text-2xl mb-10 md:py-5 md:px-14 inline-flex ">
-                Our Services
-            </p>
+            <button className="our-services bg-black font-bold text-white para-smallcase text-base px-4 py-2 md:text-2xl mb-10 md:py-7 md:px-16 inline-flex">   
+                OUR SERVICES    
+            </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service2} alt="" className="relative" />
             <button onClick={handleClick}> 
-            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact  hover-link" />
+            <img src={contact} alt="" className="absolute  h-[30px] md:h-[70px] image--contact " />
             </button>
             
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service3} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/4  h-[30px] md:h-[70px] hover-link  " />
+            <img src={contact} alt="" className="absolute  h-[30px] md:h-[70px] image--contact2  " />
             </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service4} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] hover-link" />
+            <img src={contact} alt="" className="absolute     h-[30px] md:h-[70px] image--contact2" />
             </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service5} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px]  hover-link" />
+            <img src={contact} alt="" className="absolute    h-[30px] md:h-[70px]  image--contact2" />
             </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service6} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact hover-link"  />
+            <img src={contact} alt="" className="absolute   h-[30px] md:h-[70px] image--contact "  />
             </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service7} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] hover-link " />
+            <img src={contact} alt="" className="absolute   h-[30px] md:h-[70px] image--contact2 " />
             </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service8} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] image--contact--service8 hover-link" />  </button>
+            <img src={contact} alt="" className="absolute    h-[30px] md:h-[70px] image--contact1 " />  </button>
         </div>
         <div className="relative flex justify-center mb-10">
             <img src={service9} alt="" className="relative" />
             <button onClick={handleClick}>
-            <img src={contact} alt="" className="absolute  top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2  h-[30px] md:h-[70px] hover-link " />
+            <img src={contact} alt="" className="absolute     h-[30px] md:h-[70px] image--contact2 " />
             </button>
         </div>
 

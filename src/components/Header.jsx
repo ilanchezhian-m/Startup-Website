@@ -107,25 +107,25 @@ export function Header() {
         </div>
         {/* Mobile menu  design*/}
         {isMobileMenuOpen && (
-          <div className="md:hidden flex  flex-col bg-black text-white para-font p-4 space-y-4">
+          <div className="md:hidden flex text-right  flex-col bg-black text-white para-smallcase p-4   space-y-4">
             <NavLink
               to="/"
               onClick={closeMobileMenu}
             >
               <p className="para-smallcase">Home</p>
-              
             </NavLink>
+
             <NavLink
               to="service"
               onClick={closeMobileMenu}
             >
               <p className="para-smallcase">Services</p>
             </NavLink>
+
             <NavLink
               to="carrer"
               onClick={closeMobileMenu}
             >
-            
              <p className="para-smallcase">Carrer</p>
             </NavLink>
 

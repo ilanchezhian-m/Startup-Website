@@ -27,13 +27,13 @@ import carrer20 from "../src/assets/carrer20.png";
 import carrer21 from "../src/assets/carrer21.png";
 import carrer22 from "../src/assets/carrer22.png";
 import carrer23 from "../src/assets/carrer23.png";
-// import carrerapplybutton from "../src/assets/carrerapply.svg";if need you can it replace with an apply now as an image
+import carrerapplybutton from "../src/assets/carrerapply.svg";
 import carrer24 from "../src/assets/carrer24.png";
 import insta from "../src/assets/instaimage.svg";
 import x from "../src/assets/ximage.svg";
 import youtube from "../src/assets/youtube.svg";
 import img4 from "../src/assets/image4.png";
-import applysymbol from '../src/assets/applysymbol.svg'
+// import applysymbol from '../src/assets/applysymbol.svg'
 import { Bottom } from "./components/Bottom";
 import { Footer } from "./components/Footer";
 
@@ -53,12 +53,12 @@ export function Carrer() {
 
       {/* added linear gradient */}
   
-        <div className=" relative mb-10 flex md:mx-20">
+        <div className=" relative mb-10 flex lg:mx-10 ">
                 <div className="">
-                      <img src={carrer1} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit" />
+                      <img src={carrer1} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit relative lg:ml-20" />
                 </div>
                <div className="one text-center absolute left-1/3 bottom-1/4">
-                      <p className="md:px-20 para text-xs  md:text-base shrink-1 py-5">
+                      <p className="md:px-20 md:py-10 para text-xs  md:text-base shrink-1 py-5">
                       {`WE’RE`} A TEAM OF PASSIONATE INDIVIDUALS WORKING TOGETHER TO REVOLUTIONIZE THE TAS INNOVATION THROUGH INNVATION,DEDICATION AND SHARED COMMITMENT TO EXCELLENCE
                     </p>
                    
@@ -130,9 +130,9 @@ export function Carrer() {
       </p>
 
       <div className=" flex justify-center">
-        <p className="bg-black text-white para-smallcase text-base px-4 py-2 md:text-2xl mb-10 md:py-5 md:px-14 inline-flex ">
+        <button className="explore-opportunities bg-black text-white para-smallcase text-base px-4 py-2 md:text-2xl mb-10 md:py-5 md:px-14 inline-flex ">
           Explore Opportunities
-        </p>
+        </button>
       </div>
 
       <img 
@@ -144,15 +144,12 @@ export function Carrer() {
       <div  className="flex flex-col items-center md:flex-row md:justify-evenly">
       <div id="graphicSectionRef" className="relative">
           <img src={carrer12} alt="" className="mb-10 p-2" />
-          <p className="absolute carrer-align  ">
+          <p className="absolute carrer-align ">
             Graphic Designer & Motion Designer
           </p>
           <NavLink target='_blank' to='/graphic' onClick={() => {  window.scrollTo(0, 0); } } >
             <div className="carrer-hover">
-            <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-              Apply Now 
-            </button>
-            <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
           </NavLink>
       </div>
@@ -166,10 +163,7 @@ export function Carrer() {
                
               <NavLink target="_blank" to='/aws' onClick={() => { window.scrollTo(0, 0); }}>
               <div className="carrer-hover">
-            <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-              Apply Now 
-            </button>
-            <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
                 </NavLink>
             
@@ -182,10 +176,7 @@ export function Carrer() {
               </p>
               <NavLink target="_blank" to='/sales' onClick={() => { window.scrollTo(0, 0); }}>
               <div className="carrer-hover">
-            <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-              Apply Now 
-            </button>
-            <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
                 </NavLink>
         </div>
@@ -202,11 +193,8 @@ export function Carrer() {
                 </p>
                 <NavLink  target="_blank" to='/ecommerce' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                   </NavLink>
         </div>
 
@@ -219,11 +207,8 @@ export function Carrer() {
                   </p>
                   <NavLink target="_blank" to='/fashion' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-                 </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                     </NavLink>
         </div>
 
@@ -234,11 +219,8 @@ export function Carrer() {
                 </p>
                 <NavLink target="_blank" to='/iot' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
         </div>
 
@@ -255,11 +237,8 @@ export function Carrer() {
                 </p>
                 <NavLink  target="_blank" to='/product' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
      
         </div>
@@ -271,11 +250,8 @@ export function Carrer() {
                 </p>
                 <NavLink target="_blank" to='/motiondesign' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
         </div>
 
@@ -286,11 +262,8 @@ export function Carrer() {
                 </p>
                 <NavLink target="_blank" to='/ieee' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
         
         </div>
@@ -305,11 +278,8 @@ export function Carrer() {
                   </p>
                   <NavLink target="_blank" to='/instructor' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
         </div>
 
@@ -320,11 +290,8 @@ export function Carrer() {
                   </p>
                   <NavLink target="_blank"  to='/food' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
         </div>
 
@@ -335,11 +302,8 @@ export function Carrer() {
                   </p>
                   <NavLink  target="_blank" to='/content' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
-                      <button className="absolute left-20 bottom-20  bg-white  button-applynow para-smallcase">
-                        Apply Now 
-                      </button>
-                      <img src={applysymbol} alt="" className="absolute applysymbol-icon "/>
-               </div>
+            <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
+            </div>
                  </NavLink>
         </div>
 
@@ -350,7 +314,7 @@ export function Carrer() {
                       <img src={carrer24} alt="image1" className="h-[350px] md:h-fit w-[250px] md:w-fit" />
                 </div>
                <div className="one text-center absolute left-1/3 bottom-1/4">
-                      <p className="md:px-20 md:pt-20 para text-xs md:text-base shrink-1 py-5">
+                      <p className="md:px-20 md:py-10 para text-xs md:text-base shrink-1 py-5">
                       “GREATER FUTURES THROUGH INNOVATION WATCHING THE WORLD OF NEXT-TECH UNFOLD.{`IT’S`} TIME TO BE PART OF IT.EXPLORE CHALLENGING AND EXCITING OPPORTUNITIES ACROSS THE GLOBE”
                     </p>
                    

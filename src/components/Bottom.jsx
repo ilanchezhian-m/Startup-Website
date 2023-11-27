@@ -166,7 +166,7 @@ export function Bottom() {
                 />
               </p>
 
-              <button className="text-xs md:text-base mt-5 py-3 px-4 message-color alef-style rounded font-bold alef-style text-left send-message " type='submit'>
+              <button className="text-xs md:text-base mt-5 py-3 px-4 message-color alef-style rounded font-bold alef-style text-left send-message " >
                 SEND MESSAGE
               </button>
             </fieldset>
@@ -221,22 +221,22 @@ export function Bottom() {
         <div className="flex justify-evenly mx-5 my-8" >
             < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank' >
       
-                  <img src={Twitter} alt="twitter x logo" className='  bottom-fontstyle' />
+                  <img src={Twitter} alt="twitter x logo" className=' h-[40px] w-[35px] bottom-fontstyle' />
            </a>
           <a href="https://www.facebook.com/profile.php?id=100086967900946" rel="noreferrer" target='_blank'>
-                     <img src={fb} alt="facebook logo" className=' bottom-fontstyle' />
+                     <img src={fb} alt="facebook logo" className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
           <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
-                    <img src={insta} alt="instagram logo" className=' bottom-fontstyle' />
+                    <img src={insta} alt="instagram logo" className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
           <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" target='_blank'>
-                    <img src={linkedin} alt="linkedin logo" className='h-[40px] w-[35px] bottom-fontstyle'  />
+                    <img src={linkedin} alt="linkedin logo" className='h-[45px] w-[35px] bottom-fontstyle'  />
           </a>
           <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
-                  <img src={youtube} alt="youtube logo" className='h-[40px] w-[35px] bottom-fontstyle' />
+                  <img src={youtube} alt="youtube logo" className='h-[45px] w-[35px] bottom-fontstyle' />
           </a>
           <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer" target='_blank'>
-                  <img src={whatsapp} alt="whatsapp logo" className='h-[40px] w-[35px] bottom-fontstyle'/>
+                  <img src={whatsapp} alt="whatsapp logo" className='h-[45px] w-[35px] bottom-fontstyle'/>
           </a>
 
         </div>
