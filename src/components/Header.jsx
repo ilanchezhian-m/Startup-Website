@@ -1,5 +1,8 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { useState } from "react";
+// import scrollup from "../assets/scrollupicon.svg"
+// import { FaArrowAltCircleUp } from "react-icons/fa";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 export function Header() {
   const [activeLink, setActiveLink] = useState(null);
@@ -8,6 +11,10 @@ export function Header() {
   const handleNavLinkClick = (link) => {
     setActiveLink(link);
     closeMobileMenu();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // You can use 'auto' instead of 'smooth' for instant scrolling
+    });
   };
 
   const toggleMobileMenu = () => {
@@ -20,11 +27,11 @@ export function Header() {
 
   return (
     <div className="container">
-      <header>
-        <div className="bg-black text-white px-8 py-7">
-          <div className="flex items-center justify-between pr-5">
+      <header className="">
+        <div className="bg-black text-white px-8 py-7 fixed w-full z-10">
+          <div className="flex items-center justify-between pr-5  ">
             <h5 className="text-xs sm:text-xl mb-4 md:mb-0 md:mr-4">
-              <NavLink to="/" onClick={closeMobileMenu}>
+              <NavLink to="/" onClick={closeMobileMenu} >
                 TAS <br />INNOVATION
               </NavLink>
             </h5>
@@ -102,16 +109,19 @@ export function Header() {
                   </NavLink>
                 </nav>
               </h1>
+                  
             </div>
           </div>
         </div>
+        <FaArrowCircleUp className="mt-80 z-10 fixed scroll-icon" onClick={() => { window.scrollTo({top: 0, behavior: 'smooth' });}}/>
+
         {/* Mobile menu  design*/}
         {isMobileMenuOpen && (
-          <div className="md:hidden flex text-right  flex-col bg-black text-white para-smallcase p-4   space-y-4">
+          <div className="md:hidden flex text-right  fixed w-full  pt-28 flex-col bg-black text-white para-smallcase p-4   space-y-4">
             <NavLink
               to="/"
               onClick={closeMobileMenu}
-            >
+            > 
               <p className="para-smallcase">Home</p>
             </NavLink>
 

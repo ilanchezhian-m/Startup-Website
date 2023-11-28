@@ -38,7 +38,7 @@ export function Course(){
     return(
         <>
             <div className=" text-center py-8">
-                            <h2 className="text-sm md:text-xl md:mx-20">
+                            <h2 className="text-sm  mt-28 md:text-xl md:mx-20">
                                 {`"Innovation`} X Learning: <br /> Shaping Future Leaders through Education, Driving {`Innovations"`}
                             </h2>
             </div>
@@ -214,7 +214,7 @@ export function Course(){
                              Data Science
                     </p>
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick} />
             </div>
         </div>
 
@@ -225,7 +225,7 @@ export function Course(){
                     Machine Learning
                     </p>              
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick} />
             </div>
         </div>
 
@@ -235,7 +235,7 @@ export function Course(){
                     Artificial Intelligence 
                     </p>
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -248,7 +248,7 @@ export function Course(){
                     </p>
                         
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
             </div>
 
@@ -260,7 +260,7 @@ export function Course(){
                 </p>
                     
                 <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -271,7 +271,7 @@ export function Course(){
                         </p>
                         
                         <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
             </div>
 
@@ -284,7 +284,7 @@ export function Course(){
                         </p>
                             
                         <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -296,7 +296,7 @@ export function Course(){
                     </p>
                         
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -306,7 +306,7 @@ export function Course(){
                 C Development
                 </p>
                 <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
             </div>
 
@@ -318,7 +318,7 @@ export function Course(){
                     C++ Development
                     </p>            
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
             </div>
 
@@ -330,7 +330,7 @@ export function Course(){
                 </p>
                     
                 <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -341,7 +341,7 @@ export function Course(){
                         </p>
                             
                         <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
     </div>
@@ -354,7 +354,7 @@ export function Course(){
                 </p>
                     
                 <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
     </div>
 
@@ -366,7 +366,7 @@ export function Course(){
                     </p>
                               
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -377,7 +377,7 @@ export function Course(){
                     </p>
                               
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -391,7 +391,7 @@ export function Course(){
                 </p>
                                   
                 <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -402,7 +402,7 @@ export function Course(){
                 Motion Designer
                 </p>
                 <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -413,7 +413,7 @@ export function Course(){
                     </p>
                         
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
         </div>
 
@@ -427,7 +427,7 @@ export function Course(){
                     </p>
                               
                     <div className="course-hover">
-            <img src={courseapplybutton} alt="" className="absolute "/>
+            <img src={courseapplybutton} alt="" className="absolute " onClick={handleClick}/>
             </div>
             </div>
     </div>

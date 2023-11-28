@@ -1,14 +1,19 @@
 import { NavLink, Outlet, useNavigate ,useLocation } from 'react-router-dom';
-import { useState } from 'react';
-
+// import { useState } from 'react';
+import { BsFacebook } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
+import { RiInstagramFill } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs";
+import { BsYoutube } from "react-icons/bs";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 import img5 from "/src/assets/image5.png";
-import Twitter from "/src/assets/Twitter.png";
-import fb from "/src/assets/facebook.png"
-import insta from "/src/assets/Instagram.png"
-import linkedin from "/src/assets/Linkedin.png"
-import youtube from "/src/assets/Youtube.png"
-import whatsapp from "/src/assets/Whatsapp.png" 
+// import Twitter from "/src/assets/Twitter.png";
+// import fb from "/src/assets/facebook.png"
+// import insta from "/src/assets/Instagram.png"
+// import linkedin from "/src/assets/Linkedin.png"
+// import youtube from "/src/assets/Youtube.png"
+// import whatsapp from "/src/assets/Whatsapp.png" 
 
 
 export function Bottom() {
@@ -56,43 +61,41 @@ export function Bottom() {
       },500)
     }
   }
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    mobile: '',
-    message: '',
-  });
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   mobile: '',
+  //   message: '',
+  // });
 
-  const handleInputChange = (e, fieldName) => {
-    const { value } = e.target;
-    setFormData({ ...formData, [fieldName]: value });
-  };
+  // const handleInputChange = (e, fieldName) => {
+  //   const { value } = e.target;
+  //   setFormData({ ...formData, [fieldName]: value });
+  // };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    try {
-      const response = await fetch('http://localhost:5173/src/Server.mjs', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+  //   try {
+  //     const response = await fetch('http://localhost:5173/src/Server.mjs', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
 
-      if (response.ok) {
-        console.log('Email sent successfully!');
-        // You can add logic to handle success (e.g., show a success message)
-      } else {
-        console.error('Failed to send email');
-        // You can add logic to handle failure (e.g., show an error message)
-      }
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  };
-
-
+  //     if (response.ok) {
+  //       console.log('Email sent successfully!');
+  //       // You can add logic to handle success (e.g., show a success message)
+  //     } else {
+  //       console.error('Failed to send email');
+  //       // You can add logic to handle failure (e.g., show an error message)
+  //     }
+  //   } catch (error) {
+  //     console.error('Error:', error);
+  //   }
+  // };
 
   
   return (  
@@ -111,7 +114,8 @@ export function Bottom() {
               </h4>
 
         <div className="flex bottom justify-center ">
-          <form onSubmit={handleSubmit} >
+        {/* onSubmit={handleSubmit} */}
+          <form  >
             <fieldset>
               <p>
                 <input
@@ -120,8 +124,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Your Name"
-                  value={formData.name} 
-                  onChange={(e) => handleInputChange(e, 'name')}
+                  // value={formData.name} 
+                  // onChange={(e) => handleInputChange(e, 'name')}
                   className="rounded mt-4 px-2 text-black md:pr-20 md:py-2 "
                 />
                 
@@ -134,8 +138,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Mail"
-                  value={formData.email} 
-                  onChange={(e) => handleInputChange(e, 'email')}
+                  // value={formData.email} 
+                  // onChange={(e) => handleInputChange(e, 'email')}
                   className="rounded mt-4 px-2 text-black md:pr-20 md:py-2 "
                 />
               </p>
@@ -147,8 +151,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Mobile"
-                  value={formData.mobile} 
-                  onChange={(e) => handleInputChange(e, 'mobile')} 
+                  // value={formData.mobile} 
+                  // onChange={(e) => handleInputChange(e, 'mobile')} 
                   className="rounded mt-4 px-2 text-black md:pr-20 md:py-2"
                 />
               </p>
@@ -160,8 +164,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="write your message"
-                  value={formData.message} 
-                  onChange={(e) => handleInputChange(e, 'message')}
+                  // value={formData.message} 
+                  // onChange={(e) => handleInputChange(e, 'message')}
                   className="rounded mt-4 px-2 text-black md:pr-20 py-4 md:py-8 "
                 />
               </p>
@@ -220,23 +224,23 @@ export function Bottom() {
 </div>
         <div className="flex justify-evenly mx-5 my-8" >
             < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank' >
-      
-                  <img src={Twitter} alt="twitter x logo" className=' h-[40px] w-[35px] bottom-fontstyle' />
+                  <BsTwitterX className=' h-[40px] w-[35px] bottom-fontstyle' />
            </a>
           <a href="https://www.facebook.com/profile.php?id=100086967900946" rel="noreferrer" target='_blank'>
-                     <img src={fb} alt="facebook logo" className='h-[40px] w-[35px] bottom-fontstyle' />
+                <BsFacebook className='h-[40px] w-[35px] bottom-fontstyle'  />
           </a>
           <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
-                    <img src={insta} alt="instagram logo" className='h-[40px] w-[35px] bottom-fontstyle' />
+                <RiInstagramFill  className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
           <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" target='_blank'>
-                    <img src={linkedin} alt="linkedin logo" className='h-[45px] w-[35px] bottom-fontstyle'  />
+               <BsLinkedin className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
           <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
-                  <img src={youtube} alt="youtube logo" className='h-[45px] w-[35px] bottom-fontstyle' />
+                <BsYoutube className='h-[40px] w-[35px] bottom-fontstyle' />
+                
           </a>
           <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer" target='_blank'>
-                  <img src={whatsapp} alt="whatsapp logo" className='h-[45px] w-[35px] bottom-fontstyle'/>
+                <IoLogoWhatsapp  className='h-[40px] w-[35px] bottom-fontstyle'/>
           </a>
 
         </div>

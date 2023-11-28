@@ -1,4 +1,4 @@
-// import { Header } from "./components/Header";
+// 
 import About1 from "../src/assets/About1.png"
 import About2 from "../src/assets/About2.png"
 import frame from "../src/assets/Frame.svg";
@@ -9,12 +9,12 @@ export function About(){
     return(
         <>
         
-        {/* <Header/> */}
+      
             <div className="text-center">
-            <h1 className="text-xs  sm:text-2xl my-10 mx-3 md:mx-20 ">Empowering Businesses Through Innovation
+            <h1 className="text-xs sm:text-2xl mx-3 md:mx-20 pt-40 py-10 ">Empowering Businesses Through Innovation
             </h1>
 
-            <img src={About1} alt="" className="w-full h-auto "/>
+            <img src={About1} alt="" className="w-full h-auto  "/>
 
              <h5 className="text-center pt-10">TO KNOW MORE ABOUT</h5>
              <img src={frame} alt="below-icon-image" className="mx-auto pt-2 pb-6" />
