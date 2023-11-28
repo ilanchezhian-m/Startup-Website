@@ -156,7 +156,10 @@ export function Home() {
       </div>
 
       {/* telegram link need to be added */}
-     <a href=""> <img src={img3} alt="telegramimage" className="flex w-screen mb-10 " /></a>
+      <div>
+     <a href="https://t.me/tasinnovations" rel="noreferrer" target='_blank'> 
+     <img src={img3} alt="telegramimage" className="flex w-screen mb-10 " /></a>
+     </div>
      
       
       <div className="relative flex mb-10">

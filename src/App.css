@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
   top: -15px;
 }
 .scroll-icon{
-  left:93%;
+  left:90%;
   background-color: skyblue;
   height: 50px;
   width: 50px;
@@ -337,7 +337,6 @@ footer{
     background-color:blue;   
     border-radius: 5px;
     transform: scale(1.1);
-    
  }
  @keyframes pulse {
   0%, 100% {

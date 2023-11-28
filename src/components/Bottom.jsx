@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useNavigate ,useLocation } from 'react-router-dom';
-// import { useState } from 'react';
+import { useState } from 'react';
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
@@ -17,6 +17,7 @@ import img5 from "/src/assets/image5.png";
 
 
 export function Bottom() {
+ 
   const navigate = useNavigate();
   const location = useLocation();
 // jobs carrer page
@@ -61,41 +62,59 @@ export function Bottom() {
       },500)
     }
   }
-  // const [formData, setFormData] = useState({
-  //   name: '',
-  //   email: '',
-  //   mobile: '',
-  //   message: '',
-  // });
 
-  // const handleInputChange = (e, fieldName) => {
-  //   const { value } = e.target;
-  //   setFormData({ ...formData, [fieldName]: value });
-  // };
+  const [successMessage, setSuccessMessage] = useState('');
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    message: '',
+  });
 
-  //   try {
-  //     const response = await fetch('http://localhost:5173/src/Server.mjs', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify(formData),
-  //     });
+  const handleInputChange = (e, fieldName) => {
+    const { value } = e.target;
+    setFormData({ ...formData, [fieldName]: value });
+  };
 
-  //     if (response.ok) {
-  //       console.log('Email sent successfully!');
-  //       // You can add logic to handle success (e.g., show a success message)
-  //     } else {
-  //       console.error('Failed to send email');
-  //       // You can add logic to handle failure (e.g., show an error message)
-  //     }
-  //   } catch (error) {
-  //     console.error('Error:', error);
-  //   }
-  // };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('http://localhost:3001/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSuccessMessage('Message sent successfully!');
+
+        setTimeout(() => {
+          setFormData({
+            name: '',
+            email: '',
+            mobile: '',
+            message: '',
+          });
+        }, 1000);
+
+        setTimeout(()=>{
+          setSuccessMessage('')
+        },3000)
+
+
+        // You can add logic to handle success (e.g., show a success message)
+      } else {
+        console.error('Failed to send email');
+        // You can add logic to handle failure (e.g., show an error message)
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
   
   return (  
@@ -113,9 +132,9 @@ export function Bottom() {
                 Welcome to TAS innovation. Our team will response within 24 hours
               </h4>
 
-        <div className="flex bottom justify-center ">
-        {/* onSubmit={handleSubmit} */}
-          <form  >
+        <div className="flex bottom justify-center " >
+        
+          <form onSubmit={handleSubmit} >
             <fieldset>
               <p>
                 <input
@@ -124,8 +143,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Your Name"
-                  // value={formData.name} 
-                  // onChange={(e) => handleInputChange(e, 'name')}
+                  value={formData.name} 
+                  onChange={(e) => handleInputChange(e, 'name')}
                   className="rounded mt-4 px-2 text-black md:pr-20 md:py-2 "
                 />
                 
@@ -138,8 +157,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="Mail"
-                  // value={formData.email} 
-                  // onChange={(e) => handleInputChange(e, 'email')}
+                  value={formData.email} 
+                  onChange={(e) => handleInputChange(e, 'email')}
                   className="rounded mt-4 px-2 text-black md:pr-20 md:py-2 "
                 />
               </p>
@@ -149,10 +168,11 @@ export function Bottom() {
                   type="tel"
                   id="mobile"
                   required="on"
-                  autoComplete="on"
+                  maxLength="10" 
+                  pattern="[0-9]*" 
                   placeholder="Mobile"
-                  // value={formData.mobile} 
-                  // onChange={(e) => handleInputChange(e, 'mobile')} 
+                  value={formData.mobile} 
+                  onChange={(e) => handleInputChange(e, 'mobile')} 
                   className="rounded mt-4 px-2 text-black md:pr-20 md:py-2"
                 />
               </p>
@@ -164,8 +184,8 @@ export function Bottom() {
                   required="on"
                   autoComplete="on"
                   placeholder="write your message"
-                  // value={formData.message} 
-                  // onChange={(e) => handleInputChange(e, 'message')}
+                  value={formData.message} 
+                  onChange={(e) => handleInputChange(e, 'message')}
                   className="rounded mt-4 px-2 text-black md:pr-20 py-4 md:py-8 "
                 />
               </p>
@@ -173,10 +193,15 @@ export function Bottom() {
               <button className="text-xs md:text-base mt-5 py-3 px-4 message-color alef-style rounded font-bold alef-style text-left send-message " >
                 SEND MESSAGE
               </button>
+              <div className="flex bottom justify-center">
+                {/* ... (form inputs and button) */}
+                {successMessage && (
+                  <p className="text-white-500 font-black mr-20 mt-10">{successMessage}</p>
+                )}
+      </div>
             </fieldset>
           </form>
-       
-
+          
           <img src={img5} alt="" className="w-[100px] h-[300px] md:w-[533px] md:h-[622px]  " /> 
 
         </div>
