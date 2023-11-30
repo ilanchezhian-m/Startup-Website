@@ -40,7 +40,7 @@ export function Home() {
                       <p className="md:px-20 md:pt-20 para-smallcase text-xs md:text-base shrink-1 py-5">
                         EMBRACING AI&IOT,{`WE’RE`} CREATING SMART ECOLOGY SOLUTIONS FOR A PLANET THAT BREATHES CLEANER AND LIVE GREENER
                     </p>
-                    <NavLink target="_blank" to="explore1"  onClick={() => {window.scrollTo(0, 0); }} >
+                    <NavLink  to="explore1"  onClick={() => {window.scrollTo(0, 0); }} >
                     <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white  py-2 md:py-4 rounded-sm mt-5 ">
                       EXPLORE
                       </button>
@@ -53,7 +53,7 @@ export function Home() {
                   <p className="md:px-20 md:pt-20 para-smallcase text-xs md:text-base shrink-1 py-5">
                     SMART TECHNOLOGIES UNLEASHED SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
-                  <NavLink target="_blank" to="explore2"  onClick={() => {window.scrollTo(0, 0); }} >
+                  <NavLink  to="explore2"  onClick={() => {window.scrollTo(0, 0); }} >
                     <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white  py-2 md:py-4 rounded-sm mt-5 ">
                       EXPLORE
                       </button>
@@ -72,7 +72,7 @@ export function Home() {
                       <p className="md:px-20 md:pt-20 para-smallcase text-xs md:text-base shrink-1 py-5">BUSINESS EVOLUTION NEXUS: 
                        LEADING GLOBAL GROWTH THROUGH TRANSFORMATIVE IDEAS
                     </p>
-                    <NavLink target="_blank" to="explore3"  onClick={() => {window.scrollTo(0, 0); }} >
+                    <NavLink  to="explore3"  onClick={() => {window.scrollTo(0, 0); }} >
                     <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white  py-2 md:py-4 rounded-sm mt-5 ">
                       EXPLORE
                       </button>
@@ -86,7 +86,7 @@ export function Home() {
                     SMART TECHNOLOGIES UNLEASHED; SHAPING A SUSTAINABLE FUTURE THROUGH POWER & IOT
                   </p>
                   <button className="text-xs mb-5 md:text-sm explore-btn px-4 md:px-10 text-white   py-2 md:py-4 rounded-sm mt-5 "> 
-                  <NavLink target="_blank" to="explore4" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink>
+                  <NavLink  to="explore4" onClick={() => {window.scrollTo(0, 0); }} >EXPLORE</NavLink>
                   </button>
             </div>
             <div className="">
@@ -101,7 +101,7 @@ export function Home() {
                <div className="one text-center absolute left-1/4 bottom-1/4">
                       <p className="md:px-20 md:pt-20 para-smallcase text-xs md:text-base shrink-1 py-5">BRAND MAGNET ACCELERATE: EMPOWERING MARKETERS,MAGNETIZING BRANDS PROPELLING GROWTH
                     </p>
-                    <NavLink target="_blank" to="explore5"  onClick={() => {window.scrollTo(0, 0); }} >
+                    <NavLink  to="explore5"  onClick={() => {window.scrollTo(0, 0); }} >
                     <button className="text-xs mb-5  md:text-sm explore-btn px-4 md:px-10 text-white  py-2 md:py-4 rounded-sm mt-5 ">
                       EXPLORE
                       </button>
@@ -157,7 +157,7 @@ export function Home() {
 
       {/* telegram link need to be added */}
       <div>
-     <a href="https://t.me/tasinnovations" rel="noreferrer" target='_blank'> 
+     <a href="https://t.me/tasinnovations" rel="noreferrer"  >
      <img src={img3} alt="telegramimage" className="flex w-screen mb-10 " /></a>
      </div>
      
@@ -168,13 +168,13 @@ export function Home() {
               #LifeAtTAS
               </h1>
               <div className="flex absolute right-10 top-1/2 ">
-                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
+                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" >
                       <img src={insta} alt="" className=" md:mx-10 h-[20px] md:h-fit" />
                   </a>
-                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
+                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" >
                       <img src={x} alt="" className="ml-5 md:mx-10 h-[20px] md:h-fit" />
                     </a>
-                  <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
+                  <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" >
                       <img src={youtube} alt="" className=" ml-5 md:ml-10 h-[20px] md:h-fit" />
                   </a>
                </div>

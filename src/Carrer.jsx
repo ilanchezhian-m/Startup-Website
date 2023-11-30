@@ -147,7 +147,7 @@ export function Carrer() {
           <p className="absolute carrer-align ">
             Graphic Designer & Motion Designer
           </p>
-          <NavLink target='_blank' to='/graphic' onClick={() => {  window.scrollTo(0, 0); } } >
+          <NavLink  to='/graphic' onClick={() => {  window.scrollTo(0, 0); } } >
             <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -161,7 +161,7 @@ export function Carrer() {
               </p>
               
                
-              <NavLink target="_blank" to='/aws' onClick={() => { window.scrollTo(0, 0); }}>
+              <NavLink  to='/aws' onClick={() => { window.scrollTo(0, 0); }}>
               <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -174,7 +174,7 @@ export function Carrer() {
               <p className="absolute carrer-align ">
               Sales and Marketing Specialist
               </p>
-              <NavLink target="_blank" to='/sales' onClick={() => { window.scrollTo(0, 0); }}>
+              <NavLink  to='/sales' onClick={() => { window.scrollTo(0, 0); }}>
               <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -191,7 +191,7 @@ export function Carrer() {
                 <p className="absolute carrer-align  ">
                 E-commerce Manager
                 </p>
-                <NavLink  target="_blank" to='/ecommerce' onClick={() => { window.scrollTo(0, 0); }}>
+                <NavLink   to='/ecommerce' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -205,7 +205,7 @@ export function Carrer() {
                   <p className="absolute carrer-align ">
                   Fashion Designer
                   </p>
-                  <NavLink target="_blank" to='/fashion' onClick={() => { window.scrollTo(0, 0); }}>
+                  <NavLink  to='/fashion' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -217,7 +217,7 @@ export function Carrer() {
                 <p className="absolute carrer-align ">
                 IoT Project Manager
                 </p>
-                <NavLink target="_blank" to='/iot' onClick={() => { window.scrollTo(0, 0); }}>
+                <NavLink  to='/iot' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -235,7 +235,7 @@ export function Carrer() {
                 <p className="absolute carrer-align    ">
                 Product Developer (Electronics)
                 </p>
-                <NavLink  target="_blank" to='/product' onClick={() => { window.scrollTo(0, 0); }}>
+                <NavLink   to='/product' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -248,7 +248,7 @@ export function Carrer() {
                 <p className="absolute carrer-align ">
                 Motion Designer
                 </p>
-                <NavLink target="_blank" to='/motiondesign' onClick={() => { window.scrollTo(0, 0); }}>
+                <NavLink  to='/motiondesign' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -260,7 +260,7 @@ export function Carrer() {
                 <p className="absolute carrer-align  ">
                 IEEE Paper Specialist
                 </p>
-                <NavLink target="_blank" to='/ieee' onClick={() => { window.scrollTo(0, 0); }}>
+                <NavLink  to='/ieee' onClick={() => { window.scrollTo(0, 0); }}>
                 <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -276,7 +276,7 @@ export function Carrer() {
                   <p className="absolute carrer-align   ">
                   Instructor/ <br />Teaching Specialist
                   </p>
-                  <NavLink target="_blank" to='/instructor' onClick={() => { window.scrollTo(0, 0); }}>
+                  <NavLink  to='/instructor' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -288,7 +288,7 @@ export function Carrer() {
                   <p className="absolute carrer-align ">
                   Food Product Developer
                   </p>
-                  <NavLink target="_blank"  to='/food' onClick={() => { window.scrollTo(0, 0); }}>
+                  <NavLink   to='/food' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -300,7 +300,7 @@ export function Carrer() {
                   <p className="absolute carrer-align  ">
                   Content Creator
                   </p>
-                  <NavLink  target="_blank" to='/content' onClick={() => { window.scrollTo(0, 0); }}>
+                  <NavLink   to='/content' onClick={() => { window.scrollTo(0, 0); }}>
                   <div className="carrer-hover">
             <img src={carrerapplybutton} alt="" className="absolute left-20 bottom-20  "/>
             </div>
@@ -327,13 +327,13 @@ export function Carrer() {
               #LifeAtTAS
               </h1>
               <div className="flex absolute right-10 top-1/2 ">
-                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
+                  <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" >
                       <img src={insta} alt="" className=" md:mx-10 h-[20px] md:h-fit" />
                   </a>
-                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank'>
+                  <a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer">
                       <img src={x} alt="" className="ml-5 md:mx-10 h-[20px] md:h-fit" />
                     </a>
-                  <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
+                  <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" >
                       <img src={youtube} alt="" className=" ml-5 md:ml-10 h-[20px] md:h-fit" />
                   </a>
                </div>

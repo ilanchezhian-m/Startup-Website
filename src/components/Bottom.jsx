@@ -214,19 +214,19 @@ export function Bottom() {
           <div className="leading-10 text-left">
           <p className="font-bold">Company</p>
          <nav>
-              <p><NavLink target='_blank' to="/" className='bottom-style' onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
-              <p><NavLink target='_blank' to="../carrer" className='bottom-style' onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
-              <p><NavLink target='_blank' to="../service" className='bottom-style' onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
-              <p><NavLink target='_blank' to="../about" className='bottom-style' onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
+              <p><NavLink  to="/" className='bottom-style' onClick={() => {  window.scrollTo(0, 0); }}>Home</NavLink></p>
+              <p><NavLink  to="../carrer" className='bottom-style' onClick={() => { window.scrollTo(0, 0);}}>Carrers</NavLink></p>
+              <p><NavLink  to="../service" className='bottom-style' onClick={() =>{ window.scrollTo(0, 0);}}>Services</NavLink></p>
+              <p><NavLink  to="../about" className='bottom-style' onClick={() => { window.scrollTo(0, 0);}}>About us</NavLink></p>
           </nav> 
       </div>
   
              
       <div className="leading-10 text-left">
         <p className="font-bold">Support</p>
-                  <p><NavLink target='_blank'  to="../terms" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Terms of use</NavLink></p>
-                  <p><NavLink target='_blank' to="../private" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Privacy policy</NavLink></p>
-                  <p><NavLink target='_blank' to ="../cookie" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Cookie policy</NavLink></p>
+                  <p><NavLink   to="../terms" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Terms of use</NavLink></p>
+                  <p><NavLink  to="../private" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Privacy policy</NavLink></p>
+                  <p><NavLink  to ="../cookie" className='bottom-style' onClick={()=>{window.scrollTo(0,0);}}>Cookie policy</NavLink></p>
       </div>
 
       {/* navigation to the exact locations*/}
@@ -248,23 +248,23 @@ export function Bottom() {
 
 </div>
         <div className="flex justify-evenly mx-5 my-8" >
-            < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer" target='_blank' >
+            < a href="https://twitter.com/TasInnovations?t=REgrY43arLI1-Z0bYRlQGw&s=09" rel="noreferrer"  >
                   <BsTwitterX className=' h-[40px] w-[35px] bottom-fontstyle' />
            </a>
-          <a href="https://www.facebook.com/profile.php?id=100086967900946" rel="noreferrer" target='_blank'>
+          <a href="https://www.facebook.com/profile.php?id=100086967900946" rel="noreferrer" >
                 <BsFacebook className='h-[40px] w-[35px] bottom-fontstyle'  />
           </a>
-          <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer" target='_blank'>
+          <a href="https://instagram.com/tas.innovation?igshid=OGQ5ZDc2ODk2ZA==" rel="noreferrer"> 
                 <RiInstagramFill  className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
-          <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" target='_blank'>
+          <a href="https://www.linkedin.com/company/tas-innovation/" rel="noreferrer" >
                <BsLinkedin className='h-[40px] w-[35px] bottom-fontstyle' />
           </a>
-          <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" target='_blank'>
+          <a href="https://youtube.com/@tasinnovation6973" rel="noreferrer" >
                 <BsYoutube className='h-[40px] w-[35px] bottom-fontstyle' />
                 
           </a>
-          <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer" target='_blank'>
+          <a href="https://chat.whatsapp.com/FPMMtY1Cvf1LFTjOjBWGol" rel="noreferrer"> 
                 <IoLogoWhatsapp  className='h-[40px] w-[35px] bottom-fontstyle'/>
           </a>
 

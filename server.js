@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const transporter = createTransport({
   service: 'gmail',
   auth: {
-    user: 'ilanchezhian26@gmail.com', // Your Gmail address
-    pass: 'xmnw ldjl jgiq uzpu', // Your Gmail password
+    user: '', // Your Gmail address
+    pass: '', // Your Gmail password
   },
 });
 
