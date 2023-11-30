@@ -38,7 +38,7 @@ export function Course(){
     return(
         <>
             <div className=" text-center py-8">
-                            <h2 className="text-sm  mt-28 md:text-xl md:mx-20">
+                            <h2 className="text-sm  mt-10 md:text-xl md:mx-20">
                                 {`"Innovation`} X Learning: <br /> Shaping Future Leaders through Education, Driving {`Innovations"`}
                             </h2>
             </div>

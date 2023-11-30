@@ -11,7 +11,7 @@ export function About(){
         
       
             <div className="text-center">
-            <h1 className="text-xs sm:text-2xl mx-3 md:mx-20 pt-40 py-10 ">Empowering Businesses Through Innovation
+            <h1 className="text-xs sm:text-2xl mx-3 md:mx-20 pt-10 py-10 ">Empowering Businesses Through Innovation
             </h1>
 
             <img src={About1} alt="" className="w-full h-auto  "/>

@@ -24,7 +24,7 @@ export function Home() {
     <div>
       <main>
       <div className=" text-center py-6 text-3xl">
-        <h2 className="text-sm mt-28 md:text-2xl">{`"Sustainable`} AI Ventures: Crafting <br />Eco-Friendly Innovations through{` Technology"`}</h2>
+        <h2 className="text-sm mt-10 md:text-2xl">{`"Sustainable`} AI Ventures: Crafting <br />Eco-Friendly Innovations through{` Technology"`}</h2>
       </div>
       <img src={image} alt="first image" className="w-full h-auto max-h-screen" />
       <h5 className="text-center pt-10">TO KNOW MORE ABOUT</h5>

@@ -40,7 +40,7 @@ export function Service(){
         <>
         {/* <Header/> */}
             <div className=" text-center py-8">
-        <h2 className="text-sm mt-28 md:text-xl md:mx-20">Brand Magnet Accelerate: Empowering Marketers,Magnetizing Brands,Propelling Growth</h2>
+        <h2 className="text-sm mt-10 md:text-xl md:mx-20">Brand Magnet Accelerate: Empowering Marketers,Magnetizing Brands,Propelling Growth</h2>
           </div>
           <img src={service1} alt="image" className="w-full " />
           <h5 className="text-center pt-10">TO KNOW MORE ABOUT</h5>

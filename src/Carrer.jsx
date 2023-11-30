@@ -43,7 +43,7 @@ export function Carrer() {
     <>
     
       <div className=" text-center py-1 md:py-8">
-        <h2 className="text-sm mt-28  md:text-xl md:mx-20">
+        <h2 className="text-sm mt-10  md:text-xl md:mx-20">
           Join Our Team and Drive Your Career Forward!
         </h2>
       </div>
