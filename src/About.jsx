@@ -2,8 +2,8 @@
 import About1 from "../src/assets/About1.png"
 import About2 from "../src/assets/About2.png"
 import frame from "../src/assets/Frame.svg";
-import { Bottom } from "./components/Bottom";
-import { Footer } from "./components/Footer";
+
+
 
 export function About(){
     return(
@@ -86,8 +86,8 @@ export function About(){
             <h1 className="text-xl sm:text-3xl mb-8">GET IN TOUCH</h1>
                 
              </div>
-             <Bottom/>
-             <Footer/>
+          
+            
 
 
 

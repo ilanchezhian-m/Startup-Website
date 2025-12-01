@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 // import scrollup from "../assets/scrollupicon.svg"
 // import { FaArrowAltCircleUp } from "react-icons/fa";
@@ -27,8 +27,8 @@ export function Header() {
 
   return (
     <div className="container">
-      <header className="">
-        <div className="bg-black text-white px-8 py-7 ">
+      <header className="flex ">
+        <div className="bg-black w-full text-white px-8 py-7">
           <div className="flex items-center justify-between pr-5  ">
             <h5 className="text-xs sm:text-xl mb-4 md:mb-0 md:mr-4">
               <NavLink to="/" onClick={closeMobileMenu} >
@@ -157,8 +157,7 @@ export function Header() {
         )}
       </header>
 
-     
-        <Outlet />
+    
     
     </div>
   );

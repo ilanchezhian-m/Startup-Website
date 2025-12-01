@@ -1,5 +1,4 @@
-import { Bottom } from "../components/Bottom";
-import { Footer } from "../components/Footer";
+
 import iot5 from "/src/assets/iot5.png";
 
 
@@ -50,8 +49,7 @@ export function Explore5(){
                 Elevate your marketing and branding with Brand Magnet Accelerate. Whether {`you're`} a marketer looking to advance your career, a brand seeking to magnetize your audience, or a business aiming to propel growth, {`we're`} here to guide you on your journey to success.
                 </p>
             </div>
-            <Bottom/>
-            <Footer/>
+           
         </div>
         
         

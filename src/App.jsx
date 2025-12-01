@@ -33,11 +33,12 @@ import {Content} from './jobs/Content'
 
 
 // home layout
-import { Header } from './components/Header';
+
+import { Layout } from './components/Layout';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Header />}>
+    <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="explore1" element={<Explore1 />} />
       <Route path="explore2" element={<Explore2 />} />
@@ -75,9 +76,7 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className="md:container">
-      <RouterProvider router={router} />
-    </div>
+ <RouterProvider router={router} />
   );
 
 }

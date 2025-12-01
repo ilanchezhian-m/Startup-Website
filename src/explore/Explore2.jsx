@@ -1,5 +1,4 @@
-import { Bottom } from "../components/Bottom";
-import { Footer } from "../components/Footer";
+
 import iot2 from "/src/assets/Iot2.png";
 
 
@@ -62,8 +61,7 @@ export function Explore2(){
                 EEmbrace the future with us at Smart Technologies Unleashed. Whether {`you're`} a business looking to enhance sustainability or an individual ready to embark on a connected lifestyle, {`we're`} here to guide you on this exciting journey.
                 </p>
             </div>
-            <Bottom/>
-            <Footer/>
+           
 
 
 

@@ -13,8 +13,7 @@ import img9 from "../src/assets/image9.png";
 import insta from "../src/assets/instaimage.svg";
 import x from "../src/assets/ximage.svg";
 import youtube from "../src/assets/youtube.svg";
-import { Bottom } from "./components/Bottom";
-import { Footer } from "./components/Footer";
+
 
 
 export function Home() {
@@ -180,9 +179,7 @@ export function Home() {
                </div>
        </div>
       </main>
-      <Bottom/>
-      <Footer/>
-   
+    
       </div>
 
   

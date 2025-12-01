@@ -1,5 +1,4 @@
-import { Bottom } from "../components/Bottom";
-import { Footer } from "../components/Footer";
+
 import iot4 from "/src/assets/Iot4.png";
 
 
@@ -51,8 +50,7 @@ export function Explore4(){
                 Embrace the future with Innovation X Learning. Whether {`you're`} a student seeking a transformative education or an institution looking to partner with us to drive innovation,{` we're`} here to guide you on this exciting journey.
                 </p>
             </div>
-            <Bottom/>
-            <Footer/>
+           
         </div>
         
         

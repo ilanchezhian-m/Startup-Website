@@ -24,14 +24,14 @@ body{
   margin: 0;
   font-weight: 100;
   scroll-behavior: smooth;
-  overflow-x: hidden;
   overflow-y:scroll;
+  
 }
-@media screen and (min-width: 1080px) {
-  .container {
-    min-width: 100vh;
-    align-items: center; 
-  }
+@media screen and (min-width: 1000px) {
+.container {
+  width: 100%;
+}
+
 }
 
 

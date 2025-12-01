@@ -19,8 +19,7 @@ import Course8 from "../src/assets/Course8.svg";
 import Course9 from "../src/assets/Course9.svg";
 import Course10 from "../src/assets/Course10.svg";
 // import applysymbol from '../src/assets/applysymbol.svg'
-import { Bottom } from "./components/Bottom";
-import { Footer } from "./components/Footer";
+
 import Explore from "../src/assets/Explore.svg";
 
 
@@ -464,10 +463,7 @@ export function Course(){
             </div>
             </div>
 
-            <div id='sendmessage'>
-            <Bottom/>
-            </div>
-            <Footer/>
+        
 
 
 

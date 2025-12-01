@@ -1,5 +1,4 @@
-import { Bottom } from "../components/Bottom";
-import { Footer } from "../components/Footer";
+
 import iot1 from "/src/assets/Iot1.png";
 
 export function Explore1(){
@@ -48,8 +47,7 @@ export function Explore1(){
             The future we aspire to is a shared vision. We invite you to explore our innovative solutions, join us in our journey, and together, we can create a world that breathes cleaner and lives greener.
             </p>
             </div>
-            <Bottom/>
-            <Footer/>
+       
 
 
 

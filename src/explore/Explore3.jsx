@@ -1,5 +1,4 @@
-import { Bottom } from "../components/Bottom";
-import { Footer } from "../components/Footer";
+
 import iot3 from "/src/assets/Iot3.png";
 
 
@@ -65,8 +64,7 @@ export function Explore3(){
                 Embark on a journey of transformation and growth with Business Evolution Nexus. Whether {`you're`} a startup with big ambitions or an established enterprise seeking a  fresh perspective, {`we're`} here to guide you through the ever-evolving business landscape.
                 </p>
             </div>
-            <Bottom/>
-            <Footer/>
+           
 </div>
         
         

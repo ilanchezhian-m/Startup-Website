@@ -34,8 +34,6 @@ import x from "../src/assets/ximage.svg";
 import youtube from "../src/assets/youtube.svg";
 import img4 from "../src/assets/image4.png";
 // import applysymbol from '../src/assets/applysymbol.svg'
-import { Bottom } from "./components/Bottom";
-import { Footer } from "./components/Footer";
 
 export function Carrer() {
   
@@ -339,10 +337,7 @@ export function Carrer() {
                </div>
       </div>
       
-      <div id="graphicScroll">
-      <Bottom/>
-      </div>
-      <Footer/> 
+
     </>
     
   );

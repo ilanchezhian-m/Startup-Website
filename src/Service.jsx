@@ -18,10 +18,6 @@ import service12 from "../src/assets/service12.svg";
 import service13 from "../src/assets/service13.svg";
 import service14 from "../src/assets/service14.svg";
 import service15 from "../src/assets/service15.svg";
-import { Bottom } from "./components/Bottom";
-import { Footer } from "./components/Footer";
-
-
 
 
 
@@ -156,10 +152,7 @@ export function Service(){
             Our Services Are Designed To Deliver Tangible Results And Roi For Your Business.
             </p>
 
-            <div id='sendmessage'>
-                    <Bottom/>
-            </div>
-                    <Footer/>
+   
 
         </div>
         </>

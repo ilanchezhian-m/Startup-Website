@@ -1,4 +1,4 @@
-import { NavLink, Outlet, useNavigate ,useLocation } from 'react-router-dom';
+import { NavLink,  useNavigate ,useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
@@ -270,7 +270,7 @@ export function Bottom() {
 
         </div>
         
-        <Outlet />
+
        
     </>
   );
