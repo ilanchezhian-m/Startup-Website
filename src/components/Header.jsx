@@ -26,8 +26,8 @@ export function Header() {
   };
 
   return (
-    <div className="container">
-      <header className="flex ">
+    <div className="">
+      <header className=" ">
         <div className="bg-black w-full text-white px-8 py-7">
           <div className="flex items-center justify-between pr-5  ">
             <h5 className="text-xs sm:text-xl mb-4 md:mb-0 md:mr-4">
